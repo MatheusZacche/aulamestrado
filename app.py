@@ -8,7 +8,7 @@ from __future__ import annotations
 import streamlit as st
 
 from src.data.load import load_bank, load_topics
-from src.data.progress import load_progress
+from src.data.progress import get_backend, load_progress
 
 st.set_page_config(
     page_title="Aulamestrado — PPGI UFES",
@@ -19,6 +19,14 @@ st.set_page_config(
 
 st.title("🎓 Aulamestrado")
 st.caption("Banco de questões e simulados — Mestrado PPGI/UFES")
+
+# Indicador discreto do backend de persistência na sidebar
+with st.sidebar:
+    backend_name = get_backend().name
+    if backend_name == "supabase":
+        st.caption("☁️ Progresso na nuvem (Supabase)")
+    else:
+        st.caption("💾 Progresso local (JSON)")
 
 bank = load_bank()
 progress = load_progress()

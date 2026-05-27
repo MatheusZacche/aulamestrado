@@ -125,9 +125,33 @@ python -m src.agents.validator --all --structural-only
 python -m src.agents.validator --all   # requer ANTHROPIC_API_KEY no .env
 ```
 
-## Privacidade
+## Persistência de progresso
 
-Progresso e anotações ficam em `data/user_progress.json` (gitignored). Nada vai para servidor externo.
+Dois backends suportados, escolhidos automaticamente:
+
+| Cenário | Backend ativo |
+|---|---|
+| Sem variáveis configuradas | **JSON local** em `data/user_progress.json` (gitignored) |
+| `SUPABASE_URL` + `SUPABASE_ANON_KEY` configuradas | **Supabase Postgres** (sincroniza celular ↔ PC) |
+
+### Setup do Supabase (passo a passo)
+
+1. Crie conta grátis em https://supabase.com e um **novo projeto** (qualquer região, senha qualquer).
+2. No painel do projeto: **SQL Editor** → cole o conteúdo de [`supabase/schema.sql`](supabase/schema.sql) → **Run**. Isso cria as 4 tabelas.
+3. No painel: **Settings** → **API** → copie:
+   - **Project URL** → vira `SUPABASE_URL`
+   - **anon public** key → vira `SUPABASE_ANON_KEY`
+4. **Localmente**: copie `.env.example` → `.env` e preencha. Ou copie `.streamlit/secrets.toml.example` → `.streamlit/secrets.toml`.
+5. **No Streamlit Cloud**: vá no painel do app → **Settings** → **Secrets** → cole no formato:
+   ```toml
+   SUPABASE_URL = "https://xxxxx.supabase.co"
+   SUPABASE_ANON_KEY = "eyJhbGc..."
+   ```
+   Salva. O app redeploya automaticamente.
+
+A sidebar do app mostra qual backend está ativo (`☁️ Progresso na nuvem` ou `💾 Progresso local`).
+
+**Por que isso é seguro sendo single-user:** a anon key não vai pro repo (gitignored localmente, em Secrets no Cloud). Sem RLS porque você é o único usuário com a chave. Se algum dia compartilhar o app, refaça com auth.
 
 ## Fontes oficiais
 
