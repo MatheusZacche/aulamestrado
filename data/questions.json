@@ -51,7 +51,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -104,7 +104,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -157,7 +157,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -175,27 +175,27 @@
         {
           "chave": "a",
           "texto": "sentença que é consequência lógica das anteriores é:",
-          "explicacao": "ERRADA. Inverte a direção da implicação II — afirmação do consequente é falácia."
+          "explicacao": "ERRADA. A alternativa diz 'quem não pesca de tarrafa é calvo', invertendo a premissa II ('calvos não pescam de tarrafa'). Concluir do tipo 'se quem não pesca então é calvo' a partir de 'se é calvo então não pesca' é a falácia da afirmação do consequente — pode haver gente que não pesca por outros motivos sem ser calva."
         },
         {
           "chave": "b",
           "texto": "Pessoas calvas não cantam rock",
-          "explicacao": "CORRETA. Cadeia: calvo → (II) ¬tarrafa → (III) estressado → (contrapositiva de I) ¬rock. Conclusão: 'Pessoas calvas não cantam rock'."
+          "explicacao": "CORRETA. Encadeando as premissas: se a pessoa é CALVA, pela II ela NÃO PESCA de tarrafa. Se ela não pesca de tarrafa, pela III ela É ESTRESSADA. E pela I, quem canta rock NÃO é estressado — então, se a pessoa é estressada, ela NÃO canta rock. Juntando tudo: calvo → estressado → não canta rock. Portanto, 'pessoas calvas não cantam rock'."
         },
         {
           "chave": "c",
           "texto": "Quem pesca de tarrafa não é estressado",
-          "explicacao": "ERRADA. III diz ¬tarrafa → estressado; sua contrapositiva é ¬estressado → tarrafa, não 'tarrafa → ¬estressado'."
+          "explicacao": "ERRADA. A premissa III diz 'quem NÃO pesca é estressado'. A alternativa afirma que 'quem PESCA não é estressado', que NÃO é o mesmo. A regra correta derivada de III seria 'se a pessoa NÃO é estressada, então ela PESCA' (contrapositiva). 'Tarrafa → ¬estressado' não está nas premissas e não pode ser inferido."
         },
         {
           "chave": "d",
           "texto": "Que não canta rock é estressado",
-          "explicacao": "ERRADA. Contrapositiva de I é 'estressado → ¬rock', não '¬rock → estressado'."
+          "explicacao": "ERRADA. A premissa I é 'quem canta rock não é estressado'. A regra equivalente (contrapositiva) é 'quem é estressado NÃO canta rock'. A alternativa diz o contrário: 'quem não canta rock é estressado' — isso é a INVERSA, que não é equivalente. Pode haver gente que não canta rock e também não é estressada."
         },
         {
           "chave": "e",
           "texto": "Nenhuma das alternativas anteriores",
-          "explicacao": "ERRADA. A alternativa (b) é a consequência lógica direta."
+          "explicacao": "ERRADA. A alternativa (b) é a consequência lógica direta das premissas."
         }
       ],
       "gabarito": "b",
@@ -212,7 +212,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -265,7 +265,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -277,7 +277,7 @@
       ],
       "ano": "2025-1",
       "numero_na_prova": 6,
-      "enunciado": "Considere o seguinte trecho de código em C-like:\nint i, j, c;\nc = 1;\nfor (i = 1; i < n; i = i*2) {\nfor (j = 1; j <= n; j++) {\nc = c + 1;\n}\n}\nAssumindo que a instrução c = c + 1 é O(1), qual a expressão que melhor define a ordem\nde complexidade do trecho de código acima?",
+      "enunciado": "Considere o seguinte trecho de código em C-like:\n\n```c\nint i, j, c;\nc = 1;\nfor (i = 1; i < n; i = i * 2) {\n    for (j = 1; j <= n; j++) {\n        c = c + 1;\n    }\n}\n```\n\nAssumindo que a instrução `c = c + 1` é O(1), qual a expressão que melhor define a ordem de complexidade do trecho de código acima?",
       "alternativas": [
         {
           "chave": "a",
@@ -317,7 +317,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -369,7 +369,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -386,27 +386,27 @@
         {
           "chave": "a",
           "texto": "Somente I e II",
-          "explicacao": "ERRADA. I e II são falsas (ver d)."
+          "explicacao": "ERRADA. Inclui as afirmações I ('só quando cheia') e II ('determina o limite máximo'), mas ambas são falsas — colisões podem ocorrer com qualquer carga (não só tabela cheia) e o propósito do tratamento de colisões não é detectar limite (isso é função do load factor)."
         },
         {
           "chave": "b",
           "texto": "Somente I, II e IV",
-          "explicacao": "ERRADA. I e II são falsas."
+          "explicacao": "ERRADA. Mesmo problema da (a) — I e II são falsas — e ainda inclui IV (que é a única verdadeira). Junta a parte certa com partes erradas."
         },
         {
           "chave": "c",
           "texto": "Somente II e III",
-          "explicacao": "ERRADA. II e III são falsas."
+          "explicacao": "ERRADA. II ('determina se tabela atingiu limite') confunde tratamento de colisão com detecção de capacidade. III ('necessário quando tabela está vazia') é claramente falsa — tabela vazia não tem como ter colisões."
         },
         {
           "chave": "d",
           "texto": "Somente a IV",
-          "explicacao": "CORRETA. Apenas IV é verdadeira: a função hash pode mapear chaves DIFERENTES ao mesmo endereço (colisão) independentemente de a tabela estar cheia ou vazia. I, II e III confundem o propósito do tratamento de colisões."
+          "explicacao": "CORRETA. Apenas IV é verdadeira: o propósito real do tratamento de colisões é resolver o caso em que a função hash mapeia chaves DIFERENTES para o MESMO endereço/slot. Isso pode acontecer com qualquer load factor, é inerente à compressão de um espaço grande de chaves em um espaço pequeno de slots."
         },
         {
           "chave": "e",
           "texto": "Nenhuma das alternativas",
-          "explicacao": "ERRADA. IV é verdadeira."
+          "explicacao": "ERRADA. IV é verdadeira e existe — não é o caso de 'nenhuma das alternativas'."
         }
       ],
       "gabarito": "d",
@@ -421,7 +421,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -474,7 +474,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -526,7 +526,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -539,7 +539,7 @@
       ],
       "ano": "2025-1",
       "numero_na_prova": 11,
-      "enunciado": "Considere o trecho de código em linguagem de programação C a seguir.\nint myCount = 0;\nwhile (myCount < 10) {\nprintf(“%d”, myCount+1);\n}\nprintf(“Fim: %d”, myCount+1);\nAssinale a alternativa que apresenta, corretamente, o que esse trecho de código fará\nao ser executado.",
+      "enunciado": "Considere o trecho de código em linguagem de programação C a seguir:\n\n```c\nint myCount = 0;\nwhile (myCount < 10) {\n    printf(\"%d\", myCount + 1);\n}\nprintf(\"Fim: %d\", myCount + 1);\n```\n\nAssinale a alternativa que apresenta, corretamente, o que esse trecho de código fará ao ser executado.",
       "alternativas": [
         {
           "chave": "a",
@@ -579,7 +579,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -591,7 +591,7 @@
       ],
       "ano": "2025-1",
       "numero_na_prova": 12,
-      "enunciado": "Considere o trecho de código em linguagem de programação C a seguir.\nvoid sort(int arr[], int n) {\nfor (int i = 0; i < n - 1; i++) {\nint min_idx = i;\nfor (int j = i + 1; j < n; j++) {\nif (arr[j] < arr[min_idx]) {\nmin_idx = j;\n}\n}\nint temp = arr[i];\narr[i] = arr[min_idx];\narr[min_idx] = temp;\n}\n}\nAssinale a alternativa que apresenta, corretamente, o que esse trecho de código fará\nao ser executado.",
+      "enunciado": "Considere o trecho de código em linguagem de programação C a seguir:\n\n```c\nvoid sort(int arr[], int n) {\n    for (int i = 0; i < n - 1; i++) {\n        int min_idx = i;\n        for (int j = i + 1; j < n; j++) {\n            if (arr[j] < arr[min_idx]) {\n                min_idx = j;\n            }\n        }\n        int temp = arr[i];\n        arr[i] = arr[min_idx];\n        arr[min_idx] = temp;\n    }\n}\n```\n\nAssinale a alternativa que apresenta, corretamente, o que esse trecho de código fará ao ser executado.",
       "alternativas": [
         {
           "chave": "a",
@@ -631,7 +631,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -683,7 +683,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -737,7 +737,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -750,7 +750,7 @@
       ],
       "ano": "2025-1",
       "numero_na_prova": 15,
-      "enunciado": "Sobre o algoritmo de ordenação MergeSort, descrito no trecho de código",
+      "enunciado": "Sobre o algoritmo de ordenação MergeSort, descrito no trecho de código a seguir:\n\n```c\nvoid merge(int *arr, int lo, int mid, int hi) {\n    int i = lo;\n    int j = mid + 1;\n    while (i <= mid && j <= hi) {\n        if (arr[i] <= arr[j]) {\n            i++;\n        } else {\n            int value = arr[j];\n            int index = j;\n            while (index != i) {\n                arr[index] = arr[index - 1];\n                index--;\n            }\n            arr[i] = value;\n            i++;\n            mid++;\n            j++;\n        }\n    }\n}\n\nvoid merge_sort(Item *a, Item *aux, int lo, int hi) {\n    if (hi <= lo) return;\n    int mid = lo + (hi - lo) / 2;\n    merge_sort(a, aux, lo, mid);\n    merge_sort(a, aux, mid + 1, hi);\n    merge(a, aux, lo, mid, hi);\n}\n```\n\nAssinale a alternativa correta sobre este algoritmo de ordenação:",
       "alternativas": [
         {
           "chave": "a",
@@ -792,7 +792,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -804,7 +804,7 @@
       ],
       "ano": "2025-1",
       "numero_na_prova": 16,
-      "enunciado": "Sobre o algoritmo apresentado a seguir:\nint funcao(int x, int n, int v[]){\nint k;\nk = n-1;\nwhile (k >= 0 && v[k] != x)\nk -= 1;\nreturn k;\n}\nAssinale a alternativa correta sobre o funcionamento do algoritmo:",
+      "enunciado": "Sobre o algoritmo apresentado a seguir:\n\n```c\nint funcao(int x, int n, int v[]) {\n    int k;\n    k = n - 1;\n    while (k >= 0 && v[k] != x)\n        k -= 1;\n    return k;\n}\n```\n\nAssinale a alternativa correta sobre o funcionamento do algoritmo:",
       "alternativas": [
         {
           "chave": "a",
@@ -844,7 +844,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -862,27 +862,27 @@
         {
           "chave": "a",
           "texto": "II, III e IV.",
-          "explicacao": "CORRETA. II (herança = reutilização), III (polimorfismo = mesma interface, implementações distintas) e IV (abstração = ocultar detalhes complexos, expor o essencial) são definições corretas. I é falsa."
+          "explicacao": "CORRETA. II (herança permite reutilização derivando classes), III (polimorfismo é mesma interface com implementações distintas) e IV (abstração é ocultar detalhes complexos, expondo só o essencial) são todas definições padrão da literatura de POO. A I é a única falsa, porque inverte o conceito de encapsulamento."
         },
         {
           "chave": "b",
           "texto": "II e III.",
-          "explicacao": "ERRADA. IV também é correta."
+          "explicacao": "ERRADA. Inclui IV mas exclui III. A afirmação III (sobre polimorfismo via override/overload) é uma definição completamente correta e padrão."
         },
         {
           "chave": "c",
           "texto": "I, III e IV.",
-          "explicacao": "ERRADA. I é falsa: encapsulamento RESTRINGE acesso direto, NÃO expõe irrestritamente."
+          "explicacao": "ERRADA. Inclui I, que é a afirmação falsa do conjunto. O encapsulamento serve justamente para RESTRINGIR acesso direto aos atributos, não para expô-los irrestritamente — é o oposto do que I diz."
         },
         {
           "chave": "d",
           "texto": "I, II e IV.",
-          "explicacao": "ERRADA. I é falsa (ver c)."
+          "explicacao": "ERRADA. Inclui I, que está incorreta (encapsulamento restringe, não expõe — mesma razão da alternativa c)."
         },
         {
           "chave": "e",
           "texto": "II.",
-          "explicacao": "ERRADA. III e IV também são corretas."
+          "explicacao": "ERRADA. Exclui IV (abstração), que é uma definição correta. A abstração de fato consiste em ocultar detalhes complexos e destacar o essencial."
         }
       ],
       "gabarito": "a",
@@ -899,7 +899,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -953,7 +953,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -971,27 +971,27 @@
         {
           "chave": "a",
           "texto": "Apenas as afirmativas I e III.",
-          "explicacao": "CORRETA. Apenas I e III são verdadeiras. I: definição padrão de herança. III: subclasse pode estender com novos membros."
+          "explicacao": "CORRETA. Apenas I e III são verdadeiras. I é definição clássica de herança (subclasse reutiliza atributos/métodos da superclasse). III está correta porque, além de herdar, a subclasse pode adicionar atributos e métodos próprios — esse é justamente um dos motivos de usar herança em vez de instanciar a superclasse diretamente."
         },
         {
           "chave": "b",
           "texto": "Apenas as afirmativas I, II e IV.",
-          "explicacao": "ERRADA. II é falsa (ver c) e IV é falsa (ver c)."
+          "explicacao": "ERRADA. Inclui II e IV, ambas falsas. II porque métodos privados NÃO são acessíveis (logo não sobrescrevíveis) pela subclasse. IV porque Java só permite herança múltipla de interfaces, não de classes."
         },
         {
           "chave": "c",
           "texto": "Apenas as afirmativas I e IV.",
-          "explicacao": "ERRADA. IV é falsa porque Java NÃO permite herança múltipla de classes (apenas de interfaces); apenas C++ permite. A afirmação engloba ambas, tornando-se falsa."
+          "explicacao": "ERRADA. Inclui IV, que está incorreta. A afirmação IV diz que Java E C++ permitem herança múltipla diretamente — é parcialmente verdade (C++ permite, Java não), e como ela afirma 'ambas', está globalmente falsa."
         },
         {
           "chave": "d",
           "texto": "Apenas a afirmativa I.",
-          "explicacao": "ERRADA. III também é correta (ver a)."
+          "explicacao": "ERRADA. Exclui III, que é uma propriedade correta de herança (subclasse pode adicionar novos membros — é justamente o que torna a herança útil para especialização)."
         },
         {
           "chave": "e",
           "texto": "Todas as afirmativas estão corretas.",
-          "explicacao": "ERRADA. II é falsa: métodos privados NÃO são herdados nem sobrescritos pela subclasse — não fazem parte da interface herdada."
+          "explicacao": "ERRADA. Inclui II, que é falsa: em Java/C++ e na maioria das linguagens OO, métodos marcados como `private` na superclasse NÃO são visíveis na subclasse, portanto não podem ser sobrescritos. Só métodos `public` ou `protected` podem."
         }
       ],
       "gabarito": "a",
@@ -1006,7 +1006,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1059,7 +1059,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1112,7 +1112,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1130,27 +1130,27 @@
         {
           "chave": "a",
           "texto": "Hoje é sábado e Ana Paula jogou vôlei.",
-          "explicacao": "ERRADA. Modus tollens em P1 (Victória não foi à praia) força ¬vôlei ∧ ¬videogame — Ana Paula NÃO jogou vôlei."
+          "explicacao": "ERRADA. Para chegar nessa conclusão, Ana Paula precisaria ter jogado vôlei, mas vamos ver que isso é IMPOSSÍVEL. A premissa 1 diz 'se Ana Paula jogou vôlei OU Joaquim jogou videogame, então Victória foi à praia'. A premissa 2 diz que Victória NÃO foi à praia. Aplicando a regra do 'modus tollens' (se a conclusão é falsa, alguma das condições do 'se' tem que ser falsa), concluímos que nem Ana Paula jogou vôlei nem Joaquim jogou videogame. Portanto, dizer que ela jogou vôlei é falso."
         },
         {
           "chave": "b",
           "texto": "Hoje não é sábado e Joaquim não jogou videogame.",
-          "explicacao": "CORRETA. De P1 + P2 (modus tollens): ¬(vôlei ∨ videogame) = ¬vôlei ∧ ¬videogame. Por P3, se fosse sábado então vôlei — contradição com ¬vôlei, então ¬sábado."
+          "explicacao": "CORRETA. Pelas premissas 1 e 2 (raciocínio explicado em (a)), concluímos que Ana Paula NÃO jogou vôlei e Joaquim NÃO jogou videogame. A premissa 3 diz 'se é sábado, então Ana Paula joga vôlei e Caio treina boxe'. Mas como já sabemos que Ana Paula NÃO jogou vôlei, não pode ser sábado (caso contrário a premissa 3 seria violada). Logo, a conclusão correta é: não é sábado E Joaquim não jogou videogame."
         },
         {
           "chave": "c",
           "texto": "Ana Paula jogou vôlei ou Joaquim jogou videogame.",
-          "explicacao": "ERRADA. P1 + P2 negam o antecedente: nem vôlei nem videogame."
+          "explicacao": "ERRADA. Como mostrado em (a), nem Ana Paula jogou vôlei nem Joaquim jogou videogame. Logo, dizer 'jogou vôlei OU jogou videogame' é falso (uma disjunção precisa de pelo menos um dos termos verdadeiro)."
         },
         {
           "chave": "d",
           "texto": "Hoje é sábado e Joaquim jogou videogame.",
-          "explicacao": "ERRADA. ¬sábado e ¬videogame, ambos invertidos."
+          "explicacao": "ERRADA. Inverte tudo. Já provamos que NÃO é sábado e que Joaquim NÃO jogou videogame. A alternativa afirma o oposto das duas coisas."
         },
         {
           "chave": "e",
           "texto": "Hoje não é sábado e Ana Paula jogou vôlei.",
-          "explicacao": "ERRADA. ¬sábado está certo, mas Ana Paula não jogou vôlei."
+          "explicacao": "ERRADA. A primeira parte ('hoje não é sábado') está correta, mas a segunda ('Ana Paula jogou vôlei') é falsa — como vimos, ela não jogou."
         }
       ],
       "gabarito": "b",
@@ -1165,7 +1165,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1183,27 +1183,27 @@
         {
           "chave": "a",
           "texto": "Em todas as universidades existem pelo menos um curso que possui, no\nmáximo, 99 alunos.",
-          "explicacao": "CORRETA. Original: ∃u(univ(u) ∧ ∀c(curso(c,u) → alunos(c)≥100)). Negação: ∀u(univ(u) → ∃c(curso(c,u) ∧ alunos(c)<100)). Em PT: 'Em todas as universidades existe pelo menos um curso com no máximo 99 alunos'."
+          "explicacao": "CORRETA. Para negar a proposição original 'existe ALGUMA universidade com TODOS os cursos tendo pelo menos 100 alunos', precisamos inverter cada quantificador: 'existe' vira 'para toda', e 'todos os cursos' vira 'algum curso'. Também invertemos a condição: 'pelo menos 100' (≥100) vira 'no máximo 99' (<100, ou seja, ≤99). Resultado: 'em TODAS as universidades, EXISTE pelo menos um curso com no máximo 99 alunos'. É a única alternativa que faz essas três inversões corretamente."
         },
         {
           "chave": "b",
           "texto": "Em no máximo uma universidade existe um curso que possui, no\nmáximo, 101 alunos.",
-          "explicacao": "ERRADA. 'No máximo uma universidade' e '101 alunos' distorcem completamente os quantificadores."
+          "explicacao": "ERRADA. Usa 'no máximo uma universidade' (não é inversão correta de 'existe') e '101 alunos' (também não é inversão correta de 'pelo menos 100'). Distorce os quantificadores em vez de invertê-los."
         },
         {
           "chave": "c",
           "texto": "Há uma universidade em que existe pelo menos um curso com, no\nmáximo, 99 alunos.",
-          "explicacao": "ERRADA. 'Há uma universidade' nega apenas existencial, não cobre 'para todas'."
+          "explicacao": "ERRADA. Mantém 'há uma universidade' como na original (devia virar 'em todas'). Só inverte a parte do número, deixando a estrutura existencial intacta — não é uma negação."
         },
         {
           "chave": "d",
           "texto": "Em cada universidade existe pelo menos um curso que possui, pelo\nmenos, 100 alunos.",
-          "explicacao": "ERRADA. Mantém 'pelo menos 100' — não nega o número."
+          "explicacao": "ERRADA. Mantém 'pelo menos 100' (devia virar 'no máximo 99') e nem altera o quantificador existencial externo. Essencialmente é uma reescrita parcial, não a negação."
         },
         {
           "chave": "e",
           "texto": "Existe nenhuma universidade em que os cursos possuam, no máximo,\n100 alunos.",
-          "explicacao": "ERRADA. Construção 'existe nenhuma' é confusa e logicamente diferente da negação correta."
+          "explicacao": "ERRADA. 'Existe nenhuma universidade' é uma construção estranha. Se a interpretarmos como 'não existe universidade onde os cursos têm no máximo 100', isso seria uma afirmação diferente — fala de universidades onde TODOS os cursos têm 100 ou menos, não da existência de algum curso com menos de 100."
         }
       ],
       "gabarito": "a",
@@ -1218,7 +1218,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1236,27 +1236,27 @@
         {
           "chave": "a",
           "texto": "negação da afirmação acima é logicamente equivalente à:",
-          "explicacao": "ERRADA. Cobre apenas um caso da negação; não inclui 'ambos não viajaram'."
+          "explicacao": "ERRADA. 'Ambos viajaram' é APENAS UM dos casos possíveis da negação. A afirmação original ('exatamente um viajou') é falsa em DOIS cenários: quando ambos viajaram E quando ambos NÃO viajaram. A alternativa só cobre o primeiro caso, deixando o outro de fora."
         },
         {
           "chave": "b",
           "texto": "Ambos não viajaram.",
-          "explicacao": "ERRADA. Cobre apenas um caso da negação."
+          "explicacao": "ERRADA. Mesmo problema da (a): 'ambos não viajaram' é só um dos cenários onde a original é falsa. Falta cobrir 'ambos viajaram'."
         },
         {
           "chave": "c",
           "texto": "Marcos ou Heide não viajou.",
-          "explicacao": "ERRADA. 'Marcos ou Heide não viajou' inclui o caso em que apenas um viajou, justamente o que a original afirma."
+          "explicacao": "ERRADA. 'Marcos OU Heide não viajou' significa que pelo menos um dos dois não viajou. Isso inclui o caso 'apenas um viajou' — que é EXATAMENTE o que a afirmação original diz. Logo, não nega, na verdade pode ser verdadeira junto com a original."
         },
         {
           "chave": "d",
           "texto": "Ambos viajaram ou ambos não viajaram.",
-          "explicacao": "CORRETA. 'Exatamente um viajou' é XOR: (M ∧ ¬H) ∨ (¬M ∧ H). Negar XOR dá equivalência: M ↔ H = (M ∧ H) ∨ (¬M ∧ ¬H) = 'ambos viajaram ou ambos não viajaram'."
+          "explicacao": "CORRETA. A afirmação 'EXATAMENTE um viajou' significa: 'um sim e o outro não'. Existem dois casos onde isso falha (ou seja, a NEGAÇÃO acontece): ou (1) ambos viajaram, ou (2) nenhum viajou — em ambos os casos, NÃO é verdade que exatamente um viajou. A alternativa engloba esses dois cenários com o 'ou'."
         },
         {
           "chave": "e",
           "texto": "Pelo menos um entre Marcos e Heide viajou.",
-          "explicacao": "ERRADA. 'Pelo menos um viajou' inclui o caso em que exatamente um viajou (a própria original)."
+          "explicacao": "ERRADA. 'Pelo menos um viajou' inclui dois casos: 'exatamente um viajou' (que é a própria original) e 'ambos viajaram' (parte da negação). Como inclui a original, não é a negação dela."
         }
       ],
       "gabarito": "d",
@@ -1271,7 +1271,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1288,27 +1288,27 @@
         {
           "chave": "a",
           "texto": "João estudou lógica e Maria leu livros.",
-          "explicacao": "Questão ANULADA pela banca. Não há conclusão única dedutível das premissas: de P3 (Ana saiu) e P2 (contrapositiva) deduz-se cinema, mas P1 com cinema verdadeiro não força lógica nem livros — múltiplas atribuições satisfazem todas as premissas."
+          "explicacao": "Questão ANULADA pela banca. O que dá pra deduzir das premissas: de P3 (Ana saiu) e P2 ('se Carlos não foi ao cinema, Ana não sai'), aplicando contrapositiva, concluímos que CARLOS FOI ao cinema. Daí em diante, P1 ('se João estudou lógica OU Maria não leu livros, Carlos vai ao cinema') fica satisfeita com Carlos = cinema, independentemente de João ter estudado ou Maria ter lido — várias combinações são possíveis. Por isso a banca anulou: nenhuma das alternativas é necessariamente verdadeira."
         },
         {
           "chave": "b",
           "texto": "Carlos foi ao cinema, mas João não estudou lógica.",
-          "explicacao": "Questão ANULADA pela banca (ver explicação em (a))."
+          "explicacao": "Questão ANULADA pela banca. Mesma razão: as premissas não forçam uma conclusão única — apenas Carlos foi ao cinema é certo, mas isso não decide se João estudou lógica."
         },
         {
           "chave": "c",
           "texto": "João não estudou lógica e Maria leu livros.",
-          "explicacao": "Questão ANULADA pela banca (ver explicação em (a))."
+          "explicacao": "Questão ANULADA pela banca. Mesma razão: 'João não estudou lógica E Maria leu livros' é UMA das possibilidades, mas as premissas também são compatíveis com João tendo estudado lógica."
         },
         {
           "chave": "d",
           "texto": "Maria não leu livros, portanto Ana saiu de casa.",
-          "explicacao": "Questão ANULADA pela banca (ver explicação em (a))."
+          "explicacao": "Questão ANULADA pela banca. Mesma razão: 'Maria não leu livros, portanto Ana saiu' inverte a direção do raciocínio. P3 já garante que Ana saiu, sem precisar de Maria."
         },
         {
           "chave": "e",
           "texto": "Carlos não foi ao cinema, portanto João não estudou lógica.",
-          "explicacao": "Questão ANULADA pela banca (ver explicação em (a))."
+          "explicacao": "Questão ANULADA pela banca. Mesma razão: como mostrado em (a), Carlos FOI ao cinema (dedução de P2 + P3). A alternativa começa com uma premissa falsa ('Carlos não foi ao cinema'), logo sua conclusão é inválida."
         }
       ],
       "gabarito": "a",
@@ -1323,7 +1323,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1335,7 +1335,7 @@
       ],
       "ano": "2025-2",
       "numero_na_prova": 6,
-      "enunciado": "Considere o seguinte trecho de código em C-like:\nint i, j, c;\nc = 1;\nfor (i = 1; i < n; i++) {\nfor (j = 1; j <= n; j++) {\nc = c + 1;\n}\n}\nAssumindo que a instrução c = c + 1 é O(1), qual a expressão que melhor define",
+      "enunciado": "Considere o seguinte trecho de código em C-like:\n\n```c\nint i, j, c;\nc = 1;\nfor (i = 1; i < n; i++) {\n    for (j = 1; j <= n; j++) {\n        c = c + 1;\n    }\n}\n```\n\nAssumindo que a instrução `c = c + 1` é O(1), qual a expressão que melhor define a ordem de complexidade do trecho de código acima?",
       "alternativas": [
         {
           "chave": "a",
@@ -1377,7 +1377,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1431,7 +1431,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1483,7 +1483,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1537,7 +1537,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1590,7 +1590,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1643,7 +1643,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1656,7 +1656,7 @@
       ],
       "ano": "2025-2",
       "numero_na_prova": 12,
-      "enunciado": "Considere o seguinte trecho de código, implementado em C, e\nrepresentando um método de um Tipo Abstrato de Dados chamado tPartida\nvoid obtemDadosPartida(tPartida *p, char* nomeTimeFora, char*\nnomeTimeCasa, int* pontosTimeFora, int* pontosTimeCasa)\n{\nstrcpy(nomeTimeFora, p->nomeTimeFora);\nstrcpy(nomeTimeCasa, p->nomeTimeCasa);\n*pontosTimeFora = p->pontosTimeFora;\n*pontosTimeCasa = p->pontosTimeCasa;\n}\nAssinale a alternativa correta.",
+      "enunciado": "Considere o seguinte trecho de código, implementado em C, representando um método de um Tipo Abstrato de Dados chamado `tPartida`:\n\n```c\nvoid obtemDadosPartida(tPartida *p, char *nomeTimeFora, char *nomeTimeCasa,\n                       int *pontosTimeFora, int *pontosTimeCasa) {\n    strcpy(nomeTimeFora, p->nomeTimeFora);\n    strcpy(nomeTimeCasa, p->nomeTimeCasa);\n    *pontosTimeFora = p->pontosTimeFora;\n    *pontosTimeCasa = p->pontosTimeCasa;\n}\n```\n\nAssinale a alternativa correta.",
       "alternativas": [
         {
           "chave": "a",
@@ -1696,7 +1696,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1750,7 +1750,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1803,7 +1803,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1816,7 +1816,7 @@
       ],
       "ano": "2025-2",
       "numero_na_prova": 15,
-      "enunciado": "Considere o trecho de código em linguagem de programação C a\nseguir.\nvoid sort(int arr[], int n) {\nfor (int i = 0; i < n - 1; i++) {\nfor (int j = 0; j < n - i - 1; j++) {\nif (arr[j] > arr[j + 1]) {\nint temp = arr[j];\narr[j] = arr[j + 1];\narr[j + 1] = temp;\n}\n}\n}\n}\nAssinale a alternativa que apresenta, corretamente, o que esse trecho de\ncódigo fará ao ser executado.",
+      "enunciado": "Considere o trecho de código em linguagem de programação C a seguir:\n\n```c\nvoid sort(int arr[], int n) {\n    for (int i = 0; i < n - 1; i++) {\n        for (int j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                int temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n}\n```\n\nAssinale a alternativa que apresenta, corretamente, o que esse trecho de código fará ao ser executado.",
       "alternativas": [
         {
           "chave": "a",
@@ -1856,7 +1856,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1868,7 +1868,7 @@
       ],
       "ano": "2025-2",
       "numero_na_prova": 16,
-      "enunciado": "Sobre o algoritmo apresentado a seguir:\nint busca(int arr[], int tamanho, int valor) {\nfor (int i = 0; i < tamanho; i++) {\nif (arr[i] == valor) {\nreturn i;\n}\n}\nreturn -1; // Retorna -1 se o valor não for encontrado\n}\nAssinale a alternativa correta sobre o funcionamento do algoritmo:",
+      "enunciado": "Sobre o algoritmo apresentado a seguir:\n\n```c\nint busca(int arr[], int tamanho, int valor) {\n    for (int i = 0; i < tamanho; i++) {\n        if (arr[i] == valor) {\n            return i;\n        }\n    }\n    return -1;  // Retorna -1 se o valor não for encontrado\n}\n```\n\nAssinale a alternativa correta sobre o funcionamento do algoritmo:",
       "alternativas": [
         {
           "chave": "a",
@@ -1908,7 +1908,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -1962,7 +1962,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2015,7 +2015,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2069,7 +2069,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2122,7 +2122,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2175,7 +2175,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2228,7 +2228,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2281,7 +2281,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2334,7 +2334,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2387,7 +2387,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2439,7 +2439,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2495,7 +2495,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2548,7 +2548,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2601,7 +2601,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2615,7 +2615,7 @@
       ],
       "ano": "2026-1",
       "numero_na_prova": 10,
-      "enunciado": "Analise o seguinte trecho de código escrito em C:\nint valor;\nint soma (int x, int *y) {\nint z = x + *y\nreturn z\n}\nint main () {\nvalor = 10;\nint a = 20;\nsoma (valor, &a);\nreturn 0;\n}\nAvalie as seguintes afirmativas:\nI. A variável valor é alocada na memória heap e possui escopo global.\nII. A variável z é alocada na Pilha (stack) e será liberada da memória assim\nque a função soma encerrar a sua execução.\nIII. Na função soma, um parâmetro é passado por cópia e outro por\nreferência de memória.\nÉ correto afirmar que:",
+      "enunciado": "Analise o seguinte trecho de código escrito em C:\n\n```c\nint valor;\n\nint soma(int x, int *y) {\n    int z = x + *y;\n    return z;\n}\n\nint main() {\n    valor = 10;\n    int a = 20;\n    soma(valor, &a);\n    return 0;\n}\n```\n\nAvalie as seguintes afirmativas:\n\nI. A variável `valor` é alocada na memória heap e possui escopo global.\nII. A variável `z` é alocada na pilha (stack) e será liberada da memória assim que a função `soma` encerrar a sua execução.\nIII. Na função `soma`, um parâmetro é passado por cópia e outro por referência de memória.\n\nÉ correto afirmar que:",
       "alternativas": [
         {
           "chave": "a",
@@ -2655,7 +2655,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2709,7 +2709,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2762,7 +2762,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2815,7 +2815,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2867,7 +2867,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2880,7 +2880,7 @@
       ],
       "ano": "2026-1",
       "numero_na_prova": 15,
-      "enunciado": "Considere o trecho de código a seguir, escrito em linguagem C:\nint partition(Item *a, int lo, int hi) {\nint i = lo, j = hi+1;\nItem aux, v = a[lo];\nwhile(1) {\nwhile (less(a[++i], v))\nif (i == hi) break;\nwhile (less(v, a[--j]))\nif (j == lo) break;\nif (i >= j) break;\nswap(&a[i], &a[j]);\n}\nswap(&a[lo], &a[j]);\nreturn j;\n}\nConsidere que:\n● A função less(x, y) retorna verdadeiro se x for menor que y;\n● A função swap(x, y) realiza a troca dos valores de duas variáveis do\ntipo Item.\nAnalise as alternativas a seguir:\nI. A função partition é referente a partição do algoritmo Quick Sort, em\nque a cada execução, o pivô é escolhido (a[lo]), todos os elementos\n\n\n\nmenores e maiores são reposicionados no vetor e o pivô é colocado na\nposição final correta na ordenação.\nII. A função partition tem comportamento linear, varrendo todo o vetor\nde entrada a cada vez que é executada.\nIII. Nesta implementação, a função partition continua as varreduras da\nesquerda para a direita (variável i), e da direita para a esquerda (variável\nj) enquanto as chaves são iguais a a[lo] .\nÉ correto afirmar que:",
+      "enunciado": "Considere o trecho de código a seguir, escrito em linguagem C:\n\n```c\nint partition(Item *a, int lo, int hi) {\n    int i = lo, j = hi + 1;\n    Item aux, v = a[lo];\n    while (1) {\n        while (less(a[++i], v))\n            if (i == hi) break;\n        while (less(v, a[--j]))\n            if (j == lo) break;\n        if (i >= j) break;\n        swap(&a[i], &a[j]);\n    }\n    swap(&a[lo], &a[j]);\n    return j;\n}\n```\n\nConsidere que:\n- A função `less(x, y)` retorna verdadeiro se `x` for menor que `y`.\n- A função `swap(x, y)` realiza a troca dos valores de duas variáveis do tipo `Item`.\n\nAnalise as alternativas a seguir:\n\nI. A função `partition` é referente à partição do algoritmo Quick Sort, em que a cada execução o pivô é escolhido (`a[lo]`), todos os elementos menores e maiores são reposicionados no vetor e o pivô é colocado na posição final correta na ordenação.\nII. A função `partition` tem comportamento linear, varrendo todo o vetor de entrada a cada vez que é executada.\nIII. Nesta implementação, a função `partition` continua as varreduras da esquerda para a direita (variável `i`) e da direita para a esquerda (variável `j`) enquanto as chaves são iguais a `a[lo]`.\n\nÉ correto afirmar que:",
       "alternativas": [
         {
           "chave": "a",
@@ -2920,7 +2920,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2974,7 +2974,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -2987,7 +2987,7 @@
       ],
       "ano": "2026-1",
       "numero_na_prova": 17,
-      "enunciado": "Considere o trecho de código a seguir escrito em C:\n#include <stdio.h>\nstruct P {\nint x;\nint y;\n};\nint main() {\nstruct P v[3] = { {1, 2}, {3, 4}, {5, 6} };\nint soma = 0;\nfor (int i = 0; i < 3; i++)\n\n\n\nsoma += v[i].x + v[2 - i].y;\nprintf(\"%d\", soma);\nreturn 0;\n}\nQuase será a saída produzida por este programa?",
+      "enunciado": "Considere o trecho de código a seguir escrito em C:\n\n```c\n#include <stdio.h>\n\nstruct P {\n    int x;\n    int y;\n};\n\nint main() {\n    struct P v[3] = { {1, 2}, {3, 4}, {5, 6} };\n    int soma = 0;\n    for (int i = 0; i < 3; i++)\n        soma += v[i].x + v[2 - i].y;\n    printf(\"%d\", soma);\n    return 0;\n}\n```\n\nQual será a saída produzida por este programa?",
       "alternativas": [
         {
           "chave": "a",
@@ -3027,7 +3027,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -3040,7 +3040,7 @@
       ],
       "ano": "2026-1",
       "numero_na_prova": 18,
-      "enunciado": "Considere a equação a seguir:\nConsiderando que , e deseja-se implementar a\nfunção:\nvoid forward(int m, int n, double X[m][n], double W[n], double b, int y[m]);\nQual das alternativas a seguir contém a implementação correta dessa função?",
+      "enunciado": "Considere a equação `y_i = sign(b + Σⱼ Wⱼ · X[i][j])` (perceptron forward pass).\n\nDeseja-se implementar a função:\n\n```c\nvoid forward(int m, int n, double X[m][n], double W[n], double b, int y[m]);\n```\n\nQual das alternativas a seguir contém a implementação correta dessa função?",
       "alternativas": [
         {
           "chave": "a",
@@ -3080,7 +3080,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -3133,7 +3133,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {
@@ -3186,7 +3186,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:54:08.554038+00:00"
+        "data": "2026-05-27T01:45:22.991756+00:00"
       }
     },
     {

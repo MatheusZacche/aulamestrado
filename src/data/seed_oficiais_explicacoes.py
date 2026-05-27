@@ -28,6 +28,8 @@ class ExplicacaoQuestao(TypedDict, total=False):
     dificuldade: str  # obrigatório
     explicacoes: dict[str, str]  # obrigatório  "a" -> texto
     tem_imagem: bool  # opcional, default False
+    enunciado: str  # opcional, sobrescreve o enunciado do parser (para limpar
+                    # indentação de código C, aspas curvas, etc.)
 
 
 # =========================================================================
@@ -299,11 +301,11 @@ EXPL_2025_2: dict[str, ExplicacaoQuestao] = {
         "subtopicos": ["argumentos_validade", "proposicoes_conectivos"],
         "dificuldade": "medio",
         "explicacoes": {
-            "a": "ERRADA. Modus tollens em P1 (Victória não foi à praia) força ¬vôlei ∧ ¬videogame — Ana Paula NÃO jogou vôlei.",
-            "b": "CORRETA. De P1 + P2 (modus tollens): ¬(vôlei ∨ videogame) = ¬vôlei ∧ ¬videogame. Por P3, se fosse sábado então vôlei — contradição com ¬vôlei, então ¬sábado.",
-            "c": "ERRADA. P1 + P2 negam o antecedente: nem vôlei nem videogame.",
-            "d": "ERRADA. ¬sábado e ¬videogame, ambos invertidos.",
-            "e": "ERRADA. ¬sábado está certo, mas Ana Paula não jogou vôlei.",
+            "a": "ERRADA. Para chegar nessa conclusão, Ana Paula precisaria ter jogado vôlei, mas vamos ver que isso é IMPOSSÍVEL. A premissa 1 diz 'se Ana Paula jogou vôlei OU Joaquim jogou videogame, então Victória foi à praia'. A premissa 2 diz que Victória NÃO foi à praia. Aplicando a regra do 'modus tollens' (se a conclusão é falsa, alguma das condições do 'se' tem que ser falsa), concluímos que nem Ana Paula jogou vôlei nem Joaquim jogou videogame. Portanto, dizer que ela jogou vôlei é falso.",
+            "b": "CORRETA. Pelas premissas 1 e 2 (raciocínio explicado em (a)), concluímos que Ana Paula NÃO jogou vôlei e Joaquim NÃO jogou videogame. A premissa 3 diz 'se é sábado, então Ana Paula joga vôlei e Caio treina boxe'. Mas como já sabemos que Ana Paula NÃO jogou vôlei, não pode ser sábado (caso contrário a premissa 3 seria violada). Logo, a conclusão correta é: não é sábado E Joaquim não jogou videogame.",
+            "c": "ERRADA. Como mostrado em (a), nem Ana Paula jogou vôlei nem Joaquim jogou videogame. Logo, dizer 'jogou vôlei OU jogou videogame' é falso (uma disjunção precisa de pelo menos um dos termos verdadeiro).",
+            "d": "ERRADA. Inverte tudo. Já provamos que NÃO é sábado e que Joaquim NÃO jogou videogame. A alternativa afirma o oposto das duas coisas.",
+            "e": "ERRADA. A primeira parte ('hoje não é sábado') está correta, mas a segunda ('Ana Paula jogou vôlei') é falsa — como vimos, ela não jogou.",
         },
     },
     "oficial_2025-2_q03": {
@@ -311,11 +313,11 @@ EXPL_2025_2: dict[str, ExplicacaoQuestao] = {
         "subtopicos": ["quantificadores", "equivalencia_negacao"],
         "dificuldade": "medio",
         "explicacoes": {
-            "a": "CORRETA. Original: ∃u(univ(u) ∧ ∀c(curso(c,u) → alunos(c)≥100)). Negação: ∀u(univ(u) → ∃c(curso(c,u) ∧ alunos(c)<100)). Em PT: 'Em todas as universidades existe pelo menos um curso com no máximo 99 alunos'.",
-            "b": "ERRADA. 'No máximo uma universidade' e '101 alunos' distorcem completamente os quantificadores.",
-            "c": "ERRADA. 'Há uma universidade' nega apenas existencial, não cobre 'para todas'.",
-            "d": "ERRADA. Mantém 'pelo menos 100' — não nega o número.",
-            "e": "ERRADA. Construção 'existe nenhuma' é confusa e logicamente diferente da negação correta.",
+            "a": "CORRETA. Para negar a proposição original 'existe ALGUMA universidade com TODOS os cursos tendo pelo menos 100 alunos', precisamos inverter cada quantificador: 'existe' vira 'para toda', e 'todos os cursos' vira 'algum curso'. Também invertemos a condição: 'pelo menos 100' (≥100) vira 'no máximo 99' (<100, ou seja, ≤99). Resultado: 'em TODAS as universidades, EXISTE pelo menos um curso com no máximo 99 alunos'. É a única alternativa que faz essas três inversões corretamente.",
+            "b": "ERRADA. Usa 'no máximo uma universidade' (não é inversão correta de 'existe') e '101 alunos' (também não é inversão correta de 'pelo menos 100'). Distorce os quantificadores em vez de invertê-los.",
+            "c": "ERRADA. Mantém 'há uma universidade' como na original (devia virar 'em todas'). Só inverte a parte do número, deixando a estrutura existencial intacta — não é uma negação.",
+            "d": "ERRADA. Mantém 'pelo menos 100' (devia virar 'no máximo 99') e nem altera o quantificador existencial externo. Essencialmente é uma reescrita parcial, não a negação.",
+            "e": "ERRADA. 'Existe nenhuma universidade' é uma construção estranha. Se a interpretarmos como 'não existe universidade onde os cursos têm no máximo 100', isso seria uma afirmação diferente — fala de universidades onde TODOS os cursos têm 100 ou menos, não da existência de algum curso com menos de 100.",
         },
     },
     "oficial_2025-2_q04": {
@@ -323,11 +325,11 @@ EXPL_2025_2: dict[str, ExplicacaoQuestao] = {
         "subtopicos": ["equivalencia_negacao", "proposicoes_conectivos"],
         "dificuldade": "medio",
         "explicacoes": {
-            "a": "ERRADA. Cobre apenas um caso da negação; não inclui 'ambos não viajaram'.",
-            "b": "ERRADA. Cobre apenas um caso da negação.",
-            "c": "ERRADA. 'Marcos ou Heide não viajou' inclui o caso em que apenas um viajou, justamente o que a original afirma.",
-            "d": "CORRETA. 'Exatamente um viajou' é XOR: (M ∧ ¬H) ∨ (¬M ∧ H). Negar XOR dá equivalência: M ↔ H = (M ∧ H) ∨ (¬M ∧ ¬H) = 'ambos viajaram ou ambos não viajaram'.",
-            "e": "ERRADA. 'Pelo menos um viajou' inclui o caso em que exatamente um viajou (a própria original).",
+            "a": "ERRADA. 'Ambos viajaram' é APENAS UM dos casos possíveis da negação. A afirmação original ('exatamente um viajou') é falsa em DOIS cenários: quando ambos viajaram E quando ambos NÃO viajaram. A alternativa só cobre o primeiro caso, deixando o outro de fora.",
+            "b": "ERRADA. Mesmo problema da (a): 'ambos não viajaram' é só um dos cenários onde a original é falsa. Falta cobrir 'ambos viajaram'.",
+            "c": "ERRADA. 'Marcos OU Heide não viajou' significa que pelo menos um dos dois não viajou. Isso inclui o caso 'apenas um viajou' — que é EXATAMENTE o que a afirmação original diz. Logo, não nega, na verdade pode ser verdadeira junto com a original.",
+            "d": "CORRETA. A afirmação 'EXATAMENTE um viajou' significa: 'um sim e o outro não'. Existem dois casos onde isso falha (ou seja, a NEGAÇÃO acontece): ou (1) ambos viajaram, ou (2) nenhum viajou — em ambos os casos, NÃO é verdade que exatamente um viajou. A alternativa engloba esses dois cenários com o 'ou'.",
+            "e": "ERRADA. 'Pelo menos um viajou' inclui dois casos: 'exatamente um viajou' (que é a própria original) e 'ambos viajaram' (parte da negação). Como inclui a original, não é a negação dela.",
         },
     },
     "oficial_2025-2_q05": {
@@ -335,11 +337,11 @@ EXPL_2025_2: dict[str, ExplicacaoQuestao] = {
         "subtopicos": ["argumentos_validade"],
         "dificuldade": "dificil",
         "explicacoes": {
-            "a": "Questão ANULADA pela banca. Não há conclusão única dedutível das premissas: de P3 (Ana saiu) e P2 (contrapositiva) deduz-se cinema, mas P1 com cinema verdadeiro não força lógica nem livros — múltiplas atribuições satisfazem todas as premissas.",
-            "b": "Questão ANULADA pela banca (ver explicação em (a)).",
-            "c": "Questão ANULADA pela banca (ver explicação em (a)).",
-            "d": "Questão ANULADA pela banca (ver explicação em (a)).",
-            "e": "Questão ANULADA pela banca (ver explicação em (a)).",
+            "a": "Questão ANULADA pela banca. O que dá pra deduzir das premissas: de P3 (Ana saiu) e P2 ('se Carlos não foi ao cinema, Ana não sai'), aplicando contrapositiva, concluímos que CARLOS FOI ao cinema. Daí em diante, P1 ('se João estudou lógica OU Maria não leu livros, Carlos vai ao cinema') fica satisfeita com Carlos = cinema, independentemente de João ter estudado ou Maria ter lido — várias combinações são possíveis. Por isso a banca anulou: nenhuma das alternativas é necessariamente verdadeira.",
+            "b": "Questão ANULADA pela banca. Mesma razão: as premissas não forçam uma conclusão única — apenas Carlos foi ao cinema é certo, mas isso não decide se João estudou lógica.",
+            "c": "Questão ANULADA pela banca. Mesma razão: 'João não estudou lógica E Maria leu livros' é UMA das possibilidades, mas as premissas também são compatíveis com João tendo estudado lógica.",
+            "d": "Questão ANULADA pela banca. Mesma razão: 'Maria não leu livros, portanto Ana saiu' inverte a direção do raciocínio. P3 já garante que Ana saiu, sem precisar de Maria.",
+            "e": "Questão ANULADA pela banca. Mesma razão: como mostrado em (a), Carlos FOI ao cinema (dedução de P2 + P3). A alternativa começa com uma premissa falsa ('Carlos não foi ao cinema'), logo sua conclusão é inválida.",
         },
     },
     "oficial_2025-2_q06": {
@@ -570,11 +572,11 @@ EXPL_2025_1: dict[str, ExplicacaoQuestao] = {
         "subtopicos": ["argumentos_validade", "proposicoes_conectivos"],
         "dificuldade": "medio",
         "explicacoes": {
-            "a": "ERRADA. Inverte a direção da implicação II — afirmação do consequente é falácia.",
-            "b": "CORRETA. Cadeia: calvo → (II) ¬tarrafa → (III) estressado → (contrapositiva de I) ¬rock. Conclusão: 'Pessoas calvas não cantam rock'.",
-            "c": "ERRADA. III diz ¬tarrafa → estressado; sua contrapositiva é ¬estressado → tarrafa, não 'tarrafa → ¬estressado'.",
-            "d": "ERRADA. Contrapositiva de I é 'estressado → ¬rock', não '¬rock → estressado'.",
-            "e": "ERRADA. A alternativa (b) é a consequência lógica direta.",
+            "a": "ERRADA. A alternativa diz 'quem não pesca de tarrafa é calvo', invertendo a premissa II ('calvos não pescam de tarrafa'). Concluir do tipo 'se quem não pesca então é calvo' a partir de 'se é calvo então não pesca' é a falácia da afirmação do consequente — pode haver gente que não pesca por outros motivos sem ser calva.",
+            "b": "CORRETA. Encadeando as premissas: se a pessoa é CALVA, pela II ela NÃO PESCA de tarrafa. Se ela não pesca de tarrafa, pela III ela É ESTRESSADA. E pela I, quem canta rock NÃO é estressado — então, se a pessoa é estressada, ela NÃO canta rock. Juntando tudo: calvo → estressado → não canta rock. Portanto, 'pessoas calvas não cantam rock'.",
+            "c": "ERRADA. A premissa III diz 'quem NÃO pesca é estressado'. A alternativa afirma que 'quem PESCA não é estressado', que NÃO é o mesmo. A regra correta derivada de III seria 'se a pessoa NÃO é estressada, então ela PESCA' (contrapositiva). 'Tarrafa → ¬estressado' não está nas premissas e não pode ser inferido.",
+            "d": "ERRADA. A premissa I é 'quem canta rock não é estressado'. A regra equivalente (contrapositiva) é 'quem é estressado NÃO canta rock'. A alternativa diz o contrário: 'quem não canta rock é estressado' — isso é a INVERSA, que não é equivalente. Pode haver gente que não canta rock e também não é estressada.",
+            "e": "ERRADA. A alternativa (b) é a consequência lógica direta das premissas.",
         },
     },
     "oficial_2025-1_q05": {
@@ -618,11 +620,11 @@ EXPL_2025_1: dict[str, ExplicacaoQuestao] = {
         "subtopicos": ["hash_tables"],
         "dificuldade": "facil",
         "explicacoes": {
-            "a": "ERRADA. I e II são falsas (ver d).",
-            "b": "ERRADA. I e II são falsas.",
-            "c": "ERRADA. II e III são falsas.",
-            "d": "CORRETA. Apenas IV é verdadeira: a função hash pode mapear chaves DIFERENTES ao mesmo endereço (colisão) independentemente de a tabela estar cheia ou vazia. I, II e III confundem o propósito do tratamento de colisões.",
-            "e": "ERRADA. IV é verdadeira.",
+            "a": "ERRADA. Inclui as afirmações I ('só quando cheia') e II ('determina o limite máximo'), mas ambas são falsas — colisões podem ocorrer com qualquer carga (não só tabela cheia) e o propósito do tratamento de colisões não é detectar limite (isso é função do load factor).",
+            "b": "ERRADA. Mesmo problema da (a) — I e II são falsas — e ainda inclui IV (que é a única verdadeira). Junta a parte certa com partes erradas.",
+            "c": "ERRADA. II ('determina se tabela atingiu limite') confunde tratamento de colisão com detecção de capacidade. III ('necessário quando tabela está vazia') é claramente falsa — tabela vazia não tem como ter colisões.",
+            "d": "CORRETA. Apenas IV é verdadeira: o propósito real do tratamento de colisões é resolver o caso em que a função hash mapeia chaves DIFERENTES para o MESMO endereço/slot. Isso pode acontecer com qualquer load factor, é inerente à compressão de um espaço grande de chaves em um espaço pequeno de slots.",
+            "e": "ERRADA. IV é verdadeira e existe — não é o caso de 'nenhuma das alternativas'.",
         },
     },
     "oficial_2025-1_q09": {
@@ -727,11 +729,11 @@ EXPL_2025_1: dict[str, ExplicacaoQuestao] = {
         "subtopicos": ["paradigma_oo", "encapsulamento_abstracao"],
         "dificuldade": "facil",
         "explicacoes": {
-            "a": "CORRETA. II (herança = reutilização), III (polimorfismo = mesma interface, implementações distintas) e IV (abstração = ocultar detalhes complexos, expor o essencial) são definições corretas. I é falsa.",
-            "b": "ERRADA. IV também é correta.",
-            "c": "ERRADA. I é falsa: encapsulamento RESTRINGE acesso direto, NÃO expõe irrestritamente.",
-            "d": "ERRADA. I é falsa (ver c).",
-            "e": "ERRADA. III e IV também são corretas.",
+            "a": "CORRETA. II (herança permite reutilização derivando classes), III (polimorfismo é mesma interface com implementações distintas) e IV (abstração é ocultar detalhes complexos, expondo só o essencial) são todas definições padrão da literatura de POO. A I é a única falsa, porque inverte o conceito de encapsulamento.",
+            "b": "ERRADA. Inclui IV mas exclui III. A afirmação III (sobre polimorfismo via override/overload) é uma definição completamente correta e padrão.",
+            "c": "ERRADA. Inclui I, que é a afirmação falsa do conjunto. O encapsulamento serve justamente para RESTRINGIR acesso direto aos atributos, não para expô-los irrestritamente — é o oposto do que I diz.",
+            "d": "ERRADA. Inclui I, que está incorreta (encapsulamento restringe, não expõe — mesma razão da alternativa c).",
+            "e": "ERRADA. Exclui IV (abstração), que é uma definição correta. A abstração de fato consiste em ocultar detalhes complexos e destacar o essencial.",
         },
     },
     "oficial_2025-1_q18": {
@@ -751,11 +753,11 @@ EXPL_2025_1: dict[str, ExplicacaoQuestao] = {
         "subtopicos": ["paradigma_oo", "heranca_polimorfismo"],
         "dificuldade": "medio",
         "explicacoes": {
-            "a": "CORRETA. Apenas I e III são verdadeiras. I: definição padrão de herança. III: subclasse pode estender com novos membros.",
-            "b": "ERRADA. II é falsa (ver c) e IV é falsa (ver c).",
-            "c": "ERRADA. IV é falsa porque Java NÃO permite herança múltipla de classes (apenas de interfaces); apenas C++ permite. A afirmação engloba ambas, tornando-se falsa.",
-            "d": "ERRADA. III também é correta (ver a).",
-            "e": "ERRADA. II é falsa: métodos privados NÃO são herdados nem sobrescritos pela subclasse — não fazem parte da interface herdada.",
+            "a": "CORRETA. Apenas I e III são verdadeiras. I é definição clássica de herança (subclasse reutiliza atributos/métodos da superclasse). III está correta porque, além de herdar, a subclasse pode adicionar atributos e métodos próprios — esse é justamente um dos motivos de usar herança em vez de instanciar a superclasse diretamente.",
+            "b": "ERRADA. Inclui II e IV, ambas falsas. II porque métodos privados NÃO são acessíveis (logo não sobrescrevíveis) pela subclasse. IV porque Java só permite herança múltipla de interfaces, não de classes.",
+            "c": "ERRADA. Inclui IV, que está incorreta. A afirmação IV diz que Java E C++ permitem herança múltipla diretamente — é parcialmente verdade (C++ permite, Java não), e como ela afirma 'ambas', está globalmente falsa.",
+            "d": "ERRADA. Exclui III, que é uma propriedade correta de herança (subclasse pode adicionar novos membros — é justamente o que torna a herança útil para especialização).",
+            "e": "ERRADA. Inclui II, que é falsa: em Java/C++ e na maioria das linguagens OO, métodos marcados como `private` na superclasse NÃO são visíveis na subclasse, portanto não podem ser sobrescritos. Só métodos `public` ou `protected` podem.",
         },
     },
     "oficial_2025-1_q20": {
@@ -799,6 +801,8 @@ def _aplicar(q_id: str, dados: ExplicacaoQuestao, bank) -> bool:
             q.subtopicos = list(dados["subtopicos"])
             q.dificuldade = Dificuldade(dados["dificuldade"])
             q.tem_imagem = bool(dados.get("tem_imagem", False))
+            if dados.get("enunciado"):
+                q.enunciado = dados["enunciado"]
             q.validacao = ValidacaoResult(
                 validado=True,
                 confianca=0.9,
