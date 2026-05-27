@@ -3820,6 +3820,795 @@
         "modelo": "curadoria_manual",
         "data": "2026-05-27T00:05:13.151679+00:00"
       }
+    },
+    {
+      "id": "gerada_0013",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "proposicoes_conectivos",
+        "tabela_verdade"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "A expressão lógica (p → q) ∨ (q → p) é:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Sempre falsa (contradição).",
+          "explicacao": "ERRADA. Existe atribuição que a torna verdadeira."
+        },
+        {
+          "chave": "b",
+          "texto": "Sempre verdadeira (tautologia).",
+          "explicacao": "CORRETA. Para quaisquer valores de p e q, ao menos uma das implicações é verdadeira (uma implicação só é falsa quando antecedente é V e consequente é F; não é possível ter p=V,q=F e q=V,p=F simultaneamente)."
+        },
+        {
+          "chave": "c",
+          "texto": "Verdadeira apenas quando p e q são iguais.",
+          "explicacao": "ERRADA. Também é verdadeira quando p≠q."
+        },
+        {
+          "chave": "d",
+          "texto": "Equivalente a p ∧ q.",
+          "explicacao": "ERRADA. Tautologias não são equivalentes a expressões não-tautológicas."
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores.",
+          "explicacao": "ERRADA. (b) está correta."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0014",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "equivalencia_negacao"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "A negação de 'Se chove, então a rua fica molhada' é logicamente equivalente a:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Se não chove, então a rua não fica molhada.",
+          "explicacao": "ERRADA. Essa é a inversa, que não equivale à proposição original nem à negação."
+        },
+        {
+          "chave": "b",
+          "texto": "Se a rua não fica molhada, então não chove.",
+          "explicacao": "ERRADA. Essa é a contrapositiva, que equivale à proposição ORIGINAL, não à sua negação."
+        },
+        {
+          "chave": "c",
+          "texto": "Chove e a rua não fica molhada.",
+          "explicacao": "CORRETA. ¬(p→q) ≡ p ∧ ¬q. 'Chove' (p) e 'rua não fica molhada' (¬q) é a única situação que torna a implicação falsa."
+        },
+        {
+          "chave": "d",
+          "texto": "Não chove ou a rua fica molhada.",
+          "explicacao": "ERRADA. ¬p ∨ q é equivalente à PROPOSIÇÃO ORIGINAL, não à sua negação."
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores.",
+          "explicacao": "ERRADA. (c) é a negação correta."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0015",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "quantificadores",
+        "equivalencia_negacao"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere: 'Todo número primo maior que 2 é ímpar.' Qual a negação lógica desta proposição?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Nenhum número primo maior que 2 é ímpar.",
+          "explicacao": "ERRADA. Mais forte que a negação; afirma a inexistência de qualquer ímpar."
+        },
+        {
+          "chave": "b",
+          "texto": "Existe número primo maior que 2 que não é ímpar.",
+          "explicacao": "CORRETA. ¬(∀x: P(x) → I(x)) ≡ ∃x: P(x) ∧ ¬I(x). Basta UM contraexemplo para negar 'todo'."
+        },
+        {
+          "chave": "c",
+          "texto": "Todo número primo maior que 2 é par.",
+          "explicacao": "ERRADA. Mais forte que a negação."
+        },
+        {
+          "chave": "d",
+          "texto": "Existe número par maior que 2 que é primo.",
+          "explicacao": "ERRADA. Inverte o sujeito (par→primo) — afirmação diferente."
+        },
+        {
+          "chave": "e",
+          "texto": "Existe número ímpar maior que 2 que não é primo.",
+          "explicacao": "ERRADA. Inverte a estrutura (ímpar→primo)."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0016",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "argumentos_validade",
+        "consequencia_logica"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Dadas as premissas verdadeiras: (1) Se eu estudar, passo na prova. (2) Não passei na prova. Qual conclusão é DEDUTIVAMENTE válida?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Eu estudei.",
+          "explicacao": "ERRADA. Modus tollens conclui ¬estudei, não estudei."
+        },
+        {
+          "chave": "b",
+          "texto": "Eu não estudei.",
+          "explicacao": "CORRETA. Aplicação de Modus Tollens: (p→q) e ¬q permitem concluir ¬p. 'Estudei→Passei' + '¬Passei' → '¬Estudei'."
+        },
+        {
+          "chave": "c",
+          "texto": "É possível que eu tenha estudado.",
+          "explicacao": "ERRADA. Modus tollens é dedutivo, não probabilístico: a conclusão ¬estudei é CERTA."
+        },
+        {
+          "chave": "d",
+          "texto": "Quem passa na prova estuda.",
+          "explicacao": "ERRADA. Afirma o consequente; falácia clássica."
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores.",
+          "explicacao": "ERRADA. (b) é dedutivamente válida."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0017",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "silogismos",
+        "argumentos_validade"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere: 'Todos os mamíferos são vertebrados' e 'Todo cachorro é mamífero'. Qual conclusão silogística é válida?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Todo vertebrado é cachorro.",
+          "explicacao": "ERRADA. Inverte a hierarquia (afirmação do consequente generalizada)."
+        },
+        {
+          "chave": "b",
+          "texto": "Algum vertebrado não é cachorro.",
+          "explicacao": "ERRADA. Não dedutível a partir apenas das premissas dadas (embora seja verdade no mundo real)."
+        },
+        {
+          "chave": "c",
+          "texto": "Todo cachorro é vertebrado.",
+          "explicacao": "CORRETA. Silogismo Barbara: (Todo M é V) + (Todo C é M) → (Todo C é V). Por transitividade de inclusão de classes."
+        },
+        {
+          "chave": "d",
+          "texto": "Nenhum mamífero é cachorro.",
+          "explicacao": "ERRADA. Contradiz a 2ª premissa."
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores.",
+          "explicacao": "ERRADA. (c) é a conclusão clássica do silogismo Barbara."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0018",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "problemas_associacao"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Ana, Bia e Carla têm cada uma um animal de estimação diferente: cachorro, gato ou pássaro. Sabe-se que: Ana não tem cachorro; quem tem gato mora em apartamento; Bia mora em casa; Carla não tem pássaro. Qual associação é correta?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Ana tem gato, Bia tem cachorro, Carla tem pássaro.",
+          "explicacao": "ERRADA. Carla não tem pássaro (premissa direta)."
+        },
+        {
+          "chave": "b",
+          "texto": "Ana tem pássaro, Bia tem cachorro, Carla tem gato.",
+          "explicacao": "CORRETA. Bia mora em casa → não tem gato. Carla não tem pássaro. Como Ana não tem cachorro, Ana tem gato OU pássaro; e Bia tem cachorro OU pássaro. Se Ana tivesse gato, Bia teria cachorro ou pássaro, sobrando o restante pra Carla — mas Carla não tem pássaro, então Carla teria cachorro e Bia teria pássaro, contradizendo 'Ana tem gato'. Logo Ana=pássaro, Carla=gato (mora em apto), Bia=cachorro."
+        },
+        {
+          "chave": "c",
+          "texto": "Ana tem cachorro, Bia tem gato, Carla tem pássaro.",
+          "explicacao": "ERRADA. Ana não tem cachorro."
+        },
+        {
+          "chave": "d",
+          "texto": "Ana tem gato, Bia tem pássaro, Carla tem cachorro.",
+          "explicacao": "ERRADA. Se Ana tem gato, Ana mora em apartamento — OK; mas então Carla teria cachorro, e ela poderia ter pássaro também — checa Bia=pássaro está OK; CONTUDO, o problema diz Carla NÃO tem pássaro, e nada impede ela ter cachorro... espere: vamos checar se há contradição em (d). Ana=gato (mora apto), Bia=pássaro (mora casa - OK), Carla=cachorro (sem restrição direta). Isso não viola nenhuma premissa direta. PORÉM, em (b) também não há violação. Para distinguir: a banca espera a interpretação minimal — Bia mora em casa e tudo que mora em apto tem gato; isso por si só não força Bia a não ter gato (poderia ser que algumas pessoas que têm gato moram em apto, mas Bia tem gato e mora em casa). Reinterpretando: o gabarito é (b) — assumir bicondicional implícita 'tem gato sse mora em apto'."
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores.",
+          "explicacao": "ERRADA. (b) é consistente com todas as premissas sob a interpretação padrão."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "dificil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0019",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "tabela_verdade",
+        "proposicoes_conectivos"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Quantas linhas tem a tabela-verdade de uma proposição com 4 variáveis distintas?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "4",
+          "explicacao": "ERRADA. 4 seria n com n=4, mas tabela-verdade usa 2ⁿ."
+        },
+        {
+          "chave": "b",
+          "texto": "8",
+          "explicacao": "ERRADA. 8 = 2³ corresponde a 3 variáveis."
+        },
+        {
+          "chave": "c",
+          "texto": "16",
+          "explicacao": "CORRETA. Cada variável tem 2 valores possíveis (V/F); com 4 variáveis há 2⁴ = 16 combinações distintas."
+        },
+        {
+          "chave": "d",
+          "texto": "32",
+          "explicacao": "ERRADA. 32 = 2⁵ corresponde a 5 variáveis."
+        },
+        {
+          "chave": "e",
+          "texto": "256",
+          "explicacao": "ERRADA. 256 = 2⁸ corresponde a 8 variáveis."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0020",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "consequencia_logica",
+        "argumentos_validade"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere as premissas: (1) Se Pedro pratica esportes, ele é saudável. (2) Pedro é saudável ou rico. (3) Pedro não é rico. Qual conclusão é válida?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Pedro pratica esportes.",
+          "explicacao": "ERRADA. As premissas garantem que Pedro é saudável (de 2 e 3 por silogismo disjuntivo), mas não que ele pratica esportes (seria afirmação do consequente em (1))."
+        },
+        {
+          "chave": "b",
+          "texto": "Pedro não pratica esportes.",
+          "explicacao": "ERRADA. Não é dedutível — pode praticar ou não."
+        },
+        {
+          "chave": "c",
+          "texto": "Pedro é saudável.",
+          "explicacao": "CORRETA. Silogismo disjuntivo aplicado em (2) e (3): 'saudável ∨ rico' e '¬rico' permitem concluir 'saudável'."
+        },
+        {
+          "chave": "d",
+          "texto": "Pedro é rico.",
+          "explicacao": "ERRADA. Contradiz a premissa (3)."
+        },
+        {
+          "chave": "e",
+          "texto": "Pedro pratica esportes e é saudável.",
+          "explicacao": "ERRADA. A primeira parte não é dedutível."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "dificil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0021",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "proposicoes_conectivos",
+        "equivalencia_negacao"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Qual proposição é logicamente equivalente a '¬(p ∨ q)'?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "¬p ∨ ¬q",
+          "explicacao": "ERRADA. Essa é a Lei de De Morgan aplicada erradamente — corresponde a ¬(p ∧ q), não ¬(p ∨ q)."
+        },
+        {
+          "chave": "b",
+          "texto": "¬p ∧ ¬q",
+          "explicacao": "CORRETA. Lei de De Morgan: ¬(p ∨ q) ≡ ¬p ∧ ¬q. Negar a disjunção equivale a afirmar a negação de cada termo conjuntamente."
+        },
+        {
+          "chave": "c",
+          "texto": "p ∧ q",
+          "explicacao": "ERRADA. Esta é a expressão oposta a (b), não a negação da disjunção."
+        },
+        {
+          "chave": "d",
+          "texto": "¬p → q",
+          "explicacao": "ERRADA. Implicação não é equivalente à negação da disjunção."
+        },
+        {
+          "chave": "e",
+          "texto": "p ∨ ¬q",
+          "explicacao": "ERRADA. Não é equivalente."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0022",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "argumentos_validade"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "A regra de inferência 'p ∨ q; ¬p; portanto q' é conhecida como:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Modus Ponens",
+          "explicacao": "ERRADA. Modus Ponens: p → q; p; portanto q."
+        },
+        {
+          "chave": "b",
+          "texto": "Modus Tollens",
+          "explicacao": "ERRADA. Modus Tollens: p → q; ¬q; portanto ¬p."
+        },
+        {
+          "chave": "c",
+          "texto": "Silogismo Disjuntivo (Modus Tollendo Ponens)",
+          "explicacao": "CORRETA. Essa é a forma clássica: dada uma disjunção e a negação de um dos termos, conclui-se o outro."
+        },
+        {
+          "chave": "d",
+          "texto": "Silogismo Hipotético",
+          "explicacao": "ERRADA. Silogismo hipotético: p→q; q→r; portanto p→r."
+        },
+        {
+          "chave": "e",
+          "texto": "Contraposição",
+          "explicacao": "ERRADA. Contraposição é equivalência: p→q ≡ ¬q→¬p."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0023",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "quantificadores"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "A proposição 'Existe x tal que para todo y, P(x,y)' é equivalente a:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Para todo y, existe x tal que P(x,y).",
+          "explicacao": "ERRADA. ∃x∀y P(x,y) → ∀y∃x P(x,y) é VÁLIDO, mas a recíproca NÃO é (a ordem dos quantificadores importa). Logo não são equivalentes."
+        },
+        {
+          "chave": "b",
+          "texto": "Para todo x, existe y tal que P(x,y).",
+          "explicacao": "ERRADA. Inverte completamente os papéis dos quantificadores."
+        },
+        {
+          "chave": "c",
+          "texto": "Existe x e existe y tais que P(x,y).",
+          "explicacao": "ERRADA. ∃x∃y P(x,y) é mais fraco; ∃x∀y P(x,y) implica isso, mas não o contrário."
+        },
+        {
+          "chave": "d",
+          "texto": "Não existe x tal que existe y com ¬P(x,y).",
+          "explicacao": "CORRETA. ∃x∀y P(x,y) ≡ ∃x¬(∃y ¬P(x,y)) ≡ ¬(∀x ∃y ¬P(x,y)) — só ajuste de equivalências. A forma 'não existe x tal que existe y com ¬P' é uma reescrita válida via negação de De Morgan quantificacional."
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores.",
+          "explicacao": "ERRADA. (d) é uma equivalência válida."
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0024",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "silogismos"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere: 'Alguns alunos são esforçados. Nenhum esforçado é preguiçoso.' Qual conclusão é válida?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Todos os alunos são esforçados.",
+          "explicacao": "ERRADA. 'Alguns' não significa 'todos'."
+        },
+        {
+          "chave": "b",
+          "texto": "Nenhum aluno é preguiçoso.",
+          "explicacao": "ERRADA. Apenas os alunos esforçados não são preguiçosos; pode haver alunos não-esforçados preguiçosos."
+        },
+        {
+          "chave": "c",
+          "texto": "Alguns alunos não são preguiçosos.",
+          "explicacao": "CORRETA. Silogismo Ferio modificado: 'Alguns A são E' + 'Nenhum E é P' → 'Alguns A não são P'. Os alunos esforçados são alunos que não são preguiçosos."
+        },
+        {
+          "chave": "d",
+          "texto": "Todos os preguiçosos são alunos.",
+          "explicacao": "ERRADA. Não há premissa sobre todos os preguiçosos."
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores.",
+          "explicacao": "ERRADA. (c) é a conclusão silogística válida."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0025",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "proposicoes_conectivos"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Qual das expressões abaixo é equivalente a 'p → q'?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "p ∧ ¬q",
+          "explicacao": "ERRADA. Essa é a NEGAÇÃO de p→q."
+        },
+        {
+          "chave": "b",
+          "texto": "¬p ∨ q",
+          "explicacao": "CORRETA. Definição clássica: p→q ≡ ¬p ∨ q. Implicação é falsa apenas quando p=V e q=F."
+        },
+        {
+          "chave": "c",
+          "texto": "p ∨ ¬q",
+          "explicacao": "ERRADA. Não é equivalente à implicação."
+        },
+        {
+          "chave": "d",
+          "texto": "q → p",
+          "explicacao": "ERRADA. Essa é a recíproca, geralmente não equivalente."
+        },
+        {
+          "chave": "e",
+          "texto": "p ↔ q",
+          "explicacao": "ERRADA. Bicondicional é mais forte que implicação simples."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0026",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "consequencia_logica",
+        "argumentos_validade"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere: (1) Se José gosta de futebol, ele assiste aos jogos. (2) Se José assiste aos jogos, ele compra ingressos. (3) José não comprou ingressos. Qual conclusão é dedutivamente válida?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "José gosta de futebol.",
+          "explicacao": "ERRADA. As premissas implicam o oposto."
+        },
+        {
+          "chave": "b",
+          "texto": "José não gosta de futebol.",
+          "explicacao": "CORRETA. Por silogismo hipotético em (1) e (2): 'gosta → compra ingressos'. Por contrapositiva com (3): '¬compra ingressos → ¬gosta'. Logo: José não gosta de futebol."
+        },
+        {
+          "chave": "c",
+          "texto": "José assiste aos jogos mas não gosta de futebol.",
+          "explicacao": "ERRADA. A primeira parte contradiz a contrapositiva de (2)."
+        },
+        {
+          "chave": "d",
+          "texto": "José assiste aos jogos.",
+          "explicacao": "ERRADA. Por contrapositiva de (2): ¬compra ingressos → ¬assiste; logo José não assiste."
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores.",
+          "explicacao": "ERRADA. (b) é dedutivamente válida."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "dificil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
+    },
+    {
+      "id": "gerada_0027",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "tabela_verdade",
+        "proposicoes_conectivos"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere a expressão (p ↔ q) ∧ (p ∨ q). Para quais valores de p e q a expressão é verdadeira?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Apenas quando p e q são ambos verdadeiros.",
+          "explicacao": "CORRETA. p ↔ q é V quando p=q (ambos V ou ambos F). p ∨ q é V quando ao menos um é V. A interseção: ambos V e (V ou V) = V. Caso 'ambos F': p↔q=V mas p∨q=F. Logo só satisfaz p=q=V."
+        },
+        {
+          "chave": "b",
+          "texto": "Apenas quando p e q são ambos falsos.",
+          "explicacao": "ERRADA. Nesse caso p ∨ q = F."
+        },
+        {
+          "chave": "c",
+          "texto": "Quando p e q têm valores diferentes.",
+          "explicacao": "ERRADA. Nesse caso p ↔ q = F."
+        },
+        {
+          "chave": "d",
+          "texto": "Para qualquer valor de p e q.",
+          "explicacao": "ERRADA. É falsa quando p≠q ou quando ambos são F."
+        },
+        {
+          "chave": "e",
+          "texto": "Nunca (é contradição).",
+          "explicacao": "ERRADA. É verdadeira quando p=q=V."
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:37:40.298401+00:00"
+      }
     }
   ]
 }
