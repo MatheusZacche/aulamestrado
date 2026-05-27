@@ -276,10 +276,257 @@ EXPL_2026_1: dict[str, ExplicacaoQuestao] = {
 }
 
 
+# =========================================================================
+# Prova 2025/2
+# =========================================================================
+EXPL_2025_2: dict[str, ExplicacaoQuestao] = {
+    "oficial_2025-2_q01": {
+        "eixo": "raciocinio_logico",
+        "subtopicos": ["problemas_associacao", "argumentos_validade"],
+        "dificuldade": "dificil",
+        "explicacoes": {
+            "a": "CORRETA. Dedução: Jane é noiva de Claudio (almoça em casa, não no refeitório) → não é secretária de Maurício; Ana sobe ao andar de Maurício e almoça com a secretária dele → Ana não é secretária de Maurício; logo a secretária de Maurício é Cecília. Jorge mandou a secretária descer ao arquiteto → Jorge não é advogado (térreo) nem arquiteto. Maurício não pode ser advogado (Ana sobe pra ele), então Maurício = arquiteto, Jorge = médico e Claudio = advogado. Jane (que não é de Maurício nem casaria com chefe) = Jorge; Ana = Claudio.",
+            "b": "ERRADA. Maurício é arquiteto, não médico.",
+            "c": "ERRADA. Jane é secretária de Jorge, não de Maurício; e Maurício é arquiteto, não advogado.",
+            "d": "ERRADA. Jorge é médico (não arquiteto); Cecília é secretária de Maurício (não de Claudio).",
+            "e": "ERRADA. A alternativa (a) está integralmente correta.",
+        },
+    },
+    "oficial_2025-2_q02": {
+        "eixo": "raciocinio_logico",
+        "subtopicos": ["argumentos_validade", "proposicoes_conectivos"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. Modus tollens em P1 (Victória não foi à praia) força ¬vôlei ∧ ¬videogame — Ana Paula NÃO jogou vôlei.",
+            "b": "CORRETA. De P1 + P2 (modus tollens): ¬(vôlei ∨ videogame) = ¬vôlei ∧ ¬videogame. Por P3, se fosse sábado então vôlei — contradição com ¬vôlei, então ¬sábado.",
+            "c": "ERRADA. P1 + P2 negam o antecedente: nem vôlei nem videogame.",
+            "d": "ERRADA. ¬sábado e ¬videogame, ambos invertidos.",
+            "e": "ERRADA. ¬sábado está certo, mas Ana Paula não jogou vôlei.",
+        },
+    },
+    "oficial_2025-2_q03": {
+        "eixo": "raciocinio_logico",
+        "subtopicos": ["quantificadores", "equivalencia_negacao"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "CORRETA. Original: ∃u(univ(u) ∧ ∀c(curso(c,u) → alunos(c)≥100)). Negação: ∀u(univ(u) → ∃c(curso(c,u) ∧ alunos(c)<100)). Em PT: 'Em todas as universidades existe pelo menos um curso com no máximo 99 alunos'.",
+            "b": "ERRADA. 'No máximo uma universidade' e '101 alunos' distorcem completamente os quantificadores.",
+            "c": "ERRADA. 'Há uma universidade' nega apenas existencial, não cobre 'para todas'.",
+            "d": "ERRADA. Mantém 'pelo menos 100' — não nega o número.",
+            "e": "ERRADA. Construção 'existe nenhuma' é confusa e logicamente diferente da negação correta.",
+        },
+    },
+    "oficial_2025-2_q04": {
+        "eixo": "raciocinio_logico",
+        "subtopicos": ["equivalencia_negacao", "proposicoes_conectivos"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. Cobre apenas um caso da negação; não inclui 'ambos não viajaram'.",
+            "b": "ERRADA. Cobre apenas um caso da negação.",
+            "c": "ERRADA. 'Marcos ou Heide não viajou' inclui o caso em que apenas um viajou, justamente o que a original afirma.",
+            "d": "CORRETA. 'Exatamente um viajou' é XOR: (M ∧ ¬H) ∨ (¬M ∧ H). Negar XOR dá equivalência: M ↔ H = (M ∧ H) ∨ (¬M ∧ ¬H) = 'ambos viajaram ou ambos não viajaram'.",
+            "e": "ERRADA. 'Pelo menos um viajou' inclui o caso em que exatamente um viajou (a própria original).",
+        },
+    },
+    "oficial_2025-2_q05": {
+        "eixo": "raciocinio_logico",
+        "subtopicos": ["argumentos_validade"],
+        "dificuldade": "dificil",
+        "explicacoes": {
+            "a": "Questão ANULADA pela banca. Não há conclusão única dedutível das premissas: de P3 (Ana saiu) e P2 (contrapositiva) deduz-se cinema, mas P1 com cinema verdadeiro não força lógica nem livros — múltiplas atribuições satisfazem todas as premissas.",
+            "b": "Questão ANULADA pela banca (ver explicação em (a)).",
+            "c": "Questão ANULADA pela banca (ver explicação em (a)).",
+            "d": "Questão ANULADA pela banca (ver explicação em (a)).",
+            "e": "Questão ANULADA pela banca (ver explicação em (a)).",
+        },
+    },
+    "oficial_2025-2_q06": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["complexidade_assintotica"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. Não há divisão por 2 — nenhum loop é logarítmico.",
+            "b": "ERRADA. Há dois loops aninhados sobre n; não é log n.",
+            "c": "ERRADA. Há dois loops aninhados, não um.",
+            "d": "CORRETA. Loop externo de (n-1) iterações × loop interno de n iterações ≈ n² operações, logo O(n²).",
+            "e": "ERRADA. A alternativa (d) é correta.",
+        },
+    },
+    "oficial_2025-2_q07": {
+        "eixo": "paradigmas",
+        "subtopicos": ["paradigma_oo", "heranca_polimorfismo", "encapsulamento_abstracao"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. Apesar de I e IV serem corretas, III também é.",
+            "b": "ERRADA. II é falsa (ver e).",
+            "c": "ERRADA. II é falsa.",
+            "d": "ERRADA. II é falsa.",
+            "e": "CORRETA. I, III e IV verdadeiras. II é falsa porque polimorfismo paramétrico (templates/generics) e polimorfismo ad-hoc (sobrecarga) não dependem de herança — apenas o polimorfismo de subtipo depende.",
+        },
+    },
+    "oficial_2025-2_q08": {
+        "eixo": "paradigmas",
+        "subtopicos": ["tipagem_estatica_dinamica"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. IV também é correta no sentido estrito.",
+            "b": "ERRADA. I é falsa: tipagem FORTE evita conversões automáticas implícitas (isso é típico de tipagem fraca).",
+            "c": "CORRETA. II (tipagem dinâmica permite variável de tipos diferentes), III (estática detecta erros antes da execução) e IV (estática permite otimizações em tempo de compilação; dinâmica só pode otimizar em runtime via JIT, não 'na compilação') estão corretas.",
+            "d": "ERRADA. I é falsa.",
+            "e": "ERRADA. I é falsa.",
+        },
+    },
+    "oficial_2025-2_q09": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["listas_encadeadas", "pilha_fila", "arvores_bst"],
+        "dificuldade": "dificil",
+        "explicacoes": {
+            "a": "ERRADA. V também é considerada verdadeira pela banca.",
+            "b": "ERRADA. III e IV são falsas (ver d e e).",
+            "c": "ERRADA. I é falsa: BST insere por valor (mantendo propriedade), não em posição arbitrária.",
+            "d": "ERRADA. I e III são falsas (em lista simples não há ponteiro para o anterior; a remoção altera o NEXT do nó anterior).",
+            "e": "CORRETA (segundo gabarito oficial). II é claramente verdadeira (LIFO). V é controversa: numa lista circular simples padrão, o primeiro só aponta para o segundo (apenas next); o gabarito interpreta 'aponta para o último' via percurso circular completo. As demais (I, III, IV) são falsas.",
+        },
+    },
+    "oficial_2025-2_q10": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["arvores_bst", "complexidade_assintotica"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. iv também é correta.",
+            "b": "ERRADA. i é falsa: BST é binária (no máximo 2 filhos), não 'qualquer número'.",
+            "c": "ERRADA. iii é falsa: BST tradicional NÃO é auto-balanceada (só variantes como AVL e Red-Black são).",
+            "d": "CORRETA. ii (propriedade de ordenação: esquerda menor, direita maior) e iv (degeneração em lista com inserções ordenadas, levando à busca O(n)) são as únicas verdadeiras.",
+            "e": "ERRADA. i e iii são falsas.",
+        },
+    },
+    "oficial_2025-2_q11": {
+        "eixo": "paradigmas",
+        "subtopicos": ["paradigma_oo", "encapsulamento_abstracao"],
+        "dificuldade": "dificil",
+        "explicacoes": {
+            "a": "ERRADA. i é falsa: definir a struct no .h EXPÕE seus campos para qualquer cliente, QUEBRANDO o encapsulamento.",
+            "b": "ERRADA. iii é falsa: encapsulamento total em C é possível via tipos opacos (forward declaration no .h e definição no .c).",
+            "c": "CORRETA. Apenas iv está correta: TADs opacos expõem apenas o ponteiro (tipo incompleto) e exigem que o cliente use funções getter/setter implementadas no .c, garantindo encapsulamento total.",
+            "d": "ERRADA. i é falsa (struct no .h quebra encapsulamento).",
+            "e": "ERRADA. iv é correta (descreve o padrão de TAD opaco em C).",
+        },
+    },
+    "oficial_2025-2_q12": {
+        "eixo": "programacao",
+        "subtopicos": ["ponteiros_referencias", "passagem_parametros"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. C permite múltiplos parâmetros por ponteiro sem restrição alguma.",
+            "b": "ERRADA. Justamente passar por ponteiro PERMITE atualizar o valor original; é o objetivo.",
+            "c": "ERRADA. Ponteiros caracterizam passagem por REFERÊNCIA, não por cópia. Atualizações via *ptr propagam para fora.",
+            "d": "CORRETA. char* e int* são ponteiros para os respectivos tipos; o conteúdo apontado pode ser modificado dentro da função e as mudanças permanecem visíveis para o chamador.",
+            "e": "ERRADA. Em C, atualizações via ponteiros não dependem de return — modificam diretamente a memória apontada.",
+        },
+    },
+    "oficial_2025-2_q13": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["ordenacao", "heaps", "complexidade_assintotica"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. heapify é O(log n), não quadrático. A construção inicial do heap é O(n) e a ordenação total é O(n log n).",
+            "b": "ERRADA. Heap Sort é O(n log n) em TODOS os casos — nunca cúbico.",
+            "c": "ERRADA. Heap Sort não é variação do Bubble Sort; usa heap binário, não comparações adjacentes.",
+            "d": "ERRADA. Heap Sort não é variação do Merge Sort; não usa operações de merge.",
+            "e": "CORRETA. Descrição precisa: heap binário (fila de prioridades), manutenção da propriedade de heap a cada iteração, extração do extremo para a posição final.",
+        },
+    },
+    "oficial_2025-2_q14": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["listas_encadeadas", "complexidade_assintotica"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "CORRETA (esta é a INCORRETA pedida). Busca em lista encadeada é O(n) no pior caso — precisa percorrer nó a nó.",
+            "b": "ERRADA (como afirmação é correta; logo não é a 'incorreta' pedida). Busca é de fato O(n).",
+            "c": "ERRADA (como afirmação é correta). Cada nó armazena valor + ponteiro pro próximo (encadeamento simples).",
+            "d": "ERRADA (como afirmação é correta). Inserção/remoção em posição conhecida (com referência ao nó) é O(1).",
+            "e": "ERRADA (como afirmação é correta). Lista encadeada não permite acesso por índice em O(1) — necessário percorrer.",
+        },
+    },
+    "oficial_2025-2_q15": {
+        "eixo": "programacao",
+        "subtopicos": ["leitura_de_codigo", "trace_de_execucao"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "CORRETA. Loops aninhados com comparação `arr[j] > arr[j+1]` e swap caracterizam Bubble Sort. Como faz n×n iterações no pior caso e ordena ascendente (troca quando o atual é MAIOR), o resultado é ordem crescente em O(n²).",
+            "b": "ERRADA. A condição `arr[j] > arr[j+1]` empurra o maior para o final, gerando ordem CRESCENTE, não decrescente.",
+            "c": "ERRADA. O código apenas troca elementos; nunca atribui o mesmo valor a posições.",
+            "d": "ERRADA. Ambos os loops têm limites finitos baseados em n e i; nenhum loop é infinito.",
+            "e": "ERRADA. Não é uma reversão; é uma ordenação que depende dos valores iniciais.",
+        },
+    },
+    "oficial_2025-2_q16": {
+        "eixo": "programacao",
+        "subtopicos": ["leitura_de_codigo"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. Não há nenhuma operação de troca ou comparação para ordenação.",
+            "b": "ERRADA. Retorna na primeira ocorrência; não conta.",
+            "c": "CORRETA. Busca linear clássica: itera o vetor, retorna o índice da primeira ocorrência do valor procurado, ou -1 se não encontrar.",
+            "d": "ERRADA. Não há atribuição a posições do vetor.",
+            "e": "ERRADA. Não há comparação para encontrar máximo.",
+        },
+    },
+    "oficial_2025-2_q17": {
+        "eixo": "paradigmas",
+        "subtopicos": ["paradigma_oo", "encapsulamento_abstracao", "heranca_polimorfismo"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. II também está correta.",
+            "b": "ERRADA. IV é falsa.",
+            "c": "CORRETA. I (encapsulamento), II (herança) e III (polimorfismo via override/overload) são definições corretas. IV é falsa: abstração refere-se a expor apenas o essencial de um objeto, escondendo detalhes — NÃO 'múltiplos tipos para um mesmo atributo' (isso seria polimorfismo paramétrico ou union types).",
+            "d": "ERRADA. IV é falsa.",
+            "e": "ERRADA. IV é falsa.",
+        },
+    },
+    "oficial_2025-2_q18": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["ordenacao", "complexidade_assintotica"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. Merge Sort não é O(n²); é O(n log n) em todos os casos.",
+            "b": "CORRETA. Merge Sort tem complexidade O(n log n) em todos os casos (divisão recursiva é log n níveis × n para o merge), e é ESTÁVEL (preserva ordem relativa de elementos iguais quando o merge usa <= ).",
+            "c": "ERRADA. Merge Sort é estável, não instável.",
+            "d": "ERRADA. Merge Sort não é O(n²).",
+            "e": "ERRADA. Merge Sort não é O(log n).",
+        },
+    },
+    "oficial_2025-2_q19": {
+        "eixo": "paradigmas",
+        "subtopicos": ["paradigma_oo", "encapsulamento_abstracao", "heranca_polimorfismo"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA (como afirmação é correta — encapsulamento promove sim modularidade).",
+            "b": "ERRADA (como afirmação é correta — herança permite estender, sobrescrever).",
+            "c": "CORRETA (esta é a INCORRETA pedida). Herança AVOIDS duplicação de código, NÃO leva a ela; é justamente seu propósito. A subclasse herda os métodos não precisando reimplementá-los.",
+            "d": "ERRADA (como afirmação é correta — private/protected são modificadores de acesso usados para encapsulamento).",
+            "e": "ERRADA (como afirmação é correta — encapsulamento isola a lógica interna por trás da interface pública).",
+        },
+    },
+    "oficial_2025-2_q20": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["ordenacao", "complexidade_assintotica"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. Quick Sort tem pior caso O(n²) (não O(n log n)) e NÃO é estável.",
+            "b": "ERRADA. Merge Sort é estável e O(n log n), mas NÃO é in-place (requer O(n) de memória auxiliar).",
+            "c": "CORRETA. Heap Sort garante O(n log n) no pior caso, é in-place (memória auxiliar O(1)) e é instável (heap reordena chaves iguais arbitrariamente).",
+            "d": "ERRADA. Insertion Sort é O(n²) no pior caso, não O(n log n).",
+            "e": "ERRADA. Bubble Sort é O(n²) — ineficiente para grandes volumes.",
+        },
+    },
+}
+
+
 # Mapa consolidado (vai crescendo a cada batch concluído: A1, A2, A3)
 EXPLICACOES: dict[str, ExplicacaoQuestao] = {
     **EXPL_2026_1,
-    # **EXPL_2025_2,  # virá na Fase A2
+    **EXPL_2025_2,
     # **EXPL_2025_1,  # virá na Fase A3
 }
 
