@@ -523,11 +523,258 @@ EXPL_2025_2: dict[str, ExplicacaoQuestao] = {
 }
 
 
+# =========================================================================
+# Prova 2025/1
+# =========================================================================
+EXPL_2025_1: dict[str, ExplicacaoQuestao] = {
+    "oficial_2025-1_q01": {
+        "eixo": "raciocinio_logico",
+        "subtopicos": ["quantificadores", "equivalencia_negacao"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. 'Algumas gostam de algumas' é muito mais fraco que o original ('uma gosta de todas').",
+            "b": "ERRADA. 'Existe criança que não gosta de nenhuma' é uma afirmação completamente diferente.",
+            "c": "CORRETA. Por dupla negação: original = ∃c ∀f gosta(c,f). Negação = ∀c ∃f ¬gosta. Negar de novo (¬¬) volta ao original. Em PT: 'Não é o caso que para toda criança há fruta que ela não gosta' = original.",
+            "d": "ERRADA. 'Algumas não gostam de todas' apenas afirma que existem crianças com pelo menos uma fruta que não gostam — não é equivalente.",
+            "e": "ERRADA. A alternativa (c) é equivalente correta.",
+        },
+    },
+    "oficial_2025-1_q02": {
+        "eixo": "raciocinio_logico",
+        "subtopicos": ["quantificadores", "argumentos_validade"],
+        "dificuldade": "dificil",
+        "explicacoes": {
+            "a": "ERRADA. Há sim produtor não-diretor (justamente a conclusão correta em e).",
+            "b": "ERRADA. Não temos prova de que todo produtor é diretor — pelo contrário.",
+            "c": "ERRADA. Não há informação que algum produtor seja diretor; podem ser conjuntos disjuntos.",
+            "d": "ERRADA. Não é dedutível: o ator que gosta de todos diretores pode não gostar de nenhum produtor.",
+            "e": "CORRETA. Seja A um ator que gosta de todos diretores (premissa 2). Pela premissa 1, A tem um produtor P que ele não gosta. Como A gosta de TODOS os diretores e NÃO gosta de P, então P não é diretor — logo existe produtor não-diretor.",
+        },
+    },
+    "oficial_2025-1_q03": {
+        "eixo": "raciocinio_logico",
+        "subtopicos": ["argumentos_validade", "problemas_associacao"],
+        "dificuldade": "dificil",
+        "explicacoes": {
+            "a": "ERRADA. Tom gosta de neve, e nenhum alpinista gosta de chuva — Tom gosta de chuva, logo Tom não é alpinista; Tom é esquiador (deve pertencer a pelo menos um grupo).",
+            "b": "ERRADA. Marcos não é esquiador (ver d).",
+            "c": "ERRADA. Tom gosta de chuva, e Marcos não gosta de nada que Tom gosta — logo Marcos NÃO gosta de chuva.",
+            "d": "CORRETA. Tom gosta de neve, Marcos NÃO gosta de neve (Tom→¬Marcos). Esquiadores gostam de neve, logo Marcos não é esquiador. Como Marcos é membro, ele deve ser alpinista. Logo Marcos é alpinista e não esquiador.",
+            "e": "ERRADA. A alternativa (d) é dedutível.",
+        },
+    },
+    "oficial_2025-1_q04": {
+        "eixo": "raciocinio_logico",
+        "subtopicos": ["argumentos_validade", "proposicoes_conectivos"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. Inverte a direção da implicação II — afirmação do consequente é falácia.",
+            "b": "CORRETA. Cadeia: calvo → (II) ¬tarrafa → (III) estressado → (contrapositiva de I) ¬rock. Conclusão: 'Pessoas calvas não cantam rock'.",
+            "c": "ERRADA. III diz ¬tarrafa → estressado; sua contrapositiva é ¬estressado → tarrafa, não 'tarrafa → ¬estressado'.",
+            "d": "ERRADA. Contrapositiva de I é 'estressado → ¬rock', não '¬rock → estressado'.",
+            "e": "ERRADA. A alternativa (b) é a consequência lógica direta.",
+        },
+    },
+    "oficial_2025-1_q05": {
+        "eixo": "raciocinio_logico",
+        "subtopicos": ["argumentos_validade", "proposicoes_conectivos"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. P2 afirma que Paulo FAZ cursos.",
+            "b": "CORRETA. P2 afirma 'trabalha duro' (conjunção). Por modus ponens em P1 ('trabalha duro → promoção'), conclui-se: Paulo conseguirá uma promoção.",
+            "c": "ERRADA. P1 + P2 implicam promoção, não sua negação.",
+            "d": "ERRADA. P1 + P2 garantem promoção, não sua negação.",
+            "e": "ERRADA. (b) é conclusão válida por modus ponens.",
+        },
+    },
+    "oficial_2025-1_q06": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["complexidade_assintotica"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "CORRETA. Loop externo: i começa em 1 e dobra (i=1,2,4,8,...,<n), executa log₂n iterações. Loop interno: n iterações. Total: n × log n = O(n log n).",
+            "b": "ERRADA. Há um loop interno linear; não pode ser só log n.",
+            "c": "ERRADA. Há multiplicação entre os loops (log n × n), não apenas n.",
+            "d": "ERRADA. Externo é log n (não n), então não é n². Confunde com a Q6 da prova 2025/2.",
+            "e": "ERRADA. Nada cúbico aqui.",
+        },
+    },
+    "oficial_2025-1_q07": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["pilha_fila"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "CORRETA. Trace: push(A)→[A]; push(B)→[A,B]; pop()→retorna B, pilha [A]; push(C)→[A,C]; pop()→retorna C. Removidos: B (na 3) e C (na 5).",
+            "b": "ERRADA. A nunca é removido nessa sequência (fica no fundo).",
+            "c": "ERRADA. Inverte ordem dos removidos.",
+            "d": "ERRADA. A não é removido.",
+            "e": "ERRADA. (a) está correta.",
+        },
+    },
+    "oficial_2025-1_q08": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["hash_tables"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. I e II são falsas (ver d).",
+            "b": "ERRADA. I e II são falsas.",
+            "c": "ERRADA. II e III são falsas.",
+            "d": "CORRETA. Apenas IV é verdadeira: a função hash pode mapear chaves DIFERENTES ao mesmo endereço (colisão) independentemente de a tabela estar cheia ou vazia. I, II e III confundem o propósito do tratamento de colisões.",
+            "e": "ERRADA. IV é verdadeira.",
+        },
+    },
+    "oficial_2025-1_q09": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["pilha_fila", "listas_encadeadas"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. Inclui afirmativa 3 como V, mas remoções em lista podem ser em qualquer posição.",
+            "b": "ERRADA. Inclui 4 como V, mas em encadeamento simples o primeiro só aponta para o segundo.",
+            "c": "CORRETA. Sequência V, F, F, F, V: pilha é LIFO (V); fila é FIFO (primeiro a entrar é primeiro a sair, NÃO último — F); remoções em lista também podem ser em qualquer posição (F); em lista circular simples primeiro só aponta para próximo, não para último (F); em lista DUPLAMENTE encadeada, remoção ajusta next do anterior e prev do próximo (V).",
+            "d": "ERRADA. Pilha é LIFO (primeira V), e fila é FIFO mas a frase exata inverte ('último a sair' está errado).",
+            "e": "ERRADA. Pilha é LIFO (primeira deve ser V).",
+        },
+    },
+    "oficial_2025-1_q10": {
+        "eixo": "paradigmas",
+        "subtopicos": ["tipagem_estatica_dinamica"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. I é falsa: verificação em tempo de compilação é geralmente MAIS eficiente (custo único antes da execução).",
+            "b": "CORRETA. Apenas III é verdadeira: compilador de linguagens estaticamente tipadas usa informações de tipo para otimizar; em linguagens dinâmicas o compilador não conhece os tipos em tempo de compilação.",
+            "c": "ERRADA. II é falsa: tipagem DINÂMICA verifica tipos em runtime, não em compilação.",
+            "d": "ERRADA. IV é falsa: permitir variável de tipos diferentes NÃO significa ausência de verificação — apenas que a verificação ocorre em runtime.",
+            "e": "ERRADA. III é verdadeira.",
+        },
+    },
+    "oficial_2025-1_q11": {
+        "eixo": "programacao",
+        "subtopicos": ["leitura_de_codigo", "trace_de_execucao"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. Em loop infinito, nada após o while é executado, mas durante o loop myCount imprime para sempre (não 10 vezes).",
+            "b": "ERRADA. myCount nunca é incrementado dentro do loop, então sempre imprime '1' (myCount=0, +1) — não 1 até 10.",
+            "c": "CORRETA. myCount permanece 0 (nunca incrementa). A condição 'myCount < 10' é sempre verdadeira, gerando loop infinito que imprime '1' indefinidamente. A linha após o while nunca é alcançada.",
+            "d": "ERRADA. O código imprime '1' (myCount+1 com myCount=0), não '0'.",
+            "e": "ERRADA. myCount nunca varia; nunca chega a imprimir 0 até 9.",
+        },
+    },
+    "oficial_2025-1_q12": {
+        "eixo": "programacao",
+        "subtopicos": ["leitura_de_codigo"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "CORRETA. Em cada iteração externa, encontra o MENOR elemento do subvetor [i..n] (loop interno linear) e troca com a posição i. É Selection Sort: ordena CRESCENTE em O(n²) total.",
+            "b": "ERRADA. A comparação 'arr[j] < arr[min_idx]' busca o MENOR, posicionando-o no início — ordem crescente.",
+            "c": "ERRADA. Loops aninhados sobre n dão O(n²), não O(n).",
+            "d": "ERRADA. Há trocas com base em comparações; não é cópia constante.",
+            "e": "ERRADA. Os loops têm limites bem definidos baseados em n e i.",
+        },
+    },
+    "oficial_2025-1_q13": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["arvores_bst"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. Árvore B é estrutura com múltiplas chaves por nó (usada em sistemas de arquivos); a figura não mostra essa característica.",
+            "b": "CORRETA. A figura mostra uma árvore binária de busca padrão: cada nó tem no máximo 2 filhos e respeita a propriedade de ordenação (esquerda < raiz < direita).",
+            "c": "ERRADA. Matriz de adjacência é representação tabular, não hierárquica.",
+            "d": "ERRADA. Lista encadeada é estrutura linear, não em forma de árvore.",
+            "e": "ERRADA. (b) descreve corretamente a figura.",
+        },
+    },
+    "oficial_2025-1_q14": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["complexidade_assintotica"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. Notação O ignora constantes — não 'O(100)' nem 'O(0.5)'.",
+            "b": "ERRADA. Alg3 tem termo dominante n³, não n².",
+            "c": "CORRETA. T1 domina n → O(n); T2 domina n² → O(n²); T3 domina n³ → O(n³). Termos de menor ordem são absorvidos.",
+            "d": "ERRADA. Alg2 é O(n²) e Alg3 é O(n³) — classes diferentes.",
+            "e": "ERRADA. Alg1 é O(n) e Alg2 é O(n²) — classes diferentes.",
+        },
+    },
+    "oficial_2025-1_q15": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["ordenacao", "complexidade_assintotica"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA. O Merge Sort recorre em AMBAS as metades (esquerda e direita).",
+            "b": "ERRADA. A ordem das chamadas é esquerda primeiro, depois direita — mas o resultado final é o vetor inteiro ordenado independentemente da ordem.",
+            "c": "ERRADA. Merge Sort é O(n log n) em todos os casos, nunca quadrático.",
+            "d": "CORRETA. O algoritmo descrito é o Merge Sort clássico: divide o vetor recursivamente em duas metades e funde (merge) cada par mantendo a ordem. Complexidade é O(n log n) sempre — pior, melhor e médio caso.",
+            "e": "ERRADA. Merge Sort não é exponencial; é O(n log n).",
+        },
+    },
+    "oficial_2025-1_q16": {
+        "eixo": "programacao",
+        "subtopicos": ["leitura_de_codigo"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. A função não conta 0; verifica se v[k] == x.",
+            "b": "ERRADA. Não há lógica de detectar vazios.",
+            "c": "ERRADA. Não há atribuição a v[k]; apenas leitura.",
+            "d": "ERRADA. Não há remoção; apenas busca.",
+            "e": "CORRETA. Busca linear de TRÁS para FRENTE: k começa em n-1 e decrementa enquanto v[k] != x e k>=0. Retorna o índice da primeira ocorrência (da direita para esquerda) ou -1 se não encontrar.",
+        },
+    },
+    "oficial_2025-1_q17": {
+        "eixo": "paradigmas",
+        "subtopicos": ["paradigma_oo", "encapsulamento_abstracao"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "CORRETA. II (herança = reutilização), III (polimorfismo = mesma interface, implementações distintas) e IV (abstração = ocultar detalhes complexos, expor o essencial) são definições corretas. I é falsa.",
+            "b": "ERRADA. IV também é correta.",
+            "c": "ERRADA. I é falsa: encapsulamento RESTRINGE acesso direto, NÃO expõe irrestritamente.",
+            "d": "ERRADA. I é falsa (ver c).",
+            "e": "ERRADA. III e IV também são corretas.",
+        },
+    },
+    "oficial_2025-1_q18": {
+        "eixo": "paradigmas",
+        "subtopicos": ["paradigma_oo", "encapsulamento_abstracao", "heranca_polimorfismo"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "ERRADA (como afirmação é correta — encapsulamento usa métodos para controlar acesso).",
+            "b": "CORRETA (esta é a INCORRETA pedida). Encapsulamento FACILITA a implementação de novas funcionalidades porque isola a lógica em módulos coesos — mudanças internas não propagam. A afirmação é o oposto da verdade.",
+            "c": "ERRADA (como afirmação é correta — polimorfismo via sobrescrita ou sobrecarga).",
+            "d": "ERRADA (como afirmação é correta — private impede modificação externa direta).",
+            "e": "ERRADA (como afirmação é correta — getters/setters são convenção padrão).",
+        },
+    },
+    "oficial_2025-1_q19": {
+        "eixo": "paradigmas",
+        "subtopicos": ["paradigma_oo", "heranca_polimorfismo"],
+        "dificuldade": "medio",
+        "explicacoes": {
+            "a": "CORRETA. Apenas I e III são verdadeiras. I: definição padrão de herança. III: subclasse pode estender com novos membros.",
+            "b": "ERRADA. II é falsa (ver c) e IV é falsa (ver c).",
+            "c": "ERRADA. IV é falsa porque Java NÃO permite herança múltipla de classes (apenas de interfaces); apenas C++ permite. A afirmação engloba ambas, tornando-se falsa.",
+            "d": "ERRADA. III também é correta (ver a).",
+            "e": "ERRADA. II é falsa: métodos privados NÃO são herdados nem sobrescritos pela subclasse — não fazem parte da interface herdada.",
+        },
+    },
+    "oficial_2025-1_q20": {
+        "eixo": "estruturas_dados",
+        "subtopicos": ["ordenacao", "complexidade_assintotica"],
+        "dificuldade": "facil",
+        "explicacoes": {
+            "a": "ERRADA. QuickSort é O(n²) no PIOR caso (pivô mal escolhido) — só é O(n log n) em média.",
+            "b": "ERRADA. SelectionSort é O(n²) sempre; QuickSort é O(n²) no pior.",
+            "c": "ERRADA. BubbleSort é O(n²); QuickSort é O(n²) no pior.",
+            "d": "CORRETA. Apenas MergeSort e HeapSort garantem O(n log n) no PIOR caso. QuickSort tem pior caso O(n²) mesmo com média O(n log n).",
+            "e": "ERRADA. SelectionSort é O(n²); QuickSort é O(n²) no pior.",
+        },
+    },
+}
+
+
 # Mapa consolidado (vai crescendo a cada batch concluído: A1, A2, A3)
 EXPLICACOES: dict[str, ExplicacaoQuestao] = {
     **EXPL_2026_1,
     **EXPL_2025_2,
-    # **EXPL_2025_1,  # virá na Fase A3
+    **EXPL_2025_1,
 }
 
 

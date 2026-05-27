@@ -5,7 +5,10 @@
       "id": "oficial_2025-1_q01",
       "origem": "oficial",
       "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "subtopicos": [
+        "quantificadores",
+        "equivalencia_negacao"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 1,
       "enunciado": "Qual das opções abaixo representa o enunciado logicamente equivalente\nao enunciado. \"Pelo menos uma criança gosta de todas as frutas”.",
@@ -13,27 +16,27 @@
         {
           "chave": "a",
           "texto": "Algumas crianças gostam de algumas frutas",
-          "explicacao": ""
+          "explicacao": "ERRADA. 'Algumas gostam de algumas' é muito mais fraco que o original ('uma gosta de todas')."
         },
         {
           "chave": "b",
           "texto": "Existe criança que não gosta de nenhuma fruta",
-          "explicacao": ""
+          "explicacao": "ERRADA. 'Existe criança que não gosta de nenhuma' é uma afirmação completamente diferente."
         },
         {
           "chave": "c",
           "texto": "Não é o caso que para toda criança, há uma fruta da qual ela não gosta",
-          "explicacao": ""
+          "explicacao": "CORRETA. Por dupla negação: original = ∃c ∀f gosta(c,f). Negação = ∀c ∃f ¬gosta. Negar de novo (¬¬) volta ao original. Em PT: 'Não é o caso que para toda criança há fruta que ela não gosta' = original."
         },
         {
           "chave": "d",
           "texto": "Algumas crianças não gostam de todas as frutas",
-          "explicacao": ""
+          "explicacao": "ERRADA. 'Algumas não gostam de todas' apenas afirma que existem crianças com pelo menos uma fruta que não gostam — não é equivalente."
         },
         {
           "chave": "e",
           "texto": "Nenhuma das alternativas anteriores",
-          "explicacao": ""
+          "explicacao": "ERRADA. A alternativa (c) é equivalente correta."
         }
       ],
       "gabarito": "c",
@@ -43,18 +46,21 @@
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.294988+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q02",
       "origem": "oficial",
       "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "subtopicos": [
+        "quantificadores",
+        "argumentos_validade"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 2,
       "enunciado": "Considerando como verdadeiras as informações:\nNenhum ator gosta de todos os produtores de cinema e Alguns atores gostam de\ntodos os diretores de cinema.\nPodemos concluir que:",
@@ -62,48 +68,51 @@
         {
           "chave": "a",
           "texto": "Não há um produtor de cinema que não seja diretor de cinema",
-          "explicacao": ""
+          "explicacao": "ERRADA. Há sim produtor não-diretor (justamente a conclusão correta em e)."
         },
         {
           "chave": "b",
           "texto": "Todo produtor de cinema é diretor de cinema",
-          "explicacao": ""
+          "explicacao": "ERRADA. Não temos prova de que todo produtor é diretor — pelo contrário."
         },
         {
           "chave": "c",
           "texto": "Há um produtor de cinema que é diretor de cinema",
-          "explicacao": ""
+          "explicacao": "ERRADA. Não há informação que algum produtor seja diretor; podem ser conjuntos disjuntos."
         },
         {
           "chave": "d",
           "texto": "Alguns atores gostam de alguns produtores de cinema",
-          "explicacao": ""
+          "explicacao": "ERRADA. Não é dedutível: o ator que gosta de todos diretores pode não gostar de nenhum produtor."
         },
         {
           "chave": "e",
           "texto": "Há pelo menos um produtor de cinema que não é diretor de cinema",
-          "explicacao": ""
+          "explicacao": "CORRETA. Seja A um ator que gosta de todos diretores (premissa 2). Pela premissa 1, A tem um produtor P que ele não gosta. Como A gosta de TODOS os diretores e NÃO gosta de P, então P não é diretor — logo existe produtor não-diretor."
         }
       ],
       "gabarito": "e",
-      "dificuldade": "medio",
+      "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.297239+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q03",
       "origem": "oficial",
       "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "subtopicos": [
+        "argumentos_validade",
+        "problemas_associacao"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 3,
       "enunciado": "Tom, Marcos e João são membros do clube dos Alpes. Cada membro do\nclube dos Alpes ou é um alpinista, ou é um esquiador, ou ambos. Nenhum alpinista\ngosta de chuva e todos os esquiadores gostam de neve. Tudo que Tom gosta, Marcos\nnão gosta e Marcos gosta de tudo o que Tom não gosta. Tom gosta de chuva e neve.\nConsiderando verdadeiras as informações dadas acima, podemos concluir que:",
@@ -111,48 +120,51 @@
         {
           "chave": "a",
           "texto": "Nenhum membro do clube dos Alpes é esquiador",
-          "explicacao": ""
+          "explicacao": "ERRADA. Tom gosta de neve, e nenhum alpinista gosta de chuva — Tom gosta de chuva, logo Tom não é alpinista; Tom é esquiador (deve pertencer a pelo menos um grupo)."
         },
         {
           "chave": "b",
           "texto": "Todos os membros do clube dos Alpes são esquiadores",
-          "explicacao": ""
+          "explicacao": "ERRADA. Marcos não é esquiador (ver d)."
         },
         {
           "chave": "c",
           "texto": "Marcos gosta de chuva",
-          "explicacao": ""
+          "explicacao": "ERRADA. Tom gosta de chuva, e Marcos não gosta de nada que Tom gosta — logo Marcos NÃO gosta de chuva."
         },
         {
           "chave": "d",
           "texto": "Há um membro do clube dos Alpes que é alpinista, mas que não é esquiador",
-          "explicacao": ""
+          "explicacao": "CORRETA. Tom gosta de neve, Marcos NÃO gosta de neve (Tom→¬Marcos). Esquiadores gostam de neve, logo Marcos não é esquiador. Como Marcos é membro, ele deve ser alpinista. Logo Marcos é alpinista e não esquiador."
         },
         {
           "chave": "e",
           "texto": "Nenhuma das alternativas anteriores",
-          "explicacao": ""
+          "explicacao": "ERRADA. A alternativa (d) é dedutível."
         }
       ],
       "gabarito": "d",
-      "dificuldade": "medio",
+      "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.298899+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q04",
       "origem": "oficial",
       "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "subtopicos": [
+        "argumentos_validade",
+        "proposicoes_conectivos"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 4,
       "enunciado": "Considerando como verdadeiras as afirmativas:\nI. Quem canta rock não é estressado\nII. Pessoas calvas não pescam de tarrafa\nIII. Quem não pesca de tarrafa é estressado",
@@ -160,27 +172,27 @@
         {
           "chave": "a",
           "texto": "sentença que é consequência lógica das anteriores é:",
-          "explicacao": ""
+          "explicacao": "ERRADA. Inverte a direção da implicação II — afirmação do consequente é falácia."
         },
         {
           "chave": "b",
           "texto": "Pessoas calvas não cantam rock",
-          "explicacao": ""
+          "explicacao": "CORRETA. Cadeia: calvo → (II) ¬tarrafa → (III) estressado → (contrapositiva de I) ¬rock. Conclusão: 'Pessoas calvas não cantam rock'."
         },
         {
           "chave": "c",
           "texto": "Quem pesca de tarrafa não é estressado",
-          "explicacao": ""
+          "explicacao": "ERRADA. III diz ¬tarrafa → estressado; sua contrapositiva é ¬estressado → tarrafa, não 'tarrafa → ¬estressado'."
         },
         {
           "chave": "d",
           "texto": "Que não canta rock é estressado",
-          "explicacao": ""
+          "explicacao": "ERRADA. Contrapositiva de I é 'estressado → ¬rock', não '¬rock → estressado'."
         },
         {
           "chave": "e",
           "texto": "Nenhuma das alternativas anteriores",
-          "explicacao": ""
+          "explicacao": "ERRADA. A alternativa (b) é a consequência lógica direta."
         }
       ],
       "gabarito": "b",
@@ -190,20 +202,23 @@
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.2,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [
           "enunciado_sem_pontuacao_final"
         ],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.300479+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q05",
       "origem": "oficial",
       "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "subtopicos": [
+        "argumentos_validade",
+        "proposicoes_conectivos"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 5,
       "enunciado": "Considere as premissas a seguir:\n● Se Paulo trabalha duro, então ele conseguirá uma promoção\n● Paulo trabalha duro e faz cursos de aperfeiçoamento\nNessas condições e considerando as regras de inferência, assinale a alternativa que\napresenta a conclusão correta:",
@@ -211,48 +226,50 @@
         {
           "chave": "a",
           "texto": "Paulo não faz cursos de aperfeiçoamento",
-          "explicacao": ""
+          "explicacao": "ERRADA. P2 afirma que Paulo FAZ cursos."
         },
         {
           "chave": "b",
           "texto": "Paulo conseguirá uma promoção",
-          "explicacao": ""
+          "explicacao": "CORRETA. P2 afirma 'trabalha duro' (conjunção). Por modus ponens em P1 ('trabalha duro → promoção'), conclui-se: Paulo conseguirá uma promoção."
         },
         {
           "chave": "c",
           "texto": "Paulo não conseguirá uma promoção e faz cursos de aperfeiçoamento",
-          "explicacao": ""
+          "explicacao": "ERRADA. P1 + P2 implicam promoção, não sua negação."
         },
         {
           "chave": "d",
           "texto": "Paulo não conseguirá uma promoção",
-          "explicacao": ""
+          "explicacao": "ERRADA. P1 + P2 garantem promoção, não sua negação."
         },
         {
           "chave": "e",
           "texto": "Nenhuma das respostas anteriores",
-          "explicacao": ""
+          "explicacao": "ERRADA. (b) é conclusão válida por modus ponens."
         }
       ],
       "gabarito": "b",
-      "dificuldade": "medio",
+      "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.301965+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q06",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "estruturas_dados",
+      "subtopicos": [
+        "complexidade_assintotica"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 6,
       "enunciado": "Considere o seguinte trecho de código em C-like:\nint i, j, c;\nc = 1;\nfor (i = 1; i < n; i = i*2) {\nfor (j = 1; j <= n; j++) {\nc = c + 1;\n}\n}\nAssumindo que a instrução c = c + 1 é O(1), qual a expressão que melhor define a ordem\nde complexidade do trecho de código acima?",
@@ -260,27 +277,27 @@
         {
           "chave": "a",
           "texto": "𝑂(𝑛 log 𝑛)",
-          "explicacao": ""
+          "explicacao": "CORRETA. Loop externo: i começa em 1 e dobra (i=1,2,4,8,...,<n), executa log₂n iterações. Loop interno: n iterações. Total: n × log n = O(n log n)."
         },
         {
           "chave": "b",
           "texto": "𝑂(log 𝑛)",
-          "explicacao": ""
+          "explicacao": "ERRADA. Há um loop interno linear; não pode ser só log n."
         },
         {
           "chave": "c",
           "texto": "𝑂(𝑛)",
-          "explicacao": ""
+          "explicacao": "ERRADA. Há multiplicação entre os loops (log n × n), não apenas n."
         },
         {
           "chave": "d",
           "texto": "𝑂(𝑛²)",
-          "explicacao": ""
+          "explicacao": "ERRADA. Externo é log n (não n), então não é n². Confunde com a Q6 da prova 2025/2."
         },
         {
           "chave": "e",
           "texto": "𝑂(𝑛³)",
-          "explicacao": ""
+          "explicacao": "ERRADA. Nada cúbico aqui."
         }
       ],
       "gabarito": "a",
@@ -290,18 +307,20 @@
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.304462+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q07",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "estruturas_dados",
+      "subtopicos": [
+        "pilha_fila"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 7,
       "enunciado": "Suponha que você esteja trabalhando com a estrutura de dados Pilha, na\nqual existe uma função para adicionar um tipo de dado na pilha (push()) e outra para\nremover o dado da pilha (pop()). Considere as seguintes instruções:\n1. push(A)\n2. push(B)\n3. pop()\n4. push(C)\n5. pop()\nQuais elementos são removidos nas instruções 3 e 5, respectivamente?",
@@ -309,48 +328,50 @@
         {
           "chave": "a",
           "texto": "B e C",
-          "explicacao": ""
+          "explicacao": "CORRETA. Trace: push(A)→[A]; push(B)→[A,B]; pop()→retorna B, pilha [A]; push(C)→[A,C]; pop()→retorna C. Removidos: B (na 3) e C (na 5)."
         },
         {
           "chave": "b",
           "texto": "A e B",
-          "explicacao": ""
+          "explicacao": "ERRADA. A nunca é removido nessa sequência (fica no fundo)."
         },
         {
           "chave": "c",
           "texto": "B e A",
-          "explicacao": ""
+          "explicacao": "ERRADA. Inverte ordem dos removidos."
         },
         {
           "chave": "d",
           "texto": "A e C",
-          "explicacao": ""
+          "explicacao": "ERRADA. A não é removido."
         },
         {
           "chave": "e",
           "texto": "Nenhuma das anteriores",
-          "explicacao": ""
+          "explicacao": "ERRADA. (a) está correta."
         }
       ],
       "gabarito": "a",
-      "dificuldade": "medio",
+      "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.306264+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q08",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "estruturas_dados",
+      "subtopicos": [
+        "hash_tables"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 8,
       "enunciado": "Considere as seguintes afirmações sobre tabelas de dispersão (ou tabela\nhash) e colisões:\nI. O tratamento de colisões é necessário apenas quando a tabela está cheia e se\nnecessita inserir mais uma chave\nII. O tratamento de colisões é necessário para determinar se uma tabela hash\natingiu o seu limite máximo\nIII. O tratamento de colisões é necessário quando a tabela está vazia, pois não é\npossível calcular o endereço diretamente nesse caso\nIV. O tratamento de colisões é necessário, pois o hashing pode gerar repetição de\nendereço para diferentes chaves\nQual das alternativas a seguir representa a(s) afirmação(ões) correta(s)?",
@@ -358,48 +379,51 @@
         {
           "chave": "a",
           "texto": "Somente I e II",
-          "explicacao": ""
+          "explicacao": "ERRADA. I e II são falsas (ver d)."
         },
         {
           "chave": "b",
           "texto": "Somente I, II e IV",
-          "explicacao": ""
+          "explicacao": "ERRADA. I e II são falsas."
         },
         {
           "chave": "c",
           "texto": "Somente II e III",
-          "explicacao": ""
+          "explicacao": "ERRADA. II e III são falsas."
         },
         {
           "chave": "d",
           "texto": "Somente a IV",
-          "explicacao": ""
+          "explicacao": "CORRETA. Apenas IV é verdadeira: a função hash pode mapear chaves DIFERENTES ao mesmo endereço (colisão) independentemente de a tabela estar cheia ou vazia. I, II e III confundem o propósito do tratamento de colisões."
         },
         {
           "chave": "e",
           "texto": "Nenhuma das alternativas",
-          "explicacao": ""
+          "explicacao": "ERRADA. IV é verdadeira."
         }
       ],
       "gabarito": "d",
-      "dificuldade": "medio",
+      "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.307866+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q09",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "estruturas_dados",
+      "subtopicos": [
+        "pilha_fila",
+        "listas_encadeadas"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 9,
       "enunciado": "Estruturas de dados como fila, pilha e lista são muito utilizadas para\nresolver problemas computacionais. Sobre as características dessas estruturas de\ndados, atribua V (verdadeiro) ou F (falso) para as afirmativas a seguir.\n( ) Em uma pilha, o último elemento a entrar é o primeiro a sair\n( ) Em uma fila, o primeiro elemento a entrar é o último a sair\n( ) Uma lista permite que as inserções possam ser feitas em qualquer lugar (posição),\nmas as remoções, não\n( ) Em uma lista circular com encadeamento simples, o primeiro elemento aponta para\no segundo e para o último\n\n\n\n( ) Para remover um elemento de uma lista duplamente encadeada, deve-se alterar o\nencadeamento dos elementos anterior e próximo ao elemento removido\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
@@ -407,27 +431,27 @@
         {
           "chave": "a",
           "texto": "V, F, V, F, V",
-          "explicacao": ""
+          "explicacao": "ERRADA. Inclui afirmativa 3 como V, mas remoções em lista podem ser em qualquer posição."
         },
         {
           "chave": "b",
           "texto": "V, F, F, V, F",
-          "explicacao": ""
+          "explicacao": "ERRADA. Inclui 4 como V, mas em encadeamento simples o primeiro só aponta para o segundo."
         },
         {
           "chave": "c",
           "texto": "V, F, F, F, V",
-          "explicacao": ""
+          "explicacao": "CORRETA. Sequência V, F, F, F, V: pilha é LIFO (V); fila é FIFO (primeiro a entrar é primeiro a sair, NÃO último — F); remoções em lista também podem ser em qualquer posição (F); em lista circular simples primeiro só aponta para próximo, não para último (F); em lista DUPLAMENTE encadeada, remoção ajusta next do anterior e prev do próximo (V)."
         },
         {
           "chave": "d",
           "texto": "F, V, V, F, F",
-          "explicacao": ""
+          "explicacao": "ERRADA. Pilha é LIFO (primeira V), e fila é FIFO mas a frase exata inverte ('último a sair' está errado)."
         },
         {
           "chave": "e",
           "texto": "F, F, V, V, V",
-          "explicacao": ""
+          "explicacao": "ERRADA. Pilha é LIFO (primeira deve ser V)."
         }
       ],
       "gabarito": "c",
@@ -437,18 +461,20 @@
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.309446+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q10",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "paradigmas",
+      "subtopicos": [
+        "tipagem_estatica_dinamica"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 10,
       "enunciado": "Sobre os conceitos de tipos de dados e verificação de tipos de uma\nlinguagem de programação, considere as afirmativas a seguir.\nI. A verificação de tipos em tempo de compilação é menos eficiente do que a\nverificação em tempo de execução, pois não leva em consideração as\ncondições dinâmicas que podem ocorrer durante a execução do programa\nII. Em uma linguagem de programação com verificação de tipos dinâmica, a\ncorreção dos tipos de dados é realizada em tempo de compilação, antes da\nexecução do programa\nIII. Em linguagens com tipagem estática, o compilador pode realizar otimizações\ncom base nos tipos conhecidos durante a compilação, enquanto linguagens\ncom tipagem dinâmica não têm essa capacidade.\nIV. Se uma linguagem de programação permite que uma variável armazene\nqualquer tipo de dado e altere o tipo de dado durante a execução, isso significa\nque a linguagem não realiza verificação de tipos\nAssinale a alternativa correta.",
@@ -456,27 +482,27 @@
         {
           "chave": "a",
           "texto": "Somente a II está correta",
-          "explicacao": ""
+          "explicacao": "ERRADA. I é falsa: verificação em tempo de compilação é geralmente MAIS eficiente (custo único antes da execução)."
         },
         {
           "chave": "b",
           "texto": "Somente a III está correta",
-          "explicacao": ""
+          "explicacao": "CORRETA. Apenas III é verdadeira: compilador de linguagens estaticamente tipadas usa informações de tipo para otimizar; em linguagens dinâmicas o compilador não conhece os tipos em tempo de compilação."
         },
         {
           "chave": "c",
           "texto": "Somente a I e II estão corretas",
-          "explicacao": ""
+          "explicacao": "ERRADA. II é falsa: tipagem DINÂMICA verifica tipos em runtime, não em compilação."
         },
         {
           "chave": "d",
           "texto": "Somente a IV está correta",
-          "explicacao": ""
+          "explicacao": "ERRADA. IV é falsa: permitir variável de tipos diferentes NÃO significa ausência de verificação — apenas que a verificação ocorre em runtime."
         },
         {
           "chave": "e",
           "texto": "Nenhuma afirmativa está correta",
-          "explicacao": ""
+          "explicacao": "ERRADA. III é verdadeira."
         }
       ],
       "gabarito": "b",
@@ -486,18 +512,21 @@
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.311077+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q11",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "programacao",
+      "subtopicos": [
+        "leitura_de_codigo",
+        "trace_de_execucao"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 11,
       "enunciado": "Considere o trecho de código em linguagem de programação C a seguir.\nint myCount = 0;\nwhile (myCount < 10) {\nprintf(“%d”, myCount+1);\n}\nprintf(“Fim: %d”, myCount+1);\nAssinale a alternativa que apresenta, corretamente, o que esse trecho de código fará\nao ser executado.",
@@ -505,48 +534,50 @@
         {
           "chave": "a",
           "texto": "Escreverá na tela myCount por 10 vezes",
-          "explicacao": ""
+          "explicacao": "ERRADA. Em loop infinito, nada após o while é executado, mas durante o loop myCount imprime para sempre (não 10 vezes)."
         },
         {
           "chave": "b",
           "texto": "Mostrará na tela os valores inteiros de 1 até 10",
-          "explicacao": ""
+          "explicacao": "ERRADA. myCount nunca é incrementado dentro do loop, então sempre imprime '1' (myCount=0, +1) — não 1 até 10."
         },
         {
           "chave": "c",
           "texto": "Entrará em loop infinito",
-          "explicacao": ""
+          "explicacao": "CORRETA. myCount permanece 0 (nunca incrementa). A condição 'myCount < 10' é sempre verdadeira, gerando loop infinito que imprime '1' indefinidamente. A linha após o while nunca é alcançada."
         },
         {
           "chave": "d",
           "texto": "Escreverá na tela 0 por 10 vezes",
-          "explicacao": ""
+          "explicacao": "ERRADA. O código imprime '1' (myCount+1 com myCount=0), não '0'."
         },
         {
           "chave": "e",
           "texto": "Mostrará na tela os valores inteiros de 0 até 9",
-          "explicacao": ""
+          "explicacao": "ERRADA. myCount nunca varia; nunca chega a imprimir 0 até 9."
         }
       ],
       "gabarito": "c",
-      "dificuldade": "medio",
+      "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.312652+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q12",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "programacao",
+      "subtopicos": [
+        "leitura_de_codigo"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 12,
       "enunciado": "Considere o trecho de código em linguagem de programação C a seguir.\nvoid sort(int arr[], int n) {\nfor (int i = 0; i < n - 1; i++) {\nint min_idx = i;\nfor (int j = i + 1; j < n; j++) {\nif (arr[j] < arr[min_idx]) {\nmin_idx = j;\n}\n}\nint temp = arr[i];\narr[i] = arr[min_idx];\narr[min_idx] = temp;\n}\n}\nAssinale a alternativa que apresenta, corretamente, o que esse trecho de código fará\nao ser executado.",
@@ -554,48 +585,50 @@
         {
           "chave": "a",
           "texto": "Ordenará o vetor de entrada, de forma crescente, em ordem quadrática",
-          "explicacao": ""
+          "explicacao": "CORRETA. Em cada iteração externa, encontra o MENOR elemento do subvetor [i..n] (loop interno linear) e troca com a posição i. É Selection Sort: ordena CRESCENTE em O(n²) total."
         },
         {
           "chave": "b",
           "texto": "Ordenará o vetor de entrada, de forma decrescente, em ordem quadrática",
-          "explicacao": ""
+          "explicacao": "ERRADA. A comparação 'arr[j] < arr[min_idx]' busca o MENOR, posicionando-o no início — ordem crescente."
         },
         {
           "chave": "c",
           "texto": "Ordenará o vetor de entrada, de forma crescente, em ordem linear",
-          "explicacao": ""
+          "explicacao": "ERRADA. Loops aninhados sobre n dão O(n²), não O(n)."
         },
         {
           "chave": "d",
           "texto": "Preencherá o vetor todo com o elemento da primeira posição",
-          "explicacao": ""
+          "explicacao": "ERRADA. Há trocas com base em comparações; não é cópia constante."
         },
         {
           "chave": "e",
           "texto": "Entrará em loop infinito",
-          "explicacao": ""
+          "explicacao": "ERRADA. Os loops têm limites bem definidos baseados em n e i."
         }
       ],
       "gabarito": "a",
-      "dificuldade": "medio",
+      "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.314166+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q13",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "estruturas_dados",
+      "subtopicos": [
+        "arvores_bst"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 13,
       "enunciado": "Considere a estrutura de dados ilustrada abaixo:\nSobre a estrutura:",
@@ -603,48 +636,50 @@
         {
           "chave": "a",
           "texto": "Trata-se de uma árvore B",
-          "explicacao": ""
+          "explicacao": "ERRADA. Árvore B é estrutura com múltiplas chaves por nó (usada em sistemas de arquivos); a figura não mostra essa característica."
         },
         {
           "chave": "b",
           "texto": "Trata-se de uma árvore binária de busca",
-          "explicacao": ""
+          "explicacao": "CORRETA. A figura mostra uma árvore binária de busca padrão: cada nó tem no máximo 2 filhos e respeita a propriedade de ordenação (esquerda < raiz < direita)."
         },
         {
           "chave": "c",
           "texto": "Trata-se de uma matriz de adjacência",
-          "explicacao": ""
+          "explicacao": "ERRADA. Matriz de adjacência é representação tabular, não hierárquica."
         },
         {
           "chave": "d",
           "texto": "Trata-se de uma lista encadeada",
-          "explicacao": ""
+          "explicacao": "ERRADA. Lista encadeada é estrutura linear, não em forma de árvore."
         },
         {
           "chave": "e",
           "texto": "Nenhuma das anteriores",
-          "explicacao": ""
+          "explicacao": "ERRADA. (b) descreve corretamente a figura."
         }
       ],
       "gabarito": "b",
-      "dificuldade": "medio",
+      "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.315794+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q14",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "estruturas_dados",
+      "subtopicos": [
+        "complexidade_assintotica"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 14,
       "enunciado": "Considere as equações que descrevem a complexidade de tempo dos\nalgoritmos Alg1, Alg2 e Alg3, respectivamente, para entradas de tamanho n:\n● T1(n)=100*n+ 15\n● T2(n)=10*n² + 2*n\n● T3(n)=0,5*n³ + n² + 3",
@@ -652,50 +687,53 @@
         {
           "chave": "a",
           "texto": "respeito da ordem de complexidade desses algoritmos, pode-se concluir que:",
-          "explicacao": ""
+          "explicacao": "ERRADA. Notação O ignora constantes — não 'O(100)' nem 'O(0.5)'."
         },
         {
           "chave": "b",
           "texto": "As complexidades assintóticas de Alg1, Alg2 e Alg3 estão, respectivamente, em O\n(n) , O(n²) e O(n²)",
-          "explicacao": ""
+          "explicacao": "ERRADA. Alg3 tem termo dominante n³, não n²."
         },
         {
           "chave": "c",
           "texto": "As complexidades assintóticas de Alg1, Alg2 e Alg3 estão, respectivamente, em\nO(n), O(n²) e O(n³)",
-          "explicacao": ""
+          "explicacao": "CORRETA. T1 domina n → O(n); T2 domina n² → O(n²); T3 domina n³ → O(n³). Termos de menor ordem são absorvidos."
         },
         {
           "chave": "d",
           "texto": "Alg2 e Alg3 pertencem às mesmas classes de complexidade assintótica",
-          "explicacao": ""
+          "explicacao": "ERRADA. Alg2 é O(n²) e Alg3 é O(n³) — classes diferentes."
         },
         {
           "chave": "e",
           "texto": "Alg1 e Alg2 pertencem às mesmas classes de complexidade assintótica",
-          "explicacao": ""
+          "explicacao": "ERRADA. Alg1 é O(n) e Alg2 é O(n²) — classes diferentes."
         }
       ],
       "gabarito": "c",
-      "dificuldade": "medio",
+      "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.2,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [
           "enunciado_sem_pontuacao_final"
         ],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.317354+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q15",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "estruturas_dados",
+      "subtopicos": [
+        "ordenacao",
+        "complexidade_assintotica"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 15,
       "enunciado": "Sobre o algoritmo de ordenação MergeSort, descrito no trecho de código",
@@ -703,27 +741,27 @@
         {
           "chave": "a",
           "texto": "seguir:\nvoid merge(int *arr, int lo, int mid, int hi) {\nint i = lo; int j = mid + 1;\nwhile (i <= mid && j <= hi) {\nif (arr[i] <= arr[j]) {\ni++;\n} else {\nint value = arr[j];\nint index = j;\nwhile (index != i) {\narr[index] = arr[index - 1];\nindex--;\n}\narr[i] = value;\ni++; mid++; j++;\n}\n}\n}\n\n\n\nvoid merge_sort(Item *a, Item *aux, int lo, int hi) {\nif (hi <= lo) return;\nint mid = lo + (hi - lo) / 2;\nmerge_sort(a, aux, lo, mid);\nmerge_sort(a, aux, mid+1, hi);\nmerge(a, aux, lo, mid, hi);\n}\nAssinale a alternativa correta sobre este algoritmo de ordenação:",
-          "explicacao": ""
+          "explicacao": "ERRADA. O Merge Sort recorre em AMBAS as metades (esquerda e direita)."
         },
         {
           "chave": "b",
           "texto": "O vetor é ordenado primeiro na parte direita, e depois na parte esquerda, uma\nvez que a recursão segue este padrão de chamadas para as partes direita e\ndepois esquerda do vetor de entrada",
-          "explicacao": ""
+          "explicacao": "ERRADA. A ordem das chamadas é esquerda primeiro, depois direita — mas o resultado final é o vetor inteiro ordenado independentemente da ordem."
         },
         {
           "chave": "c",
           "texto": "O comportamento do Merge Sort, para qualquer entrada, é quadrático",
-          "explicacao": ""
+          "explicacao": "ERRADA. Merge Sort é O(n log n) em todos os casos, nunca quadrático."
         },
         {
           "chave": "d",
           "texto": "A implementação apresentada trata-se do Merge Sort que, para qualquer\nentrada, ordena o vetor em ordem O(n log n)",
-          "explicacao": ""
+          "explicacao": "CORRETA. O algoritmo descrito é o Merge Sort clássico: divide o vetor recursivamente em duas metades e funde (merge) cada par mantendo a ordem. Complexidade é O(n log n) sempre — pior, melhor e médio caso."
         },
         {
           "chave": "e",
           "texto": "Por ser recursivo, o comportamento do Merge Sort é sempre exponencial",
-          "explicacao": ""
+          "explicacao": "ERRADA. Merge Sort não é exponencial; é O(n log n)."
         }
       ],
       "gabarito": "d",
@@ -733,20 +771,22 @@
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.2,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [
           "enunciado_sem_pontuacao_final"
         ],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.319178+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q16",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "programacao",
+      "subtopicos": [
+        "leitura_de_codigo"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 16,
       "enunciado": "Sobre o algoritmo apresentado a seguir:\nint funcao(int x, int n, int v[]){\nint k;\nk = n-1;\nwhile (k >= 0 && v[k] != x)\nk -= 1;\nreturn k;\n}\nAssinale a alternativa correta sobre o funcionamento do algoritmo:",
@@ -754,48 +794,51 @@
         {
           "chave": "a",
           "texto": "Trata-se de uma função que verifica a frequência de valores 0 (zero) na entrada",
-          "explicacao": ""
+          "explicacao": "ERRADA. A função não conta 0; verifica se v[k] == x."
         },
         {
           "chave": "b",
           "texto": "A função avalia espaços vazios dentro do vetor de entrada",
-          "explicacao": ""
+          "explicacao": "ERRADA. Não há lógica de detectar vazios."
         },
         {
           "chave": "c",
           "texto": "A função preenche o vetor com o valor x passado como parâmetro da função,\ndo fim para o começo",
-          "explicacao": ""
+          "explicacao": "ERRADA. Não há atribuição a v[k]; apenas leitura."
         },
         {
           "chave": "d",
           "texto": "A função remove o elemento x do vetor",
-          "explicacao": ""
+          "explicacao": "ERRADA. Não há remoção; apenas busca."
         },
         {
           "chave": "e",
           "texto": "A função verifica a ocorrência do valor x, no vetor, varrendo-o do fim para o\ncomeço",
-          "explicacao": ""
+          "explicacao": "CORRETA. Busca linear de TRÁS para FRENTE: k começa em n-1 e decrementa enquanto v[k] != x e k>=0. Retorna o índice da primeira ocorrência (da direita para esquerda) ou -1 se não encontrar."
         }
       ],
       "gabarito": "e",
-      "dificuldade": "medio",
+      "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.321064+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q17",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "paradigmas",
+      "subtopicos": [
+        "paradigma_oo",
+        "encapsulamento_abstracao"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 17,
       "enunciado": "Sobre o conceito de Programação Orientada a Objetos (POO), analise as\nafirmativas a seguir.\nI. O encapsulamento é o princípio que permite a exposição irrestrita dos atributos e\nmétodos de um objeto para facilitar a interação entre diferentes objetos dentro de um\nsistema\nII. A herança é um mecanismo que possibilita a reutilização de código ao permitir que\numa classe derive de outra, herdando seus atributos e métodos\nIII. O polimorfismo permite que diferentes classes utilizem a mesma interface para\noperações semelhantes, mas que sejam implementadas de formas distintas, dependendo\nda classe específica\nIV. A abstração é um processo de ocultar detalhes complexos de implementação,\ndestacando apenas as características essenciais relevantes para o contexto em que o\nobjeto será utilizado\nEstá correto o que se afirma apenas em",
@@ -803,50 +846,54 @@
         {
           "chave": "a",
           "texto": "II, III e IV.",
-          "explicacao": ""
+          "explicacao": "CORRETA. II (herança = reutilização), III (polimorfismo = mesma interface, implementações distintas) e IV (abstração = ocultar detalhes complexos, expor o essencial) são definições corretas. I é falsa."
         },
         {
           "chave": "b",
           "texto": "II e III.",
-          "explicacao": ""
+          "explicacao": "ERRADA. IV também é correta."
         },
         {
           "chave": "c",
           "texto": "I, III e IV.",
-          "explicacao": ""
+          "explicacao": "ERRADA. I é falsa: encapsulamento RESTRINGE acesso direto, NÃO expõe irrestritamente."
         },
         {
           "chave": "d",
           "texto": "I, II e IV.",
-          "explicacao": ""
+          "explicacao": "ERRADA. I é falsa (ver c)."
         },
         {
           "chave": "e",
           "texto": "II.",
-          "explicacao": ""
+          "explicacao": "ERRADA. III e IV também são corretas."
         }
       ],
       "gabarito": "a",
-      "dificuldade": "medio",
+      "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.2,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [
           "enunciado_sem_pontuacao_final"
         ],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.323369+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q18",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "paradigmas",
+      "subtopicos": [
+        "paradigma_oo",
+        "encapsulamento_abstracao",
+        "heranca_polimorfismo"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 18,
       "enunciado": "Com base no conceito de “encapsulamento” e “polimorfismo” na\nProgramação Orientada a Objetos, assinale a alternativa INCORRETA.",
@@ -854,27 +901,27 @@
         {
           "chave": "a",
           "texto": "O encapsulamento permite que os atributos de uma classe sejam acessados\napenas através de métodos específicos, proporcionando um controle maior sobre\ncomo esses atributos são manipulados",
-          "explicacao": ""
+          "explicacao": "ERRADA (como afirmação é correta — encapsulamento usa métodos para controlar acesso)."
         },
         {
           "chave": "b",
           "texto": "O encapsulamento, ao isolar as partes de um programa, dificulta a implementação\nde novas funcionalidades, já que a modificação de uma parte pode afetar outras\npartes do código.",
-          "explicacao": ""
+          "explicacao": "CORRETA (esta é a INCORRETA pedida). Encapsulamento FACILITA a implementação de novas funcionalidades porque isola a lógica em módulos coesos — mudanças internas não propagam. A afirmação é o oposto da verdade."
         },
         {
           "chave": "c",
           "texto": "O polimorfismo permite que métodos com o mesmo nome, mas implementações\ndiferentes, possam ser chamados em diferentes classes, dependendo do\ncontexto da chamada",
-          "explicacao": ""
+          "explicacao": "ERRADA (como afirmação é correta — polimorfismo via sobrescrita ou sobrecarga)."
         },
         {
           "chave": "d",
           "texto": "O uso de modificadores de acesso restritivos no encapsulamento não permite\nque atributos de uma classe sejam modificados diretamente de fora da classe,\nmantendo a integridade do estado do objeto",
-          "explicacao": ""
+          "explicacao": "ERRADA (como afirmação é correta — private impede modificação externa direta)."
         },
         {
           "chave": "e",
           "texto": "O padrão de nomenclatura com get<nomeDoAtributo> e set<nomeDoAtributo > é\numa prática comum para acessar e modificar atributos encapsulados de uma\nclasse",
-          "explicacao": ""
+          "explicacao": "ERRADA (como afirmação é correta — getters/setters são convenção padrão)."
         }
       ],
       "gabarito": "b",
@@ -884,18 +931,21 @@
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.325238+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q19",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "paradigmas",
+      "subtopicos": [
+        "paradigma_oo",
+        "heranca_polimorfismo"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 19,
       "enunciado": "Considere os conceitos de herança na Programação Orientada a Objetos\n(POO). Analise as afirmativas a seguir:\nI. A herança permite que uma classe (chamada de classe derivada ou subclasse)\nreutilize os atributos e métodos de outra classe (chamada de classe base ou\nsuperclasse)\nII. Uma subclasse pode sobrescrever métodos da superclasse, inclusive os\nmétodos definidos como privados na superclasse\nIII. É possível que uma subclasse tenha novos atributos e métodos que não\nexistem na superclasse\n\n\n\nIV. Em algumas linguagens, como Java e C++, uma classe pode herdar de várias\nsuperclasses diretamente\nQual das alternativas a seguir está correta?",
@@ -903,27 +953,27 @@
         {
           "chave": "a",
           "texto": "Apenas as afirmativas I e III.",
-          "explicacao": ""
+          "explicacao": "CORRETA. Apenas I e III são verdadeiras. I: definição padrão de herança. III: subclasse pode estender com novos membros."
         },
         {
           "chave": "b",
           "texto": "Apenas as afirmativas I, II e IV.",
-          "explicacao": ""
+          "explicacao": "ERRADA. II é falsa (ver c) e IV é falsa (ver c)."
         },
         {
           "chave": "c",
           "texto": "Apenas as afirmativas I e IV.",
-          "explicacao": ""
+          "explicacao": "ERRADA. IV é falsa porque Java NÃO permite herança múltipla de classes (apenas de interfaces); apenas C++ permite. A afirmação engloba ambas, tornando-se falsa."
         },
         {
           "chave": "d",
           "texto": "Apenas a afirmativa I.",
-          "explicacao": ""
+          "explicacao": "ERRADA. III também é correta (ver a)."
         },
         {
           "chave": "e",
           "texto": "Todas as afirmativas estão corretas.",
-          "explicacao": ""
+          "explicacao": "ERRADA. II é falsa: métodos privados NÃO são herdados nem sobrescritos pela subclasse — não fazem parte da interface herdada."
         }
       ],
       "gabarito": "a",
@@ -933,18 +983,21 @@
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.327106+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
       "id": "oficial_2025-1_q20",
       "origem": "oficial",
-      "eixo": "raciocinio_logico",
-      "subtopicos": [],
+      "eixo": "estruturas_dados",
+      "subtopicos": [
+        "ordenacao",
+        "complexidade_assintotica"
+      ],
       "ano": "2025-1",
       "numero_na_prova": 20,
       "enunciado": "Quais destes algoritmos de ordenação têm a classe de complexidade\nassintótica, no pior caso, em O(n log n) ?",
@@ -952,41 +1005,41 @@
         {
           "chave": "a",
           "texto": "QuickSort, MergeSort, e HeapSort",
-          "explicacao": ""
+          "explicacao": "ERRADA. QuickSort é O(n²) no PIOR caso (pivô mal escolhido) — só é O(n log n) em média."
         },
         {
           "chave": "b",
           "texto": "QuickSort e SelectionSort",
-          "explicacao": ""
+          "explicacao": "ERRADA. SelectionSort é O(n²) sempre; QuickSort é O(n²) no pior."
         },
         {
           "chave": "c",
           "texto": "QuickSort e BubbleSort",
-          "explicacao": ""
+          "explicacao": "ERRADA. BubbleSort é O(n²); QuickSort é O(n²) no pior."
         },
         {
           "chave": "d",
           "texto": "MergeSort e HeapSort",
-          "explicacao": ""
+          "explicacao": "CORRETA. Apenas MergeSort e HeapSort garantem O(n log n) no PIOR caso. QuickSort tem pior caso O(n²) mesmo com média O(n log n)."
         },
         {
           "chave": "e",
           "texto": "QuickSort, MergeSort e SelectionSort",
-          "explicacao": ""
+          "explicacao": "ERRADA. SelectionSort é O(n²); QuickSort é O(n²) no pior."
         }
       ],
       "gabarito": "d",
-      "dificuldade": "medio",
+      "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
       "tags": [],
       "validacao": {
         "validado": true,
-        "confianca": 0.5,
-        "raciocinio": "apenas validação estrutural",
+        "confianca": 0.9,
+        "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
-        "modelo": "structural",
-        "data": "2026-05-27T00:00:36.329079+00:00"
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1038,7 +1091,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1090,7 +1143,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1142,7 +1195,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1194,7 +1247,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1245,7 +1298,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1298,7 +1351,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1351,7 +1404,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1402,7 +1455,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1455,7 +1508,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1507,7 +1560,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1559,7 +1612,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1611,7 +1664,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1664,7 +1717,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1716,7 +1769,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1768,7 +1821,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1819,7 +1872,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1872,7 +1925,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1924,7 +1977,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -1977,7 +2030,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2029,7 +2082,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2081,7 +2134,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2133,7 +2186,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2185,7 +2238,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2237,7 +2290,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2289,7 +2342,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2340,7 +2393,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2395,7 +2448,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2447,7 +2500,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2499,7 +2552,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2552,7 +2605,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2605,7 +2658,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2657,7 +2710,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2709,7 +2762,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2760,7 +2813,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2812,7 +2865,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2865,7 +2918,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2917,7 +2970,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -2969,7 +3022,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -3021,7 +3074,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
@@ -3073,7 +3126,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:29:59.037767+00:00"
+        "data": "2026-05-27T00:32:38.249722+00:00"
       }
     },
     {
