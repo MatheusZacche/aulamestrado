@@ -89,11 +89,8 @@ def render() -> None:
     st.divider()
 
     # ---------- Enunciado + alternativas ----------
-    if q.tem_imagem:
-        st.warning("🖼️ Esta questão original tinha uma figura. O texto pode estar incompleto sem ela.")
-
     st.markdown("### Enunciado")
-    render_enunciado(q.enunciado)
+    render_enunciado(q.enunciado, question=q)
 
     state_key = f"chosen_{q.id}"
     shown_key = f"shown_{q.id}"

@@ -3072,7 +3072,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
-      "tem_imagem": false,
+      "tem_imagem": true,
       "tags": [],
       "validacao": {
         "validado": true,

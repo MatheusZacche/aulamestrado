@@ -2,10 +2,13 @@
 from __future__ import annotations
 
 import re
+from pathlib import Path
 
 import streamlit as st
 
 from src.data.schema import Question
+
+_IMAGES_DIR = Path(__file__).resolve().parents[2] / "data" / "exams" / "images"
 
 
 # Marcadores típicos de código C em enunciados
@@ -68,8 +71,74 @@ def _split_text_and_code(text: str) -> list[tuple[str, str]]:
     return merged
 
 
-def render_enunciado(enunciado: str) -> None:
-    """Renderiza enunciado tratando blocos de código C em monospace."""
+_ITEM_START = re.compile(
+    r"^(?:"
+    r"[IVX]+\.\s"          # I. II. III. IV.
+    r"|[ivx]+\)\s"         # i) ii) iii) iv)
+    r"|\d+\.\s"            # 1. 2. 3.
+    r"|[●•]\s"             # bullet points
+    r"|\(\s?\)\s"          # ( ) V/F items
+    r")",
+)
+
+_CLOSING_SENTENCE = re.compile(
+    r"^(?:Assinale|Qual é|Qual das|Quais|Nessas condições|"
+    r"Considerando as|É correto|Com base n[oa]s? (?:exposto|informações|texto)|"
+    r"A partir d[oa]s?|De acordo|Marque|Indique)",
+)
+
+
+def _reflow_text(text: str) -> str:
+    """Reflui texto extraído de PDF: junta linhas de continuação e separa
+    itens estruturados (romanos, numerados, bullets) em parágrafos distintos.
+    """
+    lines = text.split("\n")
+    paragraphs: list[str] = []
+    buf: list[str] = []
+
+    def flush() -> None:
+        if buf:
+            paragraphs.append(" ".join(buf))
+            buf.clear()
+
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            flush()
+            continue
+
+        is_item = bool(_ITEM_START.match(stripped))
+        starts_lower = stripped[0].islower() or stripped[0] in ",.;)"
+
+        if is_item:
+            flush()
+            buf.append(stripped)
+        elif starts_lower:
+            buf.append(stripped)
+        elif _CLOSING_SENTENCE.match(stripped) and paragraphs:
+            flush()
+            buf.append(stripped)
+        elif buf and not _ITEM_START.match(buf[0]):
+            buf.append(stripped)
+        else:
+            flush()
+            buf.append(stripped)
+
+    flush()
+
+    parts: list[str] = []
+    for p in paragraphs:
+        if _ITEM_START.match(p):
+            parts.append(f"**{p}**")
+        else:
+            parts.append(p)
+
+    return "\n\n".join(parts)
+
+
+def render_enunciado(enunciado: str, question: Question | None = None) -> None:
+    """Renderiza enunciado tratando blocos de código C em monospace e
+    refluindo texto de PDF para boa leitura."""
     segments = _split_text_and_code(enunciado)
     for kind, content in segments:
         if not content.strip():
@@ -77,7 +146,17 @@ def render_enunciado(enunciado: str) -> None:
         if kind == "code":
             st.code(content, language="c")
         else:
-            st.markdown(content)
+            st.markdown(_reflow_text(content))
+
+    if question and question.tem_imagem:
+        img_path = _IMAGES_DIR / f"{question.id}.png"
+        if img_path.exists():
+            st.image(str(img_path), caption="Figura da prova original")
+        else:
+            st.warning(
+                "Esta questão contém uma figura/diagrama no PDF original que "
+                "ainda não foi extraída. Consulte a prova em `data/exams/raw/`."
+            )
 
 
 def render_alternativas_radio(q: Question, key: str) -> str | None:
@@ -124,11 +203,6 @@ def render_metadata_badge(q: Question) -> None:
     cols[3].markdown(f"**Dificuldade:** `{q.dificuldade.value}`")
     if q.subtopicos:
         st.caption("Subtópicos: " + ", ".join(f"`{s}`" for s in q.subtopicos))
-    if q.tem_imagem:
-        st.warning(
-            "🖼️ Esta questão original tinha uma figura/diagrama no PDF que não foi extraída automaticamente. "
-            "Confira a prova original em `data/exams/raw/` para ver a imagem completa."
-        )
     if q.validacao.validado:
         cor = "🟢" if q.validacao.confianca >= 0.8 else ("🟡" if q.validacao.confianca >= 0.5 else "🔴")
         st.caption(f"{cor} Validação: confiança {q.validacao.confianca:.2f}")

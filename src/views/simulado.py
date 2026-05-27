@@ -161,9 +161,7 @@ def render() -> None:
     q = questoes[idx]
     st.subheader(f"Questão {idx + 1} de 20")
     st.caption(f"`{q.id}` · eixo: {q.eixo}")
-    if q.tem_imagem:
-        st.warning("🖼️ Esta questão tinha figura no PDF original.")
-    render_enunciado(q.enunciado)
+    render_enunciado(q.enunciado, question=q)
 
     opcoes = [f"{a.chave}) {a.texto}" for a in q.alternativas]
     default = None
