@@ -32,6 +32,13 @@ create table if not exists public.notes (
   updated_at   timestamptz not null default now()
 );
 
+create table if not exists public.simulado_answers (
+  question_id  text        primary key,
+  chosen       text        not null check (chosen in ('a','b','c','d','e')),
+  correct      boolean     not null,
+  ts           timestamptz not null default now()
+);
+
 create table if not exists public.sessions (
   id           uuid             primary key default gen_random_uuid(),
   score        int              not null,
@@ -50,7 +57,8 @@ create index if not exists idx_sessions_ts on public.sessions(ts desc);
 -- não precisamos de RLS — desabilitamos para que a anon key possa CRUD.
 -- ============================================================
 
-alter table public.answers   disable row level security;
-alter table public.bookmarks disable row level security;
-alter table public.notes     disable row level security;
-alter table public.sessions  disable row level security;
+alter table public.answers           disable row level security;
+alter table public.simulado_answers  disable row level security;
+alter table public.bookmarks         disable row level security;
+alter table public.notes             disable row level security;
+alter table public.sessions          disable row level security;

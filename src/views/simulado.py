@@ -7,7 +7,7 @@ import time
 import streamlit as st
 
 from src.data.load import load_bank
-from src.data.progress import record_session
+from src.data.progress import record_session, record_simulado_answers
 from src.data.schema import Question
 from src.ui.components import render_enunciado
 
@@ -100,6 +100,16 @@ def render() -> None:
 
         if not st.session_state.get("sim_registrado"):
             record_session(acertos, total_validas, "simulado", time.time() - inicio)
+            sim_ans = {}
+            for q_sim in questoes:
+                chosen_sim = respostas.get(q_sim.id, "")
+                if chosen_sim:
+                    sim_ans[q_sim.id] = {
+                        "chosen": chosen_sim,
+                        "correct": (chosen_sim == q_sim.gabarito) and not q_sim.anulada,
+                    }
+            if sim_ans:
+                record_simulado_answers(sim_ans)
             st.session_state.sim_registrado = True
 
         st.divider()

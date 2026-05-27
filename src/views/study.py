@@ -34,19 +34,29 @@ def render() -> None:
     incluir_respondidas = f2.toggle(
         "Incluir respondidas",
         value=False,
-        help="Por padrão, mostra apenas questões que você ainda não respondeu.",
+        help="Por padrão, mostra questões que você errou no simulado ou nunca estudou. Ative para ver todas.",
         key="study_incluir_resp",
     )
 
-    respondidas_ids = set(progress["answers"].keys())
+    study_answers = progress.get("answers", {})
+    sim_answers = progress.get("simulado_answers", {})
+
+    acertadas_estudo = {qid for qid, a in study_answers.items() if a.get("correct")}
+    erradas_simulado = {qid for qid, a in sim_answers.items() if not a.get("correct")}
 
     def matches(q) -> bool:
         if eixo != "todos" and q.eixo != eixo:
             return False
         if q.anulada:
-            return False  # sempre pula anuladas
-        if not incluir_respondidas and q.id in respondidas_ids:
             return False
+        if incluir_respondidas:
+            return True
+        if q.id in acertadas_estudo:
+            return False
+        if q.id in erradas_simulado:
+            return True
+        if q.id not in study_answers:
+            return True
         return True
 
     candidatos = [q for q in bank.questions if matches(q)]

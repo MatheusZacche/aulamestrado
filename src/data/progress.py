@@ -41,6 +41,7 @@ class ProgressBackend(Protocol):
     name: str
     def load(self) -> dict[str, Any]: ...
     def record_answer(self, qid: str, chosen: str, correct: bool, confianca: str) -> None: ...
+    def record_simulado_answers(self, answers: dict[str, dict[str, Any]]) -> None: ...
     def toggle_bookmark(self, qid: str) -> bool: ...
     def save_note(self, qid: str, text: str) -> None: ...
     def record_session(self, score: int, total: int, modo: str, duration_s: float) -> None: ...
@@ -52,7 +53,7 @@ class ProgressBackend(Protocol):
 
 
 def _empty_state() -> dict[str, Any]:
-    return {"answers": {}, "bookmarked": [], "notes": {}, "sessions": []}
+    return {"answers": {}, "simulado_answers": {}, "bookmarked": [], "notes": {}, "sessions": []}
 
 
 class JSONBackend:
@@ -62,7 +63,10 @@ class JSONBackend:
         if not PROGRESS_PATH.exists():
             return _empty_state()
         try:
-            return json.loads(PROGRESS_PATH.read_text(encoding="utf-8"))
+            data = json.loads(PROGRESS_PATH.read_text(encoding="utf-8"))
+            if "simulado_answers" not in data:
+                data["simulado_answers"] = {}
+            return data
         except json.JSONDecodeError:
             return _empty_state()
 
@@ -100,6 +104,17 @@ class JSONBackend:
             p["notes"].pop(qid, None)
         self._save(p)
 
+    def record_simulado_answers(self, answers: dict[str, dict[str, Any]]) -> None:
+        p = self.load()
+        ts = datetime.now(timezone.utc).isoformat()
+        for qid, ans in answers.items():
+            p["simulado_answers"][qid] = {
+                "chosen": ans["chosen"],
+                "correct": ans["correct"],
+                "ts": ts,
+            }
+        self._save(p)
+
     def record_session(self, score: int, total: int, modo: str, duration_s: float) -> None:
         p = self.load()
         p["sessions"].append(
@@ -133,8 +148,11 @@ class SupabaseBackend:
             bms = self._client.table("bookmarks").select("question_id").execute().data or []
             nts = self._client.table("notes").select("*").execute().data or []
             sss = self._client.table("sessions").select("*").order("ts", desc=True).execute().data or []
+            try:
+                sim_ans = self._client.table("simulado_answers").select("*").execute().data or []
+            except Exception:
+                sim_ans = []
         except Exception as e:
-            # Falha de rede / chaves erradas / tabela inexistente: cai pra vazio
             print(f"[progress] Supabase load falhou: {e}")
             return _empty_state()
 
@@ -147,6 +165,14 @@ class SupabaseBackend:
                     "confianca": a.get("confianca", ""),
                 }
                 for a in ans
+            },
+            "simulado_answers": {
+                a["question_id"]: {
+                    "chosen": a["chosen"],
+                    "correct": a["correct"],
+                    "ts": a["ts"],
+                }
+                for a in sim_ans
             },
             "bookmarked": [b["question_id"] for b in bms],
             "notes": {n["question_id"]: n["conteudo"] for n in nts},
@@ -204,6 +230,19 @@ class SupabaseBackend:
                 self._client.table("notes").delete().eq("question_id", qid).execute()
         except Exception as e:
             print(f"[progress] save_note falhou: {e}")
+
+    def record_simulado_answers(self, answers: dict[str, dict[str, Any]]) -> None:
+        ts = datetime.now(timezone.utc).isoformat()
+        for qid, ans in answers.items():
+            try:
+                self._client.table("simulado_answers").upsert({
+                    "question_id": qid,
+                    "chosen": ans["chosen"],
+                    "correct": ans["correct"],
+                    "ts": ts,
+                }).execute()
+            except Exception as e:
+                print(f"[progress] record_simulado_answers falhou para {qid}: {e}")
 
     def record_session(self, score: int, total: int, modo: str, duration_s: float) -> None:
         try:
@@ -273,6 +312,10 @@ def toggle_bookmark(qid: str) -> bool:
 
 def save_note(qid: str, text: str) -> None:
     get_backend().save_note(qid, text)
+
+
+def record_simulado_answers(answers: dict[str, dict[str, Any]]) -> None:
+    get_backend().record_simulado_answers(answers)
 
 
 def record_session(score: int, total: int, modo: str, duration_s: float) -> None:
