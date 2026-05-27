@@ -534,11 +534,11 @@ EXPL_2025_1: dict[str, ExplicacaoQuestao] = {
         "subtopicos": ["quantificadores", "equivalencia_negacao"],
         "dificuldade": "medio",
         "explicacoes": {
-            "a": "ERRADA. 'Algumas gostam de algumas' é muito mais fraco que o original ('uma gosta de todas').",
-            "b": "ERRADA. 'Existe criança que não gosta de nenhuma' é uma afirmação completamente diferente.",
-            "c": "CORRETA. Por dupla negação: original = ∃c ∀f gosta(c,f). Negação = ∀c ∃f ¬gosta. Negar de novo (¬¬) volta ao original. Em PT: 'Não é o caso que para toda criança há fruta que ela não gosta' = original.",
-            "d": "ERRADA. 'Algumas não gostam de todas' apenas afirma que existem crianças com pelo menos uma fruta que não gostam — não é equivalente.",
-            "e": "ERRADA. A alternativa (c) é equivalente correta.",
+            "a": "ERRADA. 'Algumas crianças gostam de algumas frutas' é muito mais fraco. A original exige que UMA criança específica goste de TODAS as frutas; aqui basta cada criança gostar de UMA fruta qualquer — coisas diferentes.",
+            "b": "ERRADA. 'Existe criança que não gosta de NENHUMA fruta' fala sobre uma criança que ODEIA toda fruta. Não tem relação com a afirmação original, que fala sobre uma criança que AMA todas.",
+            "c": "CORRETA. Pra entender, pense passo a passo:\n• Original: 'há uma criança que gosta de todas as frutas' (tem uma criança X tal que, pra qualquer fruta, X gosta dela).\n• A alternativa (c) é uma frase com DUAS negações: 'NÃO é o caso que [para toda criança, há fruta que ela NÃO gosta]'.\n• A parte entre colchetes diz: 'toda criança tem ao menos uma fruta que detesta' — isso é justamente a NEGAÇÃO da original.\n• Como a (c) NEGA essa negação, ela volta a afirmar a original.\n• Resumindo com a regra geral: 'não é verdade que toda criança detesta alguma fruta' = 'existe criança que gosta de todas' = original. ✓",
+            "d": "ERRADA. 'Algumas crianças não gostam de todas as frutas' significa 'existem crianças que têm alguma fruta que não gostam'. Isso é compatível com a original ser falsa (todas as crianças podem detestar alguma fruta), então não é equivalente.",
+            "e": "ERRADA. A alternativa (c) é a equivalência correta.",
         },
     },
     "oficial_2025-1_q02": {

@@ -16,27 +16,27 @@
         {
           "chave": "a",
           "texto": "Algumas crianças gostam de algumas frutas",
-          "explicacao": "ERRADA. 'Algumas gostam de algumas' é muito mais fraco que o original ('uma gosta de todas')."
+          "explicacao": "ERRADA. 'Algumas crianças gostam de algumas frutas' é muito mais fraco. A original exige que UMA criança específica goste de TODAS as frutas; aqui basta cada criança gostar de UMA fruta qualquer — coisas diferentes."
         },
         {
           "chave": "b",
           "texto": "Existe criança que não gosta de nenhuma fruta",
-          "explicacao": "ERRADA. 'Existe criança que não gosta de nenhuma' é uma afirmação completamente diferente."
+          "explicacao": "ERRADA. 'Existe criança que não gosta de NENHUMA fruta' fala sobre uma criança que ODEIA toda fruta. Não tem relação com a afirmação original, que fala sobre uma criança que AMA todas."
         },
         {
           "chave": "c",
           "texto": "Não é o caso que para toda criança, há uma fruta da qual ela não gosta",
-          "explicacao": "CORRETA. Por dupla negação: original = ∃c ∀f gosta(c,f). Negação = ∀c ∃f ¬gosta. Negar de novo (¬¬) volta ao original. Em PT: 'Não é o caso que para toda criança há fruta que ela não gosta' = original."
+          "explicacao": "CORRETA. Pra entender, pense passo a passo:\n• Original: 'há uma criança que gosta de todas as frutas' (tem uma criança X tal que, pra qualquer fruta, X gosta dela).\n• A alternativa (c) é uma frase com DUAS negações: 'NÃO é o caso que [para toda criança, há fruta que ela NÃO gosta]'.\n• A parte entre colchetes diz: 'toda criança tem ao menos uma fruta que detesta' — isso é justamente a NEGAÇÃO da original.\n• Como a (c) NEGA essa negação, ela volta a afirmar a original.\n• Resumindo com a regra geral: 'não é verdade que toda criança detesta alguma fruta' = 'existe criança que gosta de todas' = original. ✓"
         },
         {
           "chave": "d",
           "texto": "Algumas crianças não gostam de todas as frutas",
-          "explicacao": "ERRADA. 'Algumas não gostam de todas' apenas afirma que existem crianças com pelo menos uma fruta que não gostam — não é equivalente."
+          "explicacao": "ERRADA. 'Algumas crianças não gostam de todas as frutas' significa 'existem crianças que têm alguma fruta que não gostam'. Isso é compatível com a original ser falsa (todas as crianças podem detestar alguma fruta), então não é equivalente."
         },
         {
           "chave": "e",
           "texto": "Nenhuma das alternativas anteriores",
-          "explicacao": "ERRADA. A alternativa (c) é equivalente correta."
+          "explicacao": "ERRADA. A alternativa (c) é a equivalência correta."
         }
       ],
       "gabarito": "c",
@@ -51,7 +51,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -104,7 +104,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -157,7 +157,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -212,7 +212,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -265,7 +265,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -317,7 +317,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -369,7 +369,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -421,7 +421,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -474,7 +474,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -526,7 +526,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -579,7 +579,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -631,7 +631,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -683,7 +683,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -737,7 +737,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -792,7 +792,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -844,7 +844,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -899,7 +899,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -953,7 +953,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1006,7 +1006,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1059,7 +1059,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1112,7 +1112,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1165,7 +1165,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1218,7 +1218,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1271,7 +1271,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1323,7 +1323,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1377,7 +1377,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1431,7 +1431,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1483,7 +1483,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1537,7 +1537,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1590,7 +1590,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1643,7 +1643,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1696,7 +1696,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1750,7 +1750,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1803,7 +1803,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1856,7 +1856,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1908,7 +1908,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -1962,7 +1962,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2015,7 +2015,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2069,7 +2069,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2122,7 +2122,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2175,7 +2175,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2228,7 +2228,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2281,7 +2281,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2334,7 +2334,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2387,7 +2387,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2439,7 +2439,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2495,7 +2495,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2548,7 +2548,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2601,7 +2601,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2655,7 +2655,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2709,7 +2709,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2762,7 +2762,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2815,7 +2815,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2867,7 +2867,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2920,7 +2920,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -2974,7 +2974,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -3027,7 +3027,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -3080,7 +3080,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -3133,7 +3133,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
@@ -3186,7 +3186,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:35:00.007784+00:00"
+        "data": "2026-05-27T00:54:08.554038+00:00"
       }
     },
     {
