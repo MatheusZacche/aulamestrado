@@ -1,0 +1,7 @@
+streamlit>=1.39
+pdfplumber>=0.11
+pydantic>=2.9
+jsonschema>=4.23
+anthropic>=0.40
+python-dotenv>=1.0
+pandas>=2.2

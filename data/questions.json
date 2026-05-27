@@ -1,0 +1,3577 @@
+{
+  "version": "1",
+  "questions": [
+    {
+      "id": "oficial_2025-1_q01",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 1,
+      "enunciado": "Qual das opções abaixo representa o enunciado logicamente equivalente\nao enunciado. \"Pelo menos uma criança gosta de todas as frutas”.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Algumas crianças gostam de algumas frutas",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Existe criança que não gosta de nenhuma fruta",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Não é o caso que para toda criança, há uma fruta da qual ela não gosta",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Algumas crianças não gostam de todas as frutas",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.294988+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q02",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 2,
+      "enunciado": "Considerando como verdadeiras as informações:\nNenhum ator gosta de todos os produtores de cinema e Alguns atores gostam de\ntodos os diretores de cinema.\nPodemos concluir que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Não há um produtor de cinema que não seja diretor de cinema",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Todo produtor de cinema é diretor de cinema",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Há um produtor de cinema que é diretor de cinema",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Alguns atores gostam de alguns produtores de cinema",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Há pelo menos um produtor de cinema que não é diretor de cinema",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "e",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.297239+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q03",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 3,
+      "enunciado": "Tom, Marcos e João são membros do clube dos Alpes. Cada membro do\nclube dos Alpes ou é um alpinista, ou é um esquiador, ou ambos. Nenhum alpinista\ngosta de chuva e todos os esquiadores gostam de neve. Tudo que Tom gosta, Marcos\nnão gosta e Marcos gosta de tudo o que Tom não gosta. Tom gosta de chuva e neve.\nConsiderando verdadeiras as informações dadas acima, podemos concluir que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Nenhum membro do clube dos Alpes é esquiador",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Todos os membros do clube dos Alpes são esquiadores",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Marcos gosta de chuva",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Há um membro do clube dos Alpes que é alpinista, mas que não é esquiador",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.298899+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q04",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 4,
+      "enunciado": "Considerando como verdadeiras as afirmativas:\nI. Quem canta rock não é estressado\nII. Pessoas calvas não pescam de tarrafa\nIII. Quem não pesca de tarrafa é estressado",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "sentença que é consequência lógica das anteriores é:",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Pessoas calvas não cantam rock",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Quem pesca de tarrafa não é estressado",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Que não canta rock é estressado",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.2,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [
+          "enunciado_sem_pontuacao_final"
+        ],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.300479+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q05",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 5,
+      "enunciado": "Considere as premissas a seguir:\n● Se Paulo trabalha duro, então ele conseguirá uma promoção\n● Paulo trabalha duro e faz cursos de aperfeiçoamento\nNessas condições e considerando as regras de inferência, assinale a alternativa que\napresenta a conclusão correta:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Paulo não faz cursos de aperfeiçoamento",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Paulo conseguirá uma promoção",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Paulo não conseguirá uma promoção e faz cursos de aperfeiçoamento",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Paulo não conseguirá uma promoção",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das respostas anteriores",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.301965+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q06",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 6,
+      "enunciado": "Considere o seguinte trecho de código em C-like:\nint i, j, c;\nc = 1;\nfor (i = 1; i < n; i = i*2) {\nfor (j = 1; j <= n; j++) {\nc = c + 1;\n}\n}\nAssumindo que a instrução c = c + 1 é O(1), qual a expressão que melhor define a ordem\nde complexidade do trecho de código acima?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "𝑂(𝑛 log 𝑛)",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "𝑂(log 𝑛)",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "𝑂(𝑛)",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "𝑂(𝑛²)",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "𝑂(𝑛³)",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.304462+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q07",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 7,
+      "enunciado": "Suponha que você esteja trabalhando com a estrutura de dados Pilha, na\nqual existe uma função para adicionar um tipo de dado na pilha (push()) e outra para\nremover o dado da pilha (pop()). Considere as seguintes instruções:\n1. push(A)\n2. push(B)\n3. pop()\n4. push(C)\n5. pop()\nQuais elementos são removidos nas instruções 3 e 5, respectivamente?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "B e C",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "A e B",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "B e A",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "A e C",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das anteriores",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.306264+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q08",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 8,
+      "enunciado": "Considere as seguintes afirmações sobre tabelas de dispersão (ou tabela\nhash) e colisões:\nI. O tratamento de colisões é necessário apenas quando a tabela está cheia e se\nnecessita inserir mais uma chave\nII. O tratamento de colisões é necessário para determinar se uma tabela hash\natingiu o seu limite máximo\nIII. O tratamento de colisões é necessário quando a tabela está vazia, pois não é\npossível calcular o endereço diretamente nesse caso\nIV. O tratamento de colisões é necessário, pois o hashing pode gerar repetição de\nendereço para diferentes chaves\nQual das alternativas a seguir representa a(s) afirmação(ões) correta(s)?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Somente I e II",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Somente I, II e IV",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Somente II e III",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Somente a IV",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.307866+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q09",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 9,
+      "enunciado": "Estruturas de dados como fila, pilha e lista são muito utilizadas para\nresolver problemas computacionais. Sobre as características dessas estruturas de\ndados, atribua V (verdadeiro) ou F (falso) para as afirmativas a seguir.\n( ) Em uma pilha, o último elemento a entrar é o primeiro a sair\n( ) Em uma fila, o primeiro elemento a entrar é o último a sair\n( ) Uma lista permite que as inserções possam ser feitas em qualquer lugar (posição),\nmas as remoções, não\n( ) Em uma lista circular com encadeamento simples, o primeiro elemento aponta para\no segundo e para o último\n\n\n\n( ) Para remover um elemento de uma lista duplamente encadeada, deve-se alterar o\nencadeamento dos elementos anterior e próximo ao elemento removido\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "V, F, V, F, V",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "V, F, F, V, F",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "V, F, F, F, V",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "F, V, V, F, F",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "F, F, V, V, V",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.309446+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q10",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 10,
+      "enunciado": "Sobre os conceitos de tipos de dados e verificação de tipos de uma\nlinguagem de programação, considere as afirmativas a seguir.\nI. A verificação de tipos em tempo de compilação é menos eficiente do que a\nverificação em tempo de execução, pois não leva em consideração as\ncondições dinâmicas que podem ocorrer durante a execução do programa\nII. Em uma linguagem de programação com verificação de tipos dinâmica, a\ncorreção dos tipos de dados é realizada em tempo de compilação, antes da\nexecução do programa\nIII. Em linguagens com tipagem estática, o compilador pode realizar otimizações\ncom base nos tipos conhecidos durante a compilação, enquanto linguagens\ncom tipagem dinâmica não têm essa capacidade.\nIV. Se uma linguagem de programação permite que uma variável armazene\nqualquer tipo de dado e altere o tipo de dado durante a execução, isso significa\nque a linguagem não realiza verificação de tipos\nAssinale a alternativa correta.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Somente a II está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Somente a III está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Somente a I e II estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Somente a IV está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma afirmativa está correta",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.311077+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q11",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 11,
+      "enunciado": "Considere o trecho de código em linguagem de programação C a seguir.\nint myCount = 0;\nwhile (myCount < 10) {\nprintf(“%d”, myCount+1);\n}\nprintf(“Fim: %d”, myCount+1);\nAssinale a alternativa que apresenta, corretamente, o que esse trecho de código fará\nao ser executado.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Escreverá na tela myCount por 10 vezes",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Mostrará na tela os valores inteiros de 1 até 10",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Entrará em loop infinito",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Escreverá na tela 0 por 10 vezes",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Mostrará na tela os valores inteiros de 0 até 9",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.312652+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q12",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 12,
+      "enunciado": "Considere o trecho de código em linguagem de programação C a seguir.\nvoid sort(int arr[], int n) {\nfor (int i = 0; i < n - 1; i++) {\nint min_idx = i;\nfor (int j = i + 1; j < n; j++) {\nif (arr[j] < arr[min_idx]) {\nmin_idx = j;\n}\n}\nint temp = arr[i];\narr[i] = arr[min_idx];\narr[min_idx] = temp;\n}\n}\nAssinale a alternativa que apresenta, corretamente, o que esse trecho de código fará\nao ser executado.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Ordenará o vetor de entrada, de forma crescente, em ordem quadrática",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Ordenará o vetor de entrada, de forma decrescente, em ordem quadrática",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Ordenará o vetor de entrada, de forma crescente, em ordem linear",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Preencherá o vetor todo com o elemento da primeira posição",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Entrará em loop infinito",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.314166+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q13",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 13,
+      "enunciado": "Considere a estrutura de dados ilustrada abaixo:\nSobre a estrutura:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Trata-se de uma árvore B",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Trata-se de uma árvore binária de busca",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Trata-se de uma matriz de adjacência",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Trata-se de uma lista encadeada",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das anteriores",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.315794+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q14",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 14,
+      "enunciado": "Considere as equações que descrevem a complexidade de tempo dos\nalgoritmos Alg1, Alg2 e Alg3, respectivamente, para entradas de tamanho n:\n● T1(n)=100*n+ 15\n● T2(n)=10*n² + 2*n\n● T3(n)=0,5*n³ + n² + 3",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "respeito da ordem de complexidade desses algoritmos, pode-se concluir que:",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "As complexidades assintóticas de Alg1, Alg2 e Alg3 estão, respectivamente, em O\n(n) , O(n²) e O(n²)",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "As complexidades assintóticas de Alg1, Alg2 e Alg3 estão, respectivamente, em\nO(n), O(n²) e O(n³)",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Alg2 e Alg3 pertencem às mesmas classes de complexidade assintótica",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Alg1 e Alg2 pertencem às mesmas classes de complexidade assintótica",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.2,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [
+          "enunciado_sem_pontuacao_final"
+        ],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.317354+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q15",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 15,
+      "enunciado": "Sobre o algoritmo de ordenação MergeSort, descrito no trecho de código",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "seguir:\nvoid merge(int *arr, int lo, int mid, int hi) {\nint i = lo; int j = mid + 1;\nwhile (i <= mid && j <= hi) {\nif (arr[i] <= arr[j]) {\ni++;\n} else {\nint value = arr[j];\nint index = j;\nwhile (index != i) {\narr[index] = arr[index - 1];\nindex--;\n}\narr[i] = value;\ni++; mid++; j++;\n}\n}\n}\n\n\n\nvoid merge_sort(Item *a, Item *aux, int lo, int hi) {\nif (hi <= lo) return;\nint mid = lo + (hi - lo) / 2;\nmerge_sort(a, aux, lo, mid);\nmerge_sort(a, aux, mid+1, hi);\nmerge(a, aux, lo, mid, hi);\n}\nAssinale a alternativa correta sobre este algoritmo de ordenação:",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "O vetor é ordenado primeiro na parte direita, e depois na parte esquerda, uma\nvez que a recursão segue este padrão de chamadas para as partes direita e\ndepois esquerda do vetor de entrada",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "O comportamento do Merge Sort, para qualquer entrada, é quadrático",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "A implementação apresentada trata-se do Merge Sort que, para qualquer\nentrada, ordena o vetor em ordem O(n log n)",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Por ser recursivo, o comportamento do Merge Sort é sempre exponencial",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.2,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [
+          "enunciado_sem_pontuacao_final"
+        ],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.319178+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q16",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 16,
+      "enunciado": "Sobre o algoritmo apresentado a seguir:\nint funcao(int x, int n, int v[]){\nint k;\nk = n-1;\nwhile (k >= 0 && v[k] != x)\nk -= 1;\nreturn k;\n}\nAssinale a alternativa correta sobre o funcionamento do algoritmo:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Trata-se de uma função que verifica a frequência de valores 0 (zero) na entrada",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "A função avalia espaços vazios dentro do vetor de entrada",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "A função preenche o vetor com o valor x passado como parâmetro da função,\ndo fim para o começo",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "A função remove o elemento x do vetor",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "A função verifica a ocorrência do valor x, no vetor, varrendo-o do fim para o\ncomeço",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "e",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.321064+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q17",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 17,
+      "enunciado": "Sobre o conceito de Programação Orientada a Objetos (POO), analise as\nafirmativas a seguir.\nI. O encapsulamento é o princípio que permite a exposição irrestrita dos atributos e\nmétodos de um objeto para facilitar a interação entre diferentes objetos dentro de um\nsistema\nII. A herança é um mecanismo que possibilita a reutilização de código ao permitir que\numa classe derive de outra, herdando seus atributos e métodos\nIII. O polimorfismo permite que diferentes classes utilizem a mesma interface para\noperações semelhantes, mas que sejam implementadas de formas distintas, dependendo\nda classe específica\nIV. A abstração é um processo de ocultar detalhes complexos de implementação,\ndestacando apenas as características essenciais relevantes para o contexto em que o\nobjeto será utilizado\nEstá correto o que se afirma apenas em",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "II, III e IV.",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "II e III.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "I, III e IV.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "I, II e IV.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "II.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.2,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [
+          "enunciado_sem_pontuacao_final"
+        ],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.323369+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q18",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 18,
+      "enunciado": "Com base no conceito de “encapsulamento” e “polimorfismo” na\nProgramação Orientada a Objetos, assinale a alternativa INCORRETA.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "O encapsulamento permite que os atributos de uma classe sejam acessados\napenas através de métodos específicos, proporcionando um controle maior sobre\ncomo esses atributos são manipulados",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "O encapsulamento, ao isolar as partes de um programa, dificulta a implementação\nde novas funcionalidades, já que a modificação de uma parte pode afetar outras\npartes do código.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "O polimorfismo permite que métodos com o mesmo nome, mas implementações\ndiferentes, possam ser chamados em diferentes classes, dependendo do\ncontexto da chamada",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "O uso de modificadores de acesso restritivos no encapsulamento não permite\nque atributos de uma classe sejam modificados diretamente de fora da classe,\nmantendo a integridade do estado do objeto",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "O padrão de nomenclatura com get<nomeDoAtributo> e set<nomeDoAtributo > é\numa prática comum para acessar e modificar atributos encapsulados de uma\nclasse",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.325238+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q19",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 19,
+      "enunciado": "Considere os conceitos de herança na Programação Orientada a Objetos\n(POO). Analise as afirmativas a seguir:\nI. A herança permite que uma classe (chamada de classe derivada ou subclasse)\nreutilize os atributos e métodos de outra classe (chamada de classe base ou\nsuperclasse)\nII. Uma subclasse pode sobrescrever métodos da superclasse, inclusive os\nmétodos definidos como privados na superclasse\nIII. É possível que uma subclasse tenha novos atributos e métodos que não\nexistem na superclasse\n\n\n\nIV. Em algumas linguagens, como Java e C++, uma classe pode herdar de várias\nsuperclasses diretamente\nQual das alternativas a seguir está correta?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Apenas as afirmativas I e III.",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Apenas as afirmativas I, II e IV.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Apenas as afirmativas I e IV.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Apenas a afirmativa I.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Todas as afirmativas estão corretas.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.327106+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-1_q20",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-1",
+      "numero_na_prova": 20,
+      "enunciado": "Quais destes algoritmos de ordenação têm a classe de complexidade\nassintótica, no pior caso, em O(n log n) ?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "QuickSort, MergeSort, e HeapSort",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "QuickSort e SelectionSort",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "QuickSort e BubbleSort",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "MergeSort e HeapSort",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "QuickSort, MergeSort e SelectionSort",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.329079+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q01",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 1,
+      "enunciado": "Jorge, Maurício e Claudio são profissionais liberais. Um deles é\narquiteto, o outro é médico e o outro é advogado. Seus escritórios estão\nlocalizados em diferentes andares de um mesmo edifício. Os nomes de suas\nsecretárias são, não necessariamente nesta ordem, Ana, Cecília e Jane.\nSabendo-se que:\n● O escritório do advogado está localizado no andar térreo;\n● Jane, ao invés de casar com seu chefe como a maioria das secretárias de\nfotonovelas, está noiva de Claudio e almoça todos os dias com ele, na\ncasa da futura sogra;\n● Todos os dias, Ana sobe para encontrar a secretária de Maurício, e então\nalmoçam juntas no refeitório ao lado do escritório de Maurício;\n● Ontem, Jorge mandou sua secretária descer para entregar algumas\ngravuras ao arquiteto.\nConsiderando verdadeiras as informações dadas acima, podemos concluir\nque:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Cecília é secretária de Mauricio, Claudio é advogado e Jane é secretaria\nde Jorge;",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Maurício é médico, Ana é secretária de Jorge e Claudio é arquiteto;",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Jane é secretária de Mauricio, Mauricio é advogado e Cecília é\nsecretária de Jorge;",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Jorge é arquiteto, Ana é secretária de Maurício e Cecília é secretária de\nClaudio;",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.330784+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q02",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 2,
+      "enunciado": "Considere as premissas verdadeiras a seguir:\n● Se Ana Paula joga vôlei ou Joaquim joga videogame, então Victória vai à\npraia\n● Hoje, Victória não foi à praia\n● Se hoje é sábado, então Ana Paula joga vôlei e Caio treina boxe\nConsiderando as premissas apresentadas, é correto afirmar que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Hoje é sábado e Ana Paula jogou vôlei.",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Hoje não é sábado e Joaquim não jogou videogame.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Ana Paula jogou vôlei ou Joaquim jogou videogame.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Hoje é sábado e Joaquim jogou videogame.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Hoje não é sábado e Ana Paula jogou vôlei.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.332404+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q03",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 3,
+      "enunciado": "Analise a seguinte proposição: \"Existe pelo menos uma\nuniversidade em que todos os cursos têm, pelo menos, 100 alunos\". A\nnegação dessa proposição é logicamente equivalente à proposição:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Em todas as universidades existem pelo menos um curso que possui, no\nmáximo, 99 alunos.",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Em no máximo uma universidade existe um curso que possui, no\nmáximo, 101 alunos.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Há uma universidade em que existe pelo menos um curso com, no\nmáximo, 99 alunos.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Em cada universidade existe pelo menos um curso que possui, pelo\nmenos, 100 alunos.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Existe nenhuma universidade em que os cursos possuam, no máximo,\n100 alunos.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.334216+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q04",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 4,
+      "enunciado": "Dada a afirmação:\n\"Exatamente uma pessoa entre Marcos e Heide viajou\".",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "negação da afirmação acima é logicamente equivalente à:",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Ambos não viajaram.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Marcos ou Heide não viajou.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Ambos viajaram ou ambos não viajaram.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Pelo menos um entre Marcos e Heide viajou.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.336333+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q05",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 5,
+      "enunciado": "Considere as proposições abaixo:\n● P1: Se João estuda lógica ou Maria não lê livros, então Carlos vai ao\ncinema.\n● P2: Se Carlos não vai ao cinema, então Ana não sai de casa.\n● P3: Ana saiu de casa.\nCom base nessas proposições, é correto concluir que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "João estudou lógica e Maria leu livros.",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Carlos foi ao cinema, mas João não estudou lógica.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "João não estudou lógica e Maria leu livros.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Maria não leu livros, portanto Ana saiu de casa.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Carlos não foi ao cinema, portanto João não estudou lógica.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": true,
+      "motivo_anulacao": "Anulada pela banca.",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.338013+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q06",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 6,
+      "enunciado": "Considere o seguinte trecho de código em C-like:\nint i, j, c;\nc = 1;\nfor (i = 1; i < n; i++) {\nfor (j = 1; j <= n; j++) {\nc = c + 1;\n}\n}\nAssumindo que a instrução c = c + 1 é O(1), qual a expressão que melhor define",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "ordem de complexidade do trecho de código acima?",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "𝑂(log 𝑛)",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "𝑂(𝑛)",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "𝑂(𝑛²)",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.2,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [
+          "enunciado_sem_pontuacao_final"
+        ],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.339761+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q07",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 7,
+      "enunciado": "Considere as seguintes afirmações sobre programação orientada a\nobjetos:\nI. O principal objetivo do encapsulamento é ocultar os detalhes de\nimplementação de uma classe.\nII. A herança é fundamental para todos os tipos de polimorfismo\nIII. Polimorfismo de subtipo é a capacidade de objetos de classes diferentes\nresponderem de forma diferente a mesma mensagem.\nIV. A herança permite que uma nova classe adquira atributos e métodos\ndefinidos em uma classe existente.\nÉ correto apenas o que se afirma em:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "I e IV",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "II e IV",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "I, II e III",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "II e III",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "I, III e IV",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "e",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.341383+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q08",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 8,
+      "enunciado": "Sobre os conceitos de tipos de dados e verificação de tipos de\numa linguagem de programação, considere as afirmativas a seguir.\nI. Em linguagens de programação com tipagem forte, as conversões\nautomáticas entre tipos diferentes são realizadas com frequência para\nfacilitar a programação\nII. A tipagem dinâmica permite que uma variável seja usada como\ndiferentes tipos de dados em momentos diferentes\nIII. Linguagens com tipagem estática podem ser mais seguras que\nlinguagens com tipagem dinâmica, pois erros de tipo são detectados\nantes da execução do programa\nIV. Em linguagens com tipagem estática, o compilador pode realizar\notimizações com base nos tipos conhecidos durante a compilação,\nenquanto linguagens com tipagem dinâmica não têm essa capacidade.\nAssinale a alternativa correta.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Somente II e III estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Somente I, II e III estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Somente II, III e IV estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Somente I, II e IV estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Todas estão corretas",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.342992+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q09",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 9,
+      "enunciado": "Estruturas de dados como listas encadeadas, pilhas e árvores\nbinárias são muito utilizadas para resolver problemas computacionais. Sobre\nas características dessas estruturas de dados, avalie as afirmativas a seguir:\nI) É possível definir arbitrariamente a posição de inserção de qualquer\nelemento em uma árvore binária de busca.\nII) Em uma pilha, o último elemento a entrar é o primeiro a sair.\nIII) Para remover um elemento de uma lista singularmente encadeada,\ndeve-se alterar os elementos anterior e próximo ao elemento removido.\nIV) Uma lista permite que as inserções possam ser feitas em qualquer lugar\n(posição), mas as remoções, não.\nV) Em uma lista circular com encadeamento simples, o primeiro elemento\naponta para o segundo e para o último.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Apenas a afirmativa II é verdadeira",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Apenas as afirmativas III e IV são verdadeiras",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Apenas a afirmativa I é verdadeira",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Apenas as afirmativas I e II são verdadeiras",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Apenas as afirmativas II e V são verdadeiras",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.344599+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q10",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 10,
+      "enunciado": "Sobre a estrutura de dados árvore de busca binária, responda:\ni) Um nó da árvore binária de busca pode ter qualquer número de filhos,\nvariando de 1 a n, com n ∈ ℝ.\nii) Na árvore de busca binária, o conteúdo dos nós à esquerda de um nó i\nsão sempre menores que o conteúdo de i, e os elementos dos nós à\ndireita de i são sempre maiores que o valor do nó i.\niii) Árvores de busca binária são estruturas que apresentam\nauto-balanceamento, sempre garantindo que operações de inserção e\nremoção tenham comportamento O(log n).\niv) Árvores de busca binária podem se degenerar em listas encadeadas,\ntendo comportamento linear (O(n)) para operações como busca e\ninserção.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Apenas a alternativa ii está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "As alternativas i, ii e iv estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Apenas a alternativa iii está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "As alternativas ii e iv estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Todas as alternativas estão corretas",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.346250+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q11",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 11,
+      "enunciado": "Sobre Tipos Abstratos de Dados (TAD), e implementações em C,\navalie as seguintes alternativas:\ni) Para garantir o encapsulamento total, a estrutura deve estar definida\ndentro do arquivo .h referente ao TAD em questão.\nii) A manipulação (acesso e atualização) de atributos de um TAD\ntotalmente encapsulado podem ser feitas em qualquer programa (.c),\nsendo este o que implementa o TAD, ou mesmo outros programas que\nutilizam este TAD, sem a necessidade de métodos específicos para tais\noperações sobre o TAD.\niii) É impossível garantir encapsulamento total para um TAD utilizando a\nlinguagem de programação C.\niv) Acessos a atributos de TADs opacos são feitos, por programas externos\nao TAD, utilizando métodos implementados dentro do próprio TAD,\npopularmente conhecidos como setters e getters.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Apenas a afirmativa i está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Apenas a afirmativa iii está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Apenas a alternativa iv está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "As alternativas i e iv estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Todas as alternativas estão incorretas",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.347798+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q12",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 12,
+      "enunciado": "Considere o seguinte trecho de código, implementado em C, e\nrepresentando um método de um Tipo Abstrato de Dados chamado tPartida\nvoid obtemDadosPartida(tPartida *p, char* nomeTimeFora, char*\nnomeTimeCasa, int* pontosTimeFora, int* pontosTimeCasa)\n{\nstrcpy(nomeTimeFora, p->nomeTimeFora);\nstrcpy(nomeTimeCasa, p->nomeTimeCasa);\n*pontosTimeFora = p->pontosTimeFora;\n*pontosTimeCasa = p->pontosTimeCasa;\n}\nAssinale a alternativa correta.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "A função não compila porque todos os parâmetros passados são\nponteiros, o que não é permitido em C.",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Os valores das variáveis atualizadas dentro da função não podem ser\nrealizados porque somente ponteiros foram passados como parâmetro\npara a função.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "As passagens de parâmetros foram todas feitas por cópia (ou valor), e,\nportanto, as atualizações realizadas dentro da função não são\npropagadas do lado de fora (onde foi chamada).",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Os parâmetros char* e int* representam, respectivamente, strings e\ninteiros passados por referência que devem ter seus valores atualizados\ndentro da função e tais mudanças devem ser refletidas do lado de fora\nda função.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "As atualizações dos valores dos parâmetros não podem ser visíveis do\nlado de fora da função porque nenhum valor é retornado dela.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.349306+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q13",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 13,
+      "enunciado": "Sobre o algoritmo de ordenação Heap Sort, assinale a alternativa\ncorreta.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "O processo de garantia da propriedade heap da estrutura (heapfy()) tem\ncomportamento quadrático, o que impacta diretamente na ordem de\ncrescimento do algoritmo de ordenação.",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "No melhor caso, o Heap Sort ordena os dados de entrada em ordem\ncúbica.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "O Heap Sort é uma variação do Bubble Sort, e por isso, tem\ncomportamento quadrático em todos os casos.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "O Heap Sort é uma variação do Merge Sort, e por isso, utiliza operações\nde merge para garantir a ordenação linear dos elementos.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "O algoritmo Heap Sort utiliza uma fila de prioridades (heap binário),\nmantendo a propriedade de heap a cada iteração i para os n – i\nelementos restantes. A cada passo, o maior (ou menor) elemento é\nmovido para sua posição final no final (ou início) da estrutura.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "e",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.351166+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q14",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 14,
+      "enunciado": "Considerando a estrutura lista encadeada, assinale a alternativa\nincorreta.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "A busca em listas encadeadas é sempre realizada em tempo constante\n(O(1))",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "A busca em listas encadeadas é realizada em tempo linear (O(n))",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Cada elemento (ou nó) de uma lista encadeada contém um valor e uma\nreferência (ou ponteiro) para o próximo nó da lista.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Listas encadeadas permitem inserções e remoções com complexidade\nO(1).",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Listas encadeadas não oferecem acesso direto aos elementos por\níndice.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.352839+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q15",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 15,
+      "enunciado": "Considere o trecho de código em linguagem de programação C a\nseguir.\nvoid sort(int arr[], int n) {\nfor (int i = 0; i < n - 1; i++) {\nfor (int j = 0; j < n - i - 1; j++) {\nif (arr[j] > arr[j + 1]) {\nint temp = arr[j];\narr[j] = arr[j + 1];\narr[j + 1] = temp;\n}\n}\n}\n}\nAssinale a alternativa que apresenta, corretamente, o que esse trecho de\ncódigo fará ao ser executado.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Ordenará o vetor de entrada, de forma crescente, em ordem quadrática\n(Bubble Sort)",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Ordenará o vetor de entrada, de forma decrescente, em ordem\nquadrática (Bubble Sort)",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Preencherá o vetor todo com o maior elemento",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Entrará em loop infinito",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Reverterá a ordem dos elementos do vetor",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.354782+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q16",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 16,
+      "enunciado": "Sobre o algoritmo apresentado a seguir:\nint busca(int arr[], int tamanho, int valor) {\nfor (int i = 0; i < tamanho; i++) {\nif (arr[i] == valor) {\nreturn i;\n}\n}\nreturn -1; // Retorna -1 se o valor não for encontrado\n}\nAssinale a alternativa correta sobre o funcionamento do algoritmo:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "A função ordena o vetor de entrada em ordem crescente.",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "A função conta o número de ocorrências do valor no arr.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "A função verifica se o valor existe no arr, retornando a primeira posição\nonde ele é encontrado ou -1 caso contrário.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "A função preenche o vetor arr com o valor em todas as posições.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "A função encontra o maior elemento no vetor arr.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.356616+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q17",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 17,
+      "enunciado": "Sobre o conceito de Programação Orientada a Objetos (POO),\nanalise as afirmativas a seguir.\nI. Encapsulamento é o princípio que visa a proteção dos dados de um\nobjeto, restringindo o acesso direto aos seus atributos e controlando\nesse acesso através de métodos públicos.\nII. A herança é um pilar da POO que permite que uma classe (subclasse)\nadquira características (atributos e comportamentos) de outra classe\n(superclasse), promovendo a reutilização de código e a organização\nhierárquica.\nIII. O polimorfismo permite que um objeto se comporte de diferentes\nmaneiras dependendo do seu tipo real ou do contexto em que é\nutilizado, geralmente através de sobrescrita (override) ou sobrecarga\n(overload) de métodos.\nIV. Abstração refere-se à capacidade de um objeto ter múltiplos tipos de\ndados para o mesmo atributo, permitindo maior flexibilidade na\nmanipulação de informações.\nEstá correto o que se afirma apenas em:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "I e III",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "b) II e IV",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "I, II e III",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "I, III e IV",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "II, III e IV",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.358548+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q18",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 18,
+      "enunciado": "Analise as características de diferentes algoritmos de ordenação e\nassinale a alternativa CORRETA que descreve a complexidade de tempo no\npior caso e a estabilidade para o algoritmo Merge Sort.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "O(n²) e Estável",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "O(n log n) e Estável",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "O(n log n) e Instável",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "O(n²) e Instável",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "O(log n) e Estável",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.360225+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q19",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 19,
+      "enunciado": "Com base no conceito de \"encapsulamento\" e \"herança\" na\nProgramação Orientada a Objetos, assinale a alternativa incorreta.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "O encapsulamento promove a modularidade e a manutenibilidade do\ncódigo, uma vez que as alterações internas em uma classe não afetam\ndiretamente o restante do sistema, desde que sua interface pública seja\nmantida.",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Através da herança, uma subclasse pode estender a funcionalidade de\nsua superclasse, adicionando novos atributos e métodos, ou\nsobrescrevendo comportamentos existentes.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "A herança sempre leva à duplicação de código, pois a subclasse precisa\nreimplementar todos os métodos da superclasse, mesmo aqueles que\nnão sofrerão alterações.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Modificadores de acesso como private (privado) em Java ou protected\n(protegido) em C++ são utilizados para aplicar o encapsulamento,\ncontrolando a visibilidade de atributos e métodos.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "O encapsulamento permite que a lógica interna de uma classe seja\nmodificada sem que as classes que a utilizam precisem ser alteradas,\ndesde que a assinatura dos métodos públicos permaneça a mesma.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.361945+00:00"
+      }
+    },
+    {
+      "id": "oficial_2025-2_q20",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2025-2",
+      "numero_na_prova": 20,
+      "enunciado": "Analise as afirmações a seguir sobre as propriedades de diversos\nalgoritmos de ordenação e assinale a alternativa correta:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "O Quick Sort possui complexidade de tempo O(n log n) no pior caso, é\nestável e geralmente é implementado como um algoritmo in-place",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "O Merge Sort é um algoritmo estável e in-place, com complexidade de\ntempo O(n log n) tanto no caso médio quanto no pior caso",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "O Heap Sort garante uma complexidade de tempo O(n log n) no pior\ncaso, é in-place, mas é um algoritmo instável",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "O Insertion Sort, embora simples e in-place, apresenta complexidade\nde tempo O(n log n) no pior caso para listas grandes",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "O Bubble Sort é considerado eficiente para grandes volumes de dados\ndevido à sua complexidade O(n log n) no melhor caso, e é sempre\nin-place",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.363732+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q01",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 1,
+      "enunciado": "Considere que os enunciados a seguir são simultaneamente\nverdadeiros:\nI. Se Luc termina a graduação, então faz concurso para o magistério ou\ntrabalha no banco Estrela do Norte;\nII. Se não é verdade que Luc não faz o concurso para o magistério e não\ntrabalha no banco Estrela do Norte, então Luc reside na fazenda do seu\npai;\nIII. Se Luc trabalha no Haras, então participa do campeonato;\nIV. Não é verdade que, Luc não termina a graduação e não trabalha no\nHaras;\nV. Se Luc não treina com os cavalos, então não participa do campeonato.\nAssinale qual das opções a seguir, representa o enunciado que é consequência\nlógica dos enunciados apresentados (de I a V):",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Luc reside na fazenda do seu pai",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Luc reside na fazenda do seu pai e não treina com os cavalos",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Se Luc não reside na fazenda do seu pai, então treina com os cavalos",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Luc participa do campeonato e termina a graduação",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das respostas anteriores",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.366158+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q02",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 2,
+      "enunciado": "Considere que os enunciados a seguir são verdadeiros:\n● Helena gosta de Liam.\n● Quem gosta de Liam gosta de Gil.\n● Helena gosta apenas de quem é educado.\nLogo, podemos concluir logicamente que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Liam não é educado",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Gil não gosta de Liam",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Helena não gosta de Gil",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Gil é educado",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das respostas anteriores",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.367877+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q03",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 3,
+      "enunciado": "Considere o enunciado:\n“Nenhum ator gosta de todas as novelas”\nQual das opções a seguir representa o enunciado equivalente:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Alguns atores gostam de pelo menos uma novela",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Todos os atores gostam de todas as novelas",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Para todo ator, então há ao menos uma novela da qual ele não gosta;",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Não é o caso que, para todo ator, há ao menos uma novela da qual ele\ngosta.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das respostas anteriores",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.369683+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q04",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 4,
+      "enunciado": "Dado o enunciado:\n“Nem todo computador é eficiente.”\nAssinale qual das alternativas apresenta a negação do enunciado dado:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Existem computadores que não são eficientes.",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Nenhum computador é eficiente.",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Existem computadores que são eficientes.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Nem todos os computadores não são eficientes.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Não existem computadores que não sejam eficientes.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "e",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.371413+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q05",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 5,
+      "enunciado": "Considere as seguintes premissas como verdadeiras:\n1. p → (q ∨ r)\n2. ~ r → ~s\n3. s ∨ ~ t\n4. ( ~t ∨ u) → ~q\nDeseja-se acrescentar uma quinta premissa, também considerada verdadeira,\ne propor uma conclusão, de modo que o argumento formado pelas premissas\n1, 2, 3, 4, 5 seja dedutivamente válido.\nAssinale a alternativa cujo acréscimo (premissa + conclusão) torna o\nargumento logicamente válido.",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Premissa 5: q\nConclusão: p",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Premissa 5: ~ r\nConclusão: ~p",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Premissa 5: ~p\nConclusão: s",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Premissa 5: t\nConclusão: q",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das respostas anteriores.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.373076+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q06",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 6,
+      "enunciado": "Considere uma pilha que opera com números naturais (1, 2, 3, etc) e\ncom operadores pós-fixados. Os números são simplesmente empilhados.\nEntre os operadores, existem:\n● add (adição) e mul (multiplicação), que são binários e utilizam os dois\nelementos no topo da pilha, substituindo-os pelo resultado da\noperação;\n● pop, que é unário e remove o elemento do topo da pilha.\nSabendo que o topo da pilha corresponde ao lado direito da notação [ ... ].\nConsidere a sequência de operandos e operadores:\n2 3 mul 2 add 1 pop 1 pop 3 add 2 mul 3 4 add 3 4 pop mul add\nQual é o conteúdo final da pilha após processar a sequência acima?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "[ 46 ]",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "[ ] (pilha vazia)",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "[ 42 ]",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "[ 43 ]",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "[ 6 18 ]",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.374789+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q07",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 7,
+      "enunciado": "Em relação aos mecanismos avançados da Programação Orientada",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Objetos (POO), analise as afirmativas a seguir:\nI. Em linguagens que suportam herança múltipla, como C++, o problema\ndo diamante (diamond inheritance) ocorre quando uma classe herda de\nduas classes que possuem uma mesma classe-base, podendo gerar\nambiguidade na resolução dos membros herdados.\nII. O princípio de substituição de Liskov (LSP) estabelece que uma classe\nderivada deve poder substituir sua classe base sem alterar o\ncomportamento correto do programa, garantindo que métodos\nsobrescritos não restrinjam pré-condições nem ampliem\npós-condições.\nIII. O conceito de coesão está relacionado ao grau de dependência entre\nmódulos, indicando que módulos altamente coesos tendem a exigir\nforte acoplamento para manter consistência comportamental.\nIV. No polimorfismo paramétrico, como ocorre com templates em C++ ou\ngenerics em Java, a verificação de tipos é sempre feita apenas em\ntempo de execução, permitindo maior flexibilidade e reduzindo erros de\ncompilação.\nEstá correto o que se afirma apenas em:",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "I, II e III",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "II e IV",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "I e III",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "III e IV",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.2,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [
+          "enunciado_sem_pontuacao_final"
+        ],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.377115+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q08",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 8,
+      "enunciado": "Considere as afirmativas abaixo sobre estrutura de dados:\nI. Em uma lista duplamente encadeada, cada nó armazena referências\ntanto para o próximo quanto para o nó anterior, permitindo percorrer a\nlista em ambas as direções.\nII. Uma das principais aplicações práticas de uma Fila é o controle de\nchamadas de funções recursivas em um sistema operacional, onde a\núltima função chamada deve ser a primeira a ser finalizada.\nIII. Em uma fila padrão, tanto as operações de inserção quanto as de\nremoção podem ser realizadas em qualquer extremidade da estrutura\nsem alterar seu funcionamento correto.\nIV. Em uma pilha, é possível acessar diretamente qualquer elemento pelo\nseu índice em tempo constante, da mesma forma que ocorre em um\narray.\nÉ correto afirmar que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Somente a II e IV estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Somente a IV está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Somente a I está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Somente a II está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Todas estão incorretas",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.378742+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q09",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 9,
+      "enunciado": "Considere as afirmativas abaixo sobre tabelas hash e suas\ncaracterísticas de desempenho:\nI. A busca em uma tabela hash possui complexidade média O(1) quando a\nfunção de hash distribui bem os elementos.\nII. No pior caso, a busca em uma tabela hash pode ter complexidade O(n)\ndevido a colisões.\nIII. O uso de endereçamento aberto garante que o pior caso da busca\nnunca ultrapasse O(log n).\nIV. Em uma tabela hash, aumentar o fator de carga (load factor) sempre\nmelhora o desempenho da busca.\nÉ correto afirmar que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Somente a afirmativa I e II estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Somente a afirmativa I e III estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Somente as afirmativas I, II e IV estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Somente as afirmativas II e IV estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Todas as afirmativas estão corretas",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.380961+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q10",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 10,
+      "enunciado": "Analise o seguinte trecho de código escrito em C:\nint valor;\nint soma (int x, int *y) {\nint z = x + *y\nreturn z\n}\nint main () {\nvalor = 10;\nint a = 20;\nsoma (valor, &a);\nreturn 0;\n}\nAvalie as seguintes afirmativas:\nI. A variável valor é alocada na memória heap e possui escopo global.\nII. A variável z é alocada na Pilha (stack) e será liberada da memória assim\nque a função soma encerrar a sua execução.\nIII. Na função soma, um parâmetro é passado por cópia e outro por\nreferência de memória.\nÉ correto afirmar que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Todas as afirmativas estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Nenhuma das afirmativas estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Somente as afirmativas I e III estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Somente as afirmativas II e III estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Somente as afirmativas I e II estão corretas",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.383426+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q11",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 11,
+      "enunciado": "Considere as afirmativas abaixo sobre os principais conceitos de\nProgramação Orientada a Objetos (POO):\nI. Herança permite que uma classe derive atributos e métodos de outra\nclasse, promovendo reutilização de código.\nII. Encapsulamento consiste em ocultar detalhes internos de uma classe,\npermitindo acesso controlado aos seus atributos e métodos.\nIII. Polimorfismo permite que um mesmo método possa se comportar de\nmaneiras diferentes, dependendo do objeto que o invoca.\nIV. Abstração corresponde ao ato de expor apenas os detalhes essenciais\nde um objeto, escondendo características irrelevantes.\nV. Em POO, uma classe pode herdar de múltiplas classes\nsimultaneamente, independentemente da linguagem utilizada.\nEm relação às afirmações:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Todas estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Todas estão incorretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Só existe uma afirmação incorreta",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Só existe uma afirmação correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Existem três afirmações corretas e duas incorretas",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.385338+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q12",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 12,
+      "enunciado": "Considere o grafo não orientado G = (V,E), cujas arestas são:\n● A - B\n● A - D\n● B - C\n● D - E\nDeseja-se aplicar um algoritmo de Busca em Largura (BFS) para explorar\nsistematicamente os vértices deste grafo. Considere que, sempre que houver\nmais de um vértice adjacente disponível para expansão, o algoritmo deve\nselecionar os vizinhos em ordem alfabética. Com base nessas condições, a\nsequência correta de visita dos vértices realizada pelo algoritmo BFS é:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "A, B, C, D, E",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "A, D, E, B, C",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "A, B, D, C, E",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "A, C, B, D, E",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "A, B, D, E, C",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.387431+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q13",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 13,
+      "enunciado": "Sobre as propriedades dos algoritmos de ordenação a seguir,\nassinale a alternativa correta.\nÉ correto afirmar que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "O Bubble Sort é eficiente para grandes volumes de dados porque\nsempre executa em tempo O(n)",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "O Selection Sort é um algoritmo in-place e tem complexidade O(n²) no\npior caso",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "O Merge Sort é um algoritmo in-place, pois não utiliza memória auxiliar\nadicional.",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "O Insertion Sort possui complexidade O(n³) no pior caso e não é\nin-place.",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "O Heap Sort é estável e possui complexidade O(n) no pior caso.",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.389734+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q14",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 14,
+      "enunciado": "Considere os seguintes trechos de pseudocódigo:\n1 para i de 1 até n:\nimprimir(i)\n2 para i de 1 até n:\npara j de 1 até n:\nimprimir(i, j)\n3 imprimir(\"Olá\")\n4 para i de 1 até n:\nk = n\nenquanto k > 1:\nk = k / 2\nQual a alternativa que indica corretamente a complexidade de tempo de cada\num?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "1: O(n) | 2: O(n²) | 3: O(1) | 4: O(n log n)",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "1: O(n) | 2: O(n²) | 3: O(1) | 4: O(log n)",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "1: O(n²) | 2: O(n) | 3: O(1) | 4: O(n log n)",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "1: O(n) | 2: O(n) | 3: O(n²) | 4: O(log n)",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "1: O(n) | 2: O(n) | 3: O(n) | 4: O(n)",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.391676+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q15",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 15,
+      "enunciado": "Considere o trecho de código a seguir, escrito em linguagem C:\nint partition(Item *a, int lo, int hi) {\nint i = lo, j = hi+1;\nItem aux, v = a[lo];\nwhile(1) {\nwhile (less(a[++i], v))\nif (i == hi) break;\nwhile (less(v, a[--j]))\nif (j == lo) break;\nif (i >= j) break;\nswap(&a[i], &a[j]);\n}\nswap(&a[lo], &a[j]);\nreturn j;\n}\nConsidere que:\n● A função less(x, y) retorna verdadeiro se x for menor que y;\n● A função swap(x, y) realiza a troca dos valores de duas variáveis do\ntipo Item.\nAnalise as alternativas a seguir:\nI. A função partition é referente a partição do algoritmo Quick Sort, em\nque a cada execução, o pivô é escolhido (a[lo]), todos os elementos\n\n\n\nmenores e maiores são reposicionados no vetor e o pivô é colocado na\nposição final correta na ordenação.\nII. A função partition tem comportamento linear, varrendo todo o vetor\nde entrada a cada vez que é executada.\nIII. Nesta implementação, a função partition continua as varreduras da\nesquerda para a direita (variável i), e da direita para a esquerda (variável\nj) enquanto as chaves são iguais a a[lo] .\nÉ correto afirmar que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Todas as afirmativas estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Nenhuma das afirmativas estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Somente a afirmativa I e II estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Somente as afirmativas II e III estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Somente a alternativa I está correta",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.393593+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q16",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 16,
+      "enunciado": "Considere as seguintes afirmações sobre paradigmas de\nprogramação:\nI. Linguagens orientadas a objetos normalmente utilizam conceitos como\nclasses, objetos, herança e encapsulamento.\nII. Na programação funcional, é comum evitar estados mutáveis e preferir\nfunções que não produzem efeitos colaterais.\nIII. A programação procedural é uma forma de programação imperativa, na\nqual o foco está em procedimentos que operam sobre dados.\nIV. Linguagens multiparadigma permitem ao desenvolvedor adotar mais de\num estilo de programação dentro da mesma linguagem.\nQual alternativa apresenta apenas afirmações corretas?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Apenas as afirmações I e III",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Apenas as afirmações II, III e IV",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Apenas as afirmações I, II e IV",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Todas as afirmações",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das afirmações",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.396444+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q17",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 17,
+      "enunciado": "Considere o trecho de código a seguir escrito em C:\n#include <stdio.h>\nstruct P {\nint x;\nint y;\n};\nint main() {\nstruct P v[3] = { {1, 2}, {3, 4}, {5, 6} };\nint soma = 0;\nfor (int i = 0; i < 3; i++)\n\n\n\nsoma += v[i].x + v[2 - i].y;\nprintf(\"%d\", soma);\nreturn 0;\n}\nQuase será a saída produzida por este programa?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "18",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "21",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "24",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "27",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "30",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.398425+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q18",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 18,
+      "enunciado": "Considere a equação a seguir:\nConsiderando que , e deseja-se implementar a\nfunção:\nvoid forward(int m, int n, double X[m][n], double W[n], double b, int y[m]);\nQual das alternativas a seguir contém a implementação correta dessa função?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "void forward(int m, int n, double X[m][n], double W[n], double b, int y[m])\n{\nfor (int i = 0; i < m; i++)\ny[i] = (X[i][0] * W[0] > 0);\n}",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "void forward(int m, int n, double X[m][n], double W[n], double b, int y[m])\n{\nfor (int i = 0; i < m; i++) {\ndouble z = 0;\nfor (int j = 0; j < n; j++)\nz += X[i][j] + W[j];\ny[i] = (z >= 0);\n}\n}",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "void forward(int m, int n, double X[m][n], double W[n], double b, int y[m])\n{\nfor (int i = 0; i < m; i++) {\n\n\n\ndouble z = b;\nfor (int j = 0; j < n; j++)\nz += W[j] * X[i][j];\ny[i] = (z >= 0 ? 1 : 0);\n}\n}",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "void forward(int m, int n, double X[m][n], double W[n], double b, int y[m])\n{\nfor (int j = 0; j < n; j++) {\ndouble z = b + W[j];\ny[j] = (z >= 0);\n}\n}",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "void forward(int m, int n, double X[m][n], double W[n], double b, int y[m])\n{\nfor (int i = 0; i < m; i++)\ny[i] = (b >= 0);\n}",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.401967+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q19",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 19,
+      "enunciado": "Considere a estrutura de dados ilustrada abaixo e as afirmações:\nI. A estrutura trata de uma árvore B, estrutura clássica de estruturas de\ndados que tem grau m, e, portanto, no máximo m-1 chaves e m filhos, com\nm ≥ 1.\nII. O tempo de execução de operações de busca e inserção, nesta estrutura\ncom configuração balanceada, é proporcional a sua altura - O(𝑙𝑜𝑔 𝑛), com\n2\nn sendo o número de elementos da estrutura.\nIII. Esta estrutura de dados pode se degenerar, tendo comportamento linear\nquando todas as inserções acontecem de forma ordenada, crescente ou\ndecrescente.\nÉ correto afirmar que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Todas as afirmativas estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Somente II e III estão corretas",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Somente a afirmativa III está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Somente a afirmativa I está correta",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das afirmações está correta",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.404090+00:00"
+      }
+    },
+    {
+      "id": "oficial_2026-1_q20",
+      "origem": "oficial",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [],
+      "ano": "2026-1",
+      "numero_na_prova": 20,
+      "enunciado": "Considere o seguinte trecho de pseudocódigo que representa\numa relação de herança entre classes:\nClasse Animal:\natributo nome\nmétodo falar()\nClasse Cachorro herda de Animal:\nmétodo falar() sobrescreve o método da classe Animal\nClasse Gato herda de Animal:\nmétodo falar() sobrescreve o método da classe Animal\nConsidere as afirmações a seguir:\nI. Objetos das classes Cachorro e Gato podem acessar os atributos\ndefinidos em Animal\nII. Um objeto da classe Animal pode ser usado onde se espera um objeto\ndo tipo Cachorro, pois Animal contém todas as características de\nCachorro\nIII. O método falar() de Cachorro e Gato substitui a versão original definida\nem Animal\nIV. A herança permite reutilizar código, pois Cachorro e Gato não precisam\nredefinir o atributo nome\nV. A herança implica que Animal é uma subclasse de Cachorro e Gato\nQual alternativa descreve corretamente as afirmações verdadeiras?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Apenas I, III e IV",
+          "explicacao": ""
+        },
+        {
+          "chave": "b",
+          "texto": "Apenas II e V",
+          "explicacao": ""
+        },
+        {
+          "chave": "c",
+          "texto": "Apenas I e V",
+          "explicacao": ""
+        },
+        {
+          "chave": "d",
+          "texto": "Apenas I, II e IV",
+          "explicacao": ""
+        },
+        {
+          "chave": "e",
+          "texto": "Apenas III e V",
+          "explicacao": ""
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.5,
+        "raciocinio": "apenas validação estrutural",
+        "flags": [],
+        "modelo": "structural",
+        "data": "2026-05-27T00:00:36.406259+00:00"
+      }
+    },
+    {
+      "id": "gerada_0001",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "equivalencia_negacao",
+        "quantificadores"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere a proposição: \"Todo aluno do PPGI gosta de pelo menos uma disciplina.\" Qual das alternativas representa corretamente a NEGAÇÃO desta proposição?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Nenhum aluno do PPGI gosta de pelo menos uma disciplina.",
+          "explicacao": "ERRADA. Essa é mais forte que a negação; afirma a inexistência total."
+        },
+        {
+          "chave": "b",
+          "texto": "Existe um aluno do PPGI que não gosta de nenhuma disciplina.",
+          "explicacao": "CORRETA. Negar 'para todo x, existe y P(x,y)' é 'existe x tal que para todo y, ¬P(x,y)'."
+        },
+        {
+          "chave": "c",
+          "texto": "Todo aluno do PPGI gosta de todas as disciplinas.",
+          "explicacao": "ERRADA. Essa é uma afirmação distinta, mais forte que a original — não é a negação."
+        },
+        {
+          "chave": "d",
+          "texto": "Existe um aluno do PPGI que gosta de todas as disciplinas.",
+          "explicacao": "ERRADA. Refere-se à mesma classe quantificada, mas inverte o quantificador interno errado."
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores.",
+          "explicacao": "ERRADA. A alternativa (b) corresponde à negação correta."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    },
+    {
+      "id": "gerada_0002",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "argumentos_validade",
+        "proposicoes_conectivos"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere as premissas verdadeiras:\nI. Se chove, então a rua fica molhada.\nII. A rua não está molhada.\nQual conclusão é logicamente válida?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Não choveu.",
+          "explicacao": "CORRETA. Modus tollens: (p→q) e ¬q implicam ¬p."
+        },
+        {
+          "chave": "b",
+          "texto": "Choveu.",
+          "explicacao": "ERRADA. As premissas não permitem afirmar p."
+        },
+        {
+          "chave": "c",
+          "texto": "A rua sempre fica molhada quando chove e em outros casos.",
+          "explicacao": "ERRADA. Afirmação não suportada pelas premissas."
+        },
+        {
+          "chave": "d",
+          "texto": "Pode ter chovido, mas não há como saber.",
+          "explicacao": "ERRADA. Modus tollens é dedutivo: a conclusão ¬p é certa, não incerta."
+        },
+        {
+          "chave": "e",
+          "texto": "Nenhuma das alternativas anteriores.",
+          "explicacao": "ERRADA. (a) é a aplicação direta de modus tollens."
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    },
+    {
+      "id": "gerada_0003",
+      "origem": "gerada_validada",
+      "eixo": "raciocinio_logico",
+      "subtopicos": [
+        "tabela_verdade"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Para quais valores de p e q a expressão (p → q) ∧ ¬q é verdadeira?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "p verdadeiro, q verdadeiro.",
+          "explicacao": "ERRADA. ¬q é falso, então a conjunção é falsa."
+        },
+        {
+          "chave": "b",
+          "texto": "p verdadeiro, q falso.",
+          "explicacao": "ERRADA. p→q é falso quando p=V e q=F, então a conjunção é falsa."
+        },
+        {
+          "chave": "c",
+          "texto": "p falso, q verdadeiro.",
+          "explicacao": "ERRADA. ¬q é falso (q=V), então a conjunção é falsa."
+        },
+        {
+          "chave": "d",
+          "texto": "p falso, q falso.",
+          "explicacao": "CORRETA. p→q é verdadeiro (premissa falsa), ¬q é verdadeiro, e a conjunção V∧V=V."
+        },
+        {
+          "chave": "e",
+          "texto": "A expressão é uma contradição (sempre falsa).",
+          "explicacao": "ERRADA. Como mostrado em (d), existe atribuição que a torna verdadeira."
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    },
+    {
+      "id": "gerada_0004",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "ponteiros_referencias",
+        "passagem_parametros"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere o trecho em C:\n```c\nvoid f(int a, int *b) { a = a + 1; *b = *b + 1; }\nint main() { int x = 5, y = 5; f(x, &y); printf(\"%d %d\", x, y); }\n```\nQual a saída do programa?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "5 5",
+          "explicacao": "ERRADA. y é modificado via ponteiro dentro de f."
+        },
+        {
+          "chave": "b",
+          "texto": "6 6",
+          "explicacao": "ERRADA. x é passado por valor — não é modificado fora de f."
+        },
+        {
+          "chave": "c",
+          "texto": "5 6",
+          "explicacao": "CORRETA. x passa por cópia (continua 5); y passa por referência via &y e é incrementado para 6."
+        },
+        {
+          "chave": "d",
+          "texto": "6 5",
+          "explicacao": "ERRADA. Inverte qual passou por valor e qual por referência."
+        },
+        {
+          "chave": "e",
+          "texto": "Erro de compilação.",
+          "explicacao": "ERRADA. O código compila e executa normalmente."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    },
+    {
+      "id": "gerada_0005",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "trace_de_execucao",
+        "structs_arrays"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere o trecho em C:\n```c\nint v[5] = {2, 4, 6, 8, 10};\nint *p = v + 2;\nprintf(\"%d\", *(p - 1) + p[2]);\n```\nQual a saída?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "8",
+          "explicacao": "ERRADA. Conta apenas um dos termos da soma."
+        },
+        {
+          "chave": "b",
+          "texto": "10",
+          "explicacao": "ERRADA. Não confere com a aritmética de ponteiros."
+        },
+        {
+          "chave": "c",
+          "texto": "12",
+          "explicacao": "ERRADA. Confere v[1]=4 com v[2]=6: 4+6 não dá 12."
+        },
+        {
+          "chave": "d",
+          "texto": "14",
+          "explicacao": "CORRETA. p aponta para v[2]=6. *(p-1)=v[1]=4. p[2]=v[4]=10. Soma: 4+10=14."
+        },
+        {
+          "chave": "e",
+          "texto": "16",
+          "explicacao": "ERRADA. Confunde p[2] com v[2]+2."
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    },
+    {
+      "id": "gerada_0006",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "memoria_stack_heap",
+        "escopo_visibilidade"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Sobre alocação de memória em C, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Variáveis locais declaradas dentro de uma função são alocadas no heap.",
+          "explicacao": "ERRADA. Variáveis locais (automáticas) vão na pilha (stack), não no heap."
+        },
+        {
+          "chave": "b",
+          "texto": "Memória alocada por malloc() é liberada automaticamente ao final da função.",
+          "explicacao": "ERRADA. malloc() vai no heap e precisa de free() explícito."
+        },
+        {
+          "chave": "c",
+          "texto": "Variáveis globais são alocadas em uma área estática e existem durante toda a execução do programa.",
+          "explicacao": "CORRETA. Variáveis globais e estáticas ficam no segmento de dados estáticos, com tempo de vida igual ao programa."
+        },
+        {
+          "chave": "d",
+          "texto": "O escopo de uma variável local inclui todas as funções chamadas a partir dela.",
+          "explicacao": "ERRADA. Escopo léxico em C: a variável só é visível dentro da função onde foi declarada."
+        },
+        {
+          "chave": "e",
+          "texto": "A pilha (stack) é o local onde são armazenados arquivos abertos com fopen().",
+          "explicacao": "ERRADA. fopen() retorna ponteiro para estrutura FILE alocada normalmente no heap."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    },
+    {
+      "id": "gerada_0007",
+      "origem": "gerada_validada",
+      "eixo": "paradigmas",
+      "subtopicos": [
+        "paradigma_oo",
+        "heranca_polimorfismo"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Sobre os pilares da Programação Orientada a Objetos, qual afirmação é FALSA?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Encapsulamento esconde detalhes internos de uma classe, expondo apenas uma interface controlada.",
+          "explicacao": "VERDADEIRA. Definição correta de encapsulamento."
+        },
+        {
+          "chave": "b",
+          "texto": "Polimorfismo permite que um mesmo nome de método tenha comportamentos diferentes em classes distintas.",
+          "explicacao": "VERDADEIRA. Definição correta — polimorfismo por sobrescrita ou paramétrico."
+        },
+        {
+          "chave": "c",
+          "texto": "Herança permite reutilização de código ao derivar uma classe a partir de outra.",
+          "explicacao": "VERDADEIRA. Definição correta de herança."
+        },
+        {
+          "chave": "d",
+          "texto": "Abstração refere-se à criação de instâncias múltiplas de uma mesma classe.",
+          "explicacao": "FALSA — esta é a resposta. Abstração é destacar o essencial e esconder o irrelevante. Criar instâncias é instanciação, não abstração."
+        },
+        {
+          "chave": "e",
+          "texto": "Em linguagens com herança simples, uma classe herda atributos e métodos de exatamente uma classe-pai.",
+          "explicacao": "VERDADEIRA. Definição correta de herança simples (ex: Java, com exceção de interfaces)."
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    },
+    {
+      "id": "gerada_0008",
+      "origem": "gerada_validada",
+      "eixo": "paradigmas",
+      "subtopicos": [
+        "paradigma_funcional"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Qual das características abaixo é típica do paradigma FUNCIONAL?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Uso intenso de variáveis mutáveis para acumular estado.",
+          "explicacao": "ERRADA. Funcional EVITA mutação — característica imperativa."
+        },
+        {
+          "chave": "b",
+          "texto": "Funções como cidadãos de primeira classe, podendo ser passadas como argumento.",
+          "explicacao": "CORRETA. Funções de primeira ordem são a marca registrada do paradigma funcional."
+        },
+        {
+          "chave": "c",
+          "texto": "Organização do código em torno de classes e objetos.",
+          "explicacao": "ERRADA. Característica do paradigma OO, não funcional."
+        },
+        {
+          "chave": "d",
+          "texto": "Uso de fatos e regras para inferir conclusões via unificação.",
+          "explicacao": "ERRADA. Característica do paradigma lógico (ex: Prolog)."
+        },
+        {
+          "chave": "e",
+          "texto": "Loops imperativos com mudança de variável de controle.",
+          "explicacao": "ERRADA. Funcional prefere recursão e funções de ordem superior (map/filter/fold)."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    },
+    {
+      "id": "gerada_0009",
+      "origem": "gerada_validada",
+      "eixo": "paradigmas",
+      "subtopicos": [
+        "principios_solid"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "O princípio da substituição de Liskov (LSP) afirma que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Toda função deve ter uma única responsabilidade.",
+          "explicacao": "ERRADA. Esse é o Single Responsibility Principle (SRP)."
+        },
+        {
+          "chave": "b",
+          "texto": "Objetos de uma subclasse devem poder substituir objetos da superclasse sem alterar o funcionamento correto do programa.",
+          "explicacao": "CORRETA. Definição clássica de LSP — subtipos devem honrar o contrato do tipo base."
+        },
+        {
+          "chave": "c",
+          "texto": "Módulos de alto nível não devem depender de módulos de baixo nível, mas ambos de abstrações.",
+          "explicacao": "ERRADA. Esse é o Dependency Inversion Principle (DIP)."
+        },
+        {
+          "chave": "d",
+          "texto": "Classes devem estar abertas para extensão e fechadas para modificação.",
+          "explicacao": "ERRADA. Esse é o Open/Closed Principle (OCP)."
+        },
+        {
+          "chave": "e",
+          "texto": "Interfaces devem ser específicas e enxutas, em vez de monolíticas.",
+          "explicacao": "ERRADA. Esse é o Interface Segregation Principle (ISP)."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "dificil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    },
+    {
+      "id": "gerada_0010",
+      "origem": "gerada_validada",
+      "eixo": "estruturas_dados",
+      "subtopicos": [
+        "pilha_fila"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere uma pilha inicialmente vazia. São aplicadas as operações: push(1), push(2), push(3), pop(), push(4), pop(), push(5). Qual o conteúdo da pilha do fundo para o topo?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "[1, 5]",
+          "explicacao": "ERRADA. Pula o elemento 2, que nunca é removido pelos pops."
+        },
+        {
+          "chave": "b",
+          "texto": "[1, 2, 5]",
+          "explicacao": "CORRETA. Trace passo a passo: push(1)→[1]; push(2)→[1,2]; push(3)→[1,2,3]; pop()→[1,2]; push(4)→[1,2,4]; pop()→[1,2]; push(5)→[1,2,5]."
+        },
+        {
+          "chave": "c",
+          "texto": "[2, 5]",
+          "explicacao": "ERRADA. O elemento 1 está no fundo e nunca é removido."
+        },
+        {
+          "chave": "d",
+          "texto": "[1, 2, 3, 4, 5]",
+          "explicacao": "ERRADA. Ignora as duas operações pop()."
+        },
+        {
+          "chave": "e",
+          "texto": "Pilha vazia.",
+          "explicacao": "ERRADA. Foram 5 pushes e apenas 2 pops, sobram 3 elementos."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    },
+    {
+      "id": "gerada_0011",
+      "origem": "gerada_validada",
+      "eixo": "estruturas_dados",
+      "subtopicos": [
+        "complexidade_assintotica",
+        "ordenacao"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Sobre algoritmos de ordenação, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Merge Sort tem complexidade O(n²) no pior caso.",
+          "explicacao": "ERRADA. Merge Sort é O(n log n) sempre — pior, médio e melhor caso."
+        },
+        {
+          "chave": "b",
+          "texto": "Quick Sort é estável.",
+          "explicacao": "ERRADA. A implementação clássica do Quick Sort não é estável."
+        },
+        {
+          "chave": "c",
+          "texto": "Bubble Sort tem complexidade O(n) no melhor caso (entrada já ordenada, com otimização).",
+          "explicacao": "CORRETA. Com flag de troca, Bubble Sort detecta entrada ordenada e termina em uma passada O(n)."
+        },
+        {
+          "chave": "d",
+          "texto": "Heap Sort exige memória auxiliar O(n).",
+          "explicacao": "ERRADA. Heap Sort é in-place — memória auxiliar O(1)."
+        },
+        {
+          "chave": "e",
+          "texto": "Insertion Sort tem complexidade O(n log n) no pior caso.",
+          "explicacao": "ERRADA. Insertion Sort é O(n²) no pior e médio caso; O(n) só no melhor caso."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    },
+    {
+      "id": "gerada_0012",
+      "origem": "gerada_validada",
+      "eixo": "estruturas_dados",
+      "subtopicos": [
+        "arvores_bst",
+        "complexidade_assintotica"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Em uma árvore binária de busca (BST) com n nós, qual a complexidade no PIOR caso para a operação de busca?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "O(1)",
+          "explicacao": "ERRADA. Só seria O(1) se o elemento procurado fosse sempre a raiz."
+        },
+        {
+          "chave": "b",
+          "texto": "O(log n)",
+          "explicacao": "ERRADA. O(log n) é o caso médio (ou pior caso se a árvore for balanceada). BST não-balanceada degenera no pior caso."
+        },
+        {
+          "chave": "c",
+          "texto": "O(n)",
+          "explicacao": "CORRETA. No pior caso, inserções ordenadas criam uma 'árvore-lista' de altura n, tornando a busca linear. Por isso existem variantes balanceadas (AVL, Red-Black)."
+        },
+        {
+          "chave": "d",
+          "texto": "O(n log n)",
+          "explicacao": "ERRADA. Essa é a complexidade de algoritmos de ordenação eficientes."
+        },
+        {
+          "chave": "e",
+          "texto": "O(n²)",
+          "explicacao": "ERRADA. Busca em BST nunca chega a O(n²) — uma única descida na árvore percorre no máximo n nós."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:05:13.151679+00:00"
+      }
+    }
+  ]
+}

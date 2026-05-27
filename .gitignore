@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dados de progresso do usuário (privado)
+data/user_progress.json
+data/user_notes.json
+data/user_*.json
+
+# PDFs grandes — manter apenas se necessário
+# data/exams/raw/*.pdf
+
+# Texto extraído (regenerável)
+data/exams/text/
+
+# Logs
+*.log
+.cache/

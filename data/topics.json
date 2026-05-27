@@ -1,0 +1,70 @@
+{
+  "eixos": {
+    "raciocinio_logico": {
+      "label": "Raciocínio Lógico",
+      "subtopicos": [
+        "proposicoes_conectivos",
+        "tabela_verdade",
+        "equivalencia_negacao",
+        "quantificadores",
+        "argumentos_validade",
+        "silogismos",
+        "consequencia_logica",
+        "problemas_associacao"
+      ],
+      "bibliografia": ["Mortari — Introdução à Lógica, 2ª ed."]
+    },
+    "programacao": {
+      "label": "Programação de Computadores",
+      "subtopicos": [
+        "c_sintaxe_semantica",
+        "ponteiros_referencias",
+        "memoria_stack_heap",
+        "structs_arrays",
+        "escopo_visibilidade",
+        "passagem_parametros",
+        "trace_de_execucao",
+        "leitura_de_codigo"
+      ],
+      "bibliografia": [
+        "Celes, Cerqueira, Rangel Netto — Introdução a estruturas de dados em C, 2ª ed.",
+        "Cormen — Algoritmos: Teoria e Prática, 3ª ed."
+      ]
+    },
+    "paradigmas": {
+      "label": "Linguagens e Paradigmas",
+      "subtopicos": [
+        "paradigma_imperativo",
+        "paradigma_funcional",
+        "paradigma_logico",
+        "paradigma_oo",
+        "heranca_polimorfismo",
+        "encapsulamento_abstracao",
+        "tipagem_estatica_dinamica",
+        "principios_solid"
+      ],
+      "bibliografia": ["Tucker, Noonan — Linguagens de Programação: Princípios e Paradigmas, 2ª ed."]
+    },
+    "estruturas_dados": {
+      "label": "Estruturas de Dados",
+      "subtopicos": [
+        "arrays_listas",
+        "pilha_fila",
+        "listas_encadeadas",
+        "arvores_bst",
+        "arvore_b",
+        "arvores_balanceadas",
+        "hash_tables",
+        "heaps",
+        "grafos",
+        "bfs_dfs",
+        "ordenacao",
+        "complexidade_assintotica"
+      ],
+      "bibliografia": [
+        "Celes, Cerqueira, Rangel Netto — Introdução a estruturas de dados em C, 2ª ed.",
+        "Cormen — Algoritmos: Teoria e Prática, 3ª ed."
+      ]
+    }
+  }
+}
