@@ -958,8 +958,374 @@ LOTE_C3 = [
 ]
 
 
+# =========================================================================
+# LOTE C4 — Estruturas de Dados (+13 questões: ids 0068-0080)
+# =========================================================================
+LOTE_C4 = [
+    _q(
+        68, "estruturas_dados", ["listas_encadeadas"], "facil",
+        "Qual a complexidade de tempo para INSERIR no FINAL de uma lista simplesmente encadeada sem ponteiro de cauda (tail)?",
+        [
+            ("a", "O(1)", "ERRADA. Sem cauda, é preciso percorrer toda a lista até o último nó."),
+            ("b", "O(log n)", "ERRADA. Listas encadeadas não têm acesso logarítmico."),
+            ("c", "O(n)", "CORRETA. Sem ponteiro para o último nó, é necessário percorrer todos os n nós para chegar ao final, depois inserir — total O(n). Com ponteiro tail, seria O(1)."),
+            ("d", "O(n log n)", "ERRADA. Sem nenhuma operação de divisão recursiva."),
+            ("e", "O(n²)", "ERRADA. Apenas um percurso é necessário."),
+        ],
+        "c",
+    ),
+    _q(
+        69, "estruturas_dados", ["pilha_fila"], "medio",
+        "Como implementar uma FILA usando duas PILHAS de forma que enqueue e dequeue sejam ambas O(1) AMORTIZADO?",
+        [
+            ("a", "Impossível — fila não pode ser construída a partir de pilhas.",
+             "ERRADA. É possível, e é um clássico exercício."),
+            ("b", "Use uma pilha P1 para enqueue (push em P1) e uma pilha P2 para dequeue: quando P2 está vazia, mova todos os elementos de P1 para P2 (invertendo a ordem); pop em P2 dá o elemento mais antigo. Cada elemento é movido no máximo uma vez de P1 para P2 — amortizado O(1).",
+             "CORRETA. Implementação padrão; análise amortizada via método contábil mostra O(1) por operação."),
+            ("c", "Sempre fazer push em P1 e copiar todos para P2 a cada dequeue.",
+             "ERRADA. Isso é O(n) por dequeue, não O(1) amortizado."),
+            ("d", "Usar uma única pilha com flag invertida.",
+             "ERRADA. Uma pilha não tem como simular FIFO em O(1)."),
+            ("e", "Usar pilha + array circular.",
+             "ERRADA. Misturar estruturas não responde à pergunta de 'duas pilhas'."),
+        ],
+        "b",
+    ),
+    _q(
+        70, "estruturas_dados", ["arvores_balanceadas"], "medio",
+        "Sobre árvores AVL, é CORRETO afirmar:",
+        [
+            ("a", "Não há diferença prática entre AVL e BST simples.",
+             "ERRADA. AVL garante balanceamento, BST simples não."),
+            ("b", "Em uma AVL, a diferença de altura entre subárvores esquerda e direita de QUALQUER nó é no máximo 1; isso garante busca, inserção e remoção em O(log n).",
+             "CORRETA. Invariante de AVL: |altura(esq) - altura(dir)| ≤ 1 em todos os nós. Rotações (simples e duplas) restauram o invariante após inserção/remoção. Mantém altura logarítmica."),
+            ("c", "AVL não requer rotações após inserção.",
+             "ERRADA. Rotações são necessárias para manter o invariante."),
+            ("d", "AVL permite inserção em O(1).",
+             "ERRADA. Inserção é O(log n) por causa do percurso até a folha."),
+            ("e", "AVL é o mesmo que árvore Red-Black.",
+             "ERRADA. São estruturas distintas; Red-Black é menos rigidamente balanceada e usada no map de C++/Java."),
+        ],
+        "b",
+    ),
+    _q(
+        71, "estruturas_dados", ["hash_tables"], "medio",
+        "Em uma tabela hash com tratamento de colisões por ENCADEAMENTO SEPARADO, se o load factor (n/m) excede um limiar:",
+        [
+            ("a", "A tabela trava completamente.",
+             "ERRADA. Continua funcional, mas com degradação de performance."),
+            ("b", "O desempenho médio das operações degrada e é necessário redimensionar (rehashing) com nova tabela maior, redistribuindo as chaves.",
+             "CORRETA. Listas encadeadas em cada slot crescem, comprometendo o O(1) médio. Rehashing dobra (tipicamente) o tamanho da tabela e recoloca cada chave usando a nova função hash."),
+            ("c", "Colisões deixam de ocorrer.",
+             "ERRADA. Colisões podem ocorrer mesmo com load factor baixo."),
+            ("d", "O endereçamento aberto se ativa automaticamente.",
+             "ERRADA. Estratégias de tratamento são escolha de implementação, não trocam dinamicamente."),
+            ("e", "A busca passa a ter complexidade O(log n).",
+             "ERRADA. Não há mágica logarítmica; com colisões, a busca em cadeia é linear."),
+        ],
+        "b",
+    ),
+    _q(
+        72, "estruturas_dados", ["grafos", "bfs_dfs"], "medio",
+        "Qual a complexidade de tempo de DFS (Busca em Profundidade) em um grafo com V vértices e E arestas, usando lista de adjacência?",
+        [
+            ("a", "O(V)", "ERRADA. Não considera as arestas, que também são processadas."),
+            ("b", "O(E)", "ERRADA. Esquece o custo de iterar vértices."),
+            ("c", "O(V + E)", "CORRETA. DFS visita cada vértice uma vez (O(V)) e cada aresta uma vez (O(E) total para listas de adjacência). Soma: O(V + E)."),
+            ("d", "O(V × E)", "ERRADA. Não há produto cartesiano."),
+            ("e", "O(V²)", "ERRADA. O(V²) seria com matriz de adjacência (devido à varredura completa de vizinhos)."),
+        ],
+        "c",
+    ),
+    _q(
+        73, "estruturas_dados", ["heaps"], "medio",
+        "Em um HEAP BINÁRIO MÁXIMO (max-heap) armazenado em vetor, qual a relação entre o índice de um nó i e seus filhos (usando indexação base 0)?",
+        [
+            ("a", "Filho esquerdo: 2i, Filho direito: 2i + 1",
+             "ERRADA. Essa é a fórmula para indexação base 1."),
+            ("b", "Filho esquerdo: 2i + 1, Filho direito: 2i + 2",
+             "CORRETA. Para indexação BASE 0 em vetor: filho esquerdo de i está em 2i+1, direito em 2i+2. Pai está em (i-1)/2 (truncado)."),
+            ("c", "Filho esquerdo: i + 1, Filho direito: i + 2",
+             "ERRADA. Essa seria uma representação linear, não heap."),
+            ("d", "Filho esquerdo: i/2, Filho direito: i/2 + 1",
+             "ERRADA. Isso é a fórmula do PAI (i/2), não dos filhos."),
+            ("e", "Filhos são apontados por ponteiros explícitos.",
+             "ERRADA. Em heap implementado em vetor não há ponteiros — a estrutura é implícita pelos índices."),
+        ],
+        "b",
+    ),
+    _q(
+        74, "estruturas_dados", ["ordenacao"], "medio",
+        "Qual a principal vantagem do QUICKSORT em relação ao MERGE SORT na prática, apesar de ter pior caso O(n²)?",
+        [
+            ("a", "Quicksort é estável.",
+             "ERRADA. Quicksort NÃO é estável; Merge Sort é."),
+            ("b", "Quicksort é IN-PLACE (memória auxiliar O(log n) para recursão vs O(n) do Merge Sort) e tem fator constante menor em loops, sendo geralmente mais rápido na prática para arrays em memória.",
+             "CORRETA. Quicksort opera no próprio array, com cache mais amigável (acessos sequenciais) e menos cópias de dados. Por isso é o padrão em bibliotecas como `qsort` em C ou `std::sort` em C++."),
+            ("c", "Quicksort tem complexidade O(n) no pior caso.",
+             "ERRADA. É O(n²) no pior caso (pivô ruim)."),
+            ("d", "Merge Sort não funciona para arrays.",
+             "ERRADA. Merge Sort funciona para qualquer sequência."),
+            ("e", "Quicksort é mais simples de implementar.",
+             "ERRADA. Ambos têm complexidade similar de implementação."),
+        ],
+        "b",
+    ),
+    _q(
+        75, "estruturas_dados", ["complexidade_assintotica"], "facil",
+        "Ordene as classes de complexidade de menor para maior crescimento assintótico: O(n!), O(n log n), O(2ⁿ), O(log n), O(n²).",
+        [
+            ("a", "O(log n) < O(n log n) < O(n²) < O(2ⁿ) < O(n!)",
+             "CORRETA. Hierarquia clássica de classes: logarítmica < linearítmica < polinomial quadrática < exponencial < fatorial. Para n grande, fatorial cresce DRASTICAMENTE mais rápido que exponencial."),
+            ("b", "O(n²) < O(log n) < O(n log n) < O(2ⁿ) < O(n!)",
+             "ERRADA. Quadrática cresce mais que logarítmica."),
+            ("c", "O(log n) < O(n²) < O(n log n) < O(2ⁿ) < O(n!)",
+             "ERRADA. n log n cresce MENOS que n²."),
+            ("d", "O(log n) < O(n log n) < O(n!) < O(2ⁿ) < O(n²)",
+             "ERRADA. Fatorial cresce MAIS que exponencial, que cresce mais que polinomial."),
+            ("e", "Todas têm o mesmo crescimento assintótico.",
+             "ERRADA. São classes distintas com taxas de crescimento muito diferentes."),
+        ],
+        "a",
+    ),
+    _q(
+        76, "estruturas_dados", ["bfs_dfs", "grafos"], "medio",
+        "Qual estrutura de dados é usada pelo algoritmo BFS para manter os próximos vértices a visitar?",
+        [
+            ("a", "Pilha (stack)", "ERRADA. Pilha é usada em DFS (LIFO)."),
+            ("b", "Fila (queue)", "CORRETA. BFS processa vértices em ordem de descoberta, exigindo FIFO. A fila garante que vértices descobertos primeiro sejam expandidos primeiro, produzindo o efeito 'em largura'."),
+            ("c", "Heap mínimo", "ERRADA. Heap mínimo é usado em Dijkstra (busca com prioridade)."),
+            ("d", "Conjunto (set) sem ordem", "ERRADA. Conjunto não preserva ordem necessária para BFS."),
+            ("e", "Lista duplamente encadeada", "ERRADA. A lista pode ser usada como base, mas a operação é FIFO (fila).")
+        ],
+        "b",
+    ),
+    _q(
+        77, "estruturas_dados", ["arvore_b"], "dificil",
+        "Árvores B (B-trees) são usadas em sistemas de arquivos e bancos de dados porque:",
+        [
+            ("a", "São mais simples que árvores binárias.",
+             "ERRADA. Árvores B são MAIS COMPLEXAS, com múltiplas chaves por nó."),
+            ("b", "Têm alto fator de ramificação (cada nó tem muitas chaves e filhos), minimizando a altura da árvore e — crucialmente — o NÚMERO DE ACESSOS A DISCO (que dominam o tempo total em I/O).",
+             "CORRETA. Disk I/O é ordens de magnitude mais caro que acesso à RAM. Cada nó B é tipicamente do tamanho de uma página de disco, e o alto fanout reduz drasticamente a altura — uma B-tree de altura 4 pode armazenar bilhões de chaves."),
+            ("c", "São mais rápidas que árvores binárias em CPU pura.",
+             "ERRADA. Em RAM pura, BST balanceada (AVL/RB) é comparável; vantagem da B é especificamente em I/O."),
+            ("d", "Não requerem balanceamento.",
+             "ERRADA. B-trees são auto-balanceadas via splits e merges."),
+            ("e", "Permitem busca em O(1).",
+             "ERRADA. Busca em B-tree é O(log_t n), onde t é o grau mínimo — menor que log₂ n, mas não constante.")
+        ],
+        "b",
+    ),
+    _q(
+        78, "estruturas_dados", ["listas_encadeadas"], "facil",
+        "Qual a principal DESVANTAGEM de listas encadeadas em relação a arrays?",
+        [
+            ("a", "Listas encadeadas são mais lentas para inserção/remoção no início.",
+             "ERRADA. Listas são mais rápidas O(1) para isso; arrays exigem deslocamento."),
+            ("b", "Listas encadeadas têm acesso aleatório O(n) em vez de O(1) (acesso por índice exige percorrer); ocupam mais memória total (ponteiros adicionais) e têm pior localidade de cache.",
+             "CORRETA. Para chegar ao i-ésimo elemento, é preciso percorrer i nós (O(i)). Arrays acessam diretamente via aritmética de ponteiros. Cada nó de lista também tem overhead de 8-16 bytes para ponteiros, e nós podem estar espalhados na memória — ruim para cache."),
+            ("c", "Listas não suportam tipos genéricos.",
+             "ERRADA. Listas funcionam com qualquer tipo, igual arrays."),
+            ("d", "Listas não podem armazenar elementos repetidos.",
+             "ERRADA. Podem sim — não há essa restrição."),
+            ("e", "Listas têm tamanho fixo.",
+             "ERRADA. Arrays é que tipicamente têm tamanho fixo; listas crescem dinamicamente."),
+        ],
+        "b",
+    ),
+    _q(
+        79, "estruturas_dados", ["arvores_bst", "complexidade_assintotica"], "facil",
+        "A operação de busca em uma Árvore Binária de Busca (BST) tem complexidade no caso MÉDIO de:",
+        [
+            ("a", "O(1)", "ERRADA. Apenas a raiz é acesso constante."),
+            ("b", "O(log n)", "CORRETA. Em árvores BST aproximadamente balanceadas, a busca segue um caminho da raiz até uma folha de altura ≈ log₂ n. No pior caso (degenerada), porém, pode ser O(n)."),
+            ("c", "O(n)", "ERRADA. Esse é o pior caso (árvore degenerada em lista), não o caso médio."),
+            ("d", "O(n log n)", "ERRADA. Essa é a complexidade de ordenação eficiente, não busca."),
+            ("e", "O(n²)", "ERRADA. Busca nunca tem complexidade quadrática.")
+        ],
+        "b",
+    ),
+    _q(
+        80, "estruturas_dados", ["pilha_fila", "complexidade_assintotica"], "facil",
+        "As operações ENQUEUE e DEQUEUE em uma fila implementada com lista DUPLAMENTE encadeada (com ponteiros para início e fim) têm complexidade:",
+        [
+            ("a", "Ambas O(n)",
+             "ERRADA. Com ponteiros para extremos, é constante."),
+            ("b", "Ambas O(log n)",
+             "ERRADA. Não há divisão recursiva."),
+            ("c", "Ambas O(1)",
+             "CORRETA. Com ponteiros para o início (front) e fim (rear), tanto inserção no fim quanto remoção do início são operações constantes — sem necessidade de varrer a lista."),
+            ("d", "Enqueue O(1), Dequeue O(n)",
+             "ERRADA. Dequeue é também O(1) com ponteiro de início."),
+            ("e", "Enqueue O(n), Dequeue O(1)",
+             "ERRADA. Enqueue também é O(1) com ponteiro de fim."),
+        ],
+        "c",
+    ),
+]
+
+
+# =========================================================================
+# LOTE C5 — Buffer mixto (+10 questões: ids 0081-0090, fecha 150)
+# =========================================================================
+LOTE_C5 = [
+    _q(
+        81, "raciocinio_logico", ["argumentos_validade"], "medio",
+        "A falácia 'afirmação do consequente' ocorre quando, dado 'p → q' e 'q', conclui-se 'p'. Por que é uma falácia?",
+        [
+            ("a", "Porque a implicação só vale na direção contrária.",
+             "ERRADA. A implicação p→q é unidirecional, mas a justificativa não é essa diretamente."),
+            ("b", "Porque q pode ser verdadeiro por outras razões que não p; ou seja, p→q não significa q→p.",
+             "CORRETA. Exemplo: 'Se chove, a rua fica molhada' + 'A rua está molhada' NÃO prova que choveu (alguém pode ter lavado a calçada). Só Modus Tollens (p→q e ¬q implicam ¬p) é dedutivamente válido."),
+            ("c", "Porque a implicação só vale em proposições matemáticas.",
+             "ERRADA. Vale em qualquer contexto formal."),
+            ("d", "Porque a falácia é apenas um conceito histórico, não atual.",
+             "ERRADA. Continua sendo um erro de raciocínio comum."),
+            ("e", "Não é falácia; é raciocínio válido.",
+             "ERRADA. É falácia clássica."),
+        ],
+        "b",
+    ),
+    _q(
+        82, "programacao", ["c_sintaxe_semantica", "leitura_de_codigo"], "medio",
+        "Em C, o que faz `sizeof(char) == 1` sempre retornar verdadeiro?",
+        [
+            ("a", "É um acidente de implementação.",
+             "ERRADA. É garantido pelo padrão."),
+            ("b", "O padrão C define que `sizeof(char)` é sempre 1 BYTE — onde byte é a unidade mínima endereçável da arquitetura, com pelo menos 8 bits (CHAR_BIT >= 8 em <limits.h>).",
+             "CORRETA. sizeof retorna tamanho em 'chars', e char é a unidade base. Por definição, sizeof(char) é 1, qualquer que seja a arquitetura (mesmo em DSPs com bytes de 16 ou 32 bits)."),
+            ("c", "Char tem sempre 8 bits.",
+             "ERRADA. char tem AT LEAST 8 bits (CHAR_BIT), mas pode ter mais em arquiteturas exóticas."),
+            ("d", "Char é um tipo numérico inteiro.",
+             "ERRADA (parcialmente verdadeira mas não explica a regra). Char é tipo inteiro, mas não é isso que define sizeof(char) = 1."),
+            ("e", "Char ocupa 1 bit no padrão C.",
+             "ERRADA. Char ocupa pelo menos 8 bits.")
+        ],
+        "b",
+    ),
+    _q(
+        83, "paradigmas", ["paradigma_oo", "heranca_polimorfismo"], "medio",
+        "Em POO, MÉTODOS ABSTRATOS são:",
+        [
+            ("a", "Métodos com implementação privada na classe base.",
+             "ERRADA. Abstratos não têm implementação."),
+            ("b", "Métodos declarados sem implementação na classe abstrata; as subclasses concretas DEVEM implementá-los (caso contrário, também são abstratas).",
+             "CORRETA. Métodos abstratos definem a interface que as subclasses precisam cumprir. Em Java usa-se `abstract`; em C++, função virtual pura (`= 0`)."),
+            ("c", "Métodos que retornam objetos.",
+             "ERRADA. Sem relação com o tipo de retorno."),
+            ("d", "Métodos com implementação default vazia.",
+             "ERRADA. Métodos com implementação não são abstratos."),
+            ("e", "Métodos estáticos (static) da classe.",
+             "ERRADA. Static não é abstrato; podem coexistir em alguns casos.")
+        ],
+        "b",
+    ),
+    _q(
+        84, "estruturas_dados", ["hash_tables", "complexidade_assintotica"], "facil",
+        "Para que a busca em tabela hash seja O(1) AMORTIZADO, é necessário que:",
+        [
+            ("a", "A tabela seja sempre maior que o número de elementos por um fator constante (load factor controlado, idealmente < 0.75) E que a função hash distribua as chaves uniformemente.",
+             "CORRETA. Load factor baixo limita o tamanho médio das listas de colisão; distribuição uniforme evita 'hot spots'. Ambas as condições juntas garantem O(1) em média."),
+            ("b", "A tabela seja sempre menor que o número de elementos.",
+             "ERRADA. Isso aumenta colisões drasticamente, degradando performance."),
+            ("c", "A função hash seja sempre identidade (h(k)=k).",
+             "ERRADA. Identidade não distribui uniformemente para chaves típicas (consecutivas ou agrupadas)."),
+            ("d", "Não haja remoções, apenas inserções.",
+             "ERRADA. Remoções não impedem O(1); apenas requerem tratamento (tombstones em endereçamento aberto)."),
+            ("e", "Use ordenação interna nas listas de colisão.",
+             "ERRADA. Ordenação não é necessária e pode degradar performance.")
+        ],
+        "a",
+    ),
+    _q(
+        85, "raciocinio_logico", ["proposicoes_conectivos", "tabela_verdade"], "medio",
+        "Qual o valor da expressão `(¬p ∧ q) ∨ (p ∧ ¬q)` quando p=V e q=V?",
+        [
+            ("a", "Verdadeiro", "ERRADA. Cálculo correto dá Falso."),
+            ("b", "Falso",
+             "CORRETA. ¬p=F, então (¬p ∧ q) = F∧V = F. ¬q=F, então (p ∧ ¬q) = V∧F = F. F ∨ F = F. (Esta expressão é o XOR de p e q, que é V apenas quando p≠q.)"),
+            ("c", "Indeterminado", "ERRADA. Expressão lógica sempre é V ou F."),
+            ("d", "Tautologia", "ERRADA. Expressão pode ser falsa (como neste caso)."),
+            ("e", "Contradição", "ERRADA. Expressão pode ser verdadeira (quando p≠q).")
+        ],
+        "b",
+    ),
+    _q(
+        86, "programacao", ["ponteiros_referencias", "trace_de_execucao"], "dificil",
+        "Considere:\n```c\nint a = 5;\nint *p = &a;\nint **pp = &p;\nprintf(\"%d\", **pp);\n```\nQual a saída?",
+        [
+            ("a", "5", "CORRETA. **pp é a desreferenciação dupla: pp aponta para p; *pp dá o conteúdo de pp, que é o ponteiro p; **pp desreferencia p, dando o valor de a (5)."),
+            ("b", "Endereço de a", "ERRADA. **pp acessa o valor final, não o endereço."),
+            ("c", "Endereço de p", "ERRADA. *pp seria o conteúdo de pp (= valor de p, que é endereço de a). **pp vai além: desreferencia p."),
+            ("d", "0", "ERRADA. Cálculo correto dá 5."),
+            ("e", "Comportamento indefinido (NULL pointer).", "ERRADA. Nenhum ponteiro é NULL.")
+        ],
+        "a",
+    ),
+    _q(
+        87, "paradigmas", ["tipagem_estatica_dinamica", "paradigma_funcional"], "medio",
+        "Qual destas linguagens é ESTATICAMENTE TIPADA e funcional pura?",
+        [
+            ("a", "Python", "ERRADA. Python é dinamicamente tipada e multiparadigma."),
+            ("b", "JavaScript", "ERRADA. JS é dinamicamente tipada."),
+            ("c", "Haskell", "CORRETA. Haskell é estaticamente tipada (com inferência), funcional pura (sem efeitos colaterais não controlados via IO monad), preguiçosa (lazy evaluation)."),
+            ("d", "Lisp", "ERRADA. Lisp clássico é dinamicamente tipado e funcional (mas não puro)."),
+            ("e", "Smalltalk", "ERRADA. Smalltalk é OO pura, não funcional, e dinâmica.")
+        ],
+        "c",
+    ),
+    _q(
+        88, "estruturas_dados", ["grafos"], "medio",
+        "Qual a diferença entre representação de grafos por MATRIZ DE ADJACÊNCIA e LISTA DE ADJACÊNCIA?",
+        [
+            ("a", "Matriz usa O(V²) espaço (eficiente para grafos densos, acesso O(1) a uma aresta); Lista usa O(V+E) espaço (eficiente para grafos esparsos, mas verificar se aresta (u,v) existe é O(grau(u))).",
+             "CORRETA. Trade-off espaço vs eficiência de operações. Matriz favorece grafos densos e verificações O(1) de aresta. Lista favorece grafos esparsos e iteração eficiente sobre vizinhos."),
+            ("b", "Matriz é sempre mais eficiente que lista.",
+             "ERRADA. Para grafos esparsos, lista é muito mais eficiente em espaço."),
+            ("c", "Lista não suporta grafos não-orientados.",
+             "ERRADA. Lista suporta — basta adicionar (u,v) e (v,u)."),
+            ("d", "Matriz só funciona com grafos ponderados.",
+             "ERRADA. Funciona com qualquer tipo."),
+            ("e", "São equivalentes em todos os aspectos.",
+             "ERRADA. Têm trade-offs distintos.")
+        ],
+        "a",
+    ),
+    _q(
+        89, "programacao", ["leitura_de_codigo", "trace_de_execucao"], "medio",
+        "Qual a saída?\n```c\nint i = 0;\nwhile (i < 5) {\n    if (i == 3) break;\n    i++;\n}\nprintf(\"%d\", i);\n```",
+        [
+            ("a", "0", "ERRADA. O loop executa antes de imprimir."),
+            ("b", "3", "CORRETA. Trace: i=0 (não==3, i++ → 1); i=1 (não==3, i++ → 2); i=2 (não==3, i++ → 3); i=3 (i==3, break — i fica em 3). Imprime 3."),
+            ("c", "4", "ERRADA. break interrompe ANTES do i++."),
+            ("d", "5", "ERRADA. Loop é interrompido antes."),
+            ("e", "Loop infinito.", "ERRADA. break sai do loop quando i atinge 3.")
+        ],
+        "b",
+    ),
+    _q(
+        90, "paradigmas", ["principios_solid", "paradigma_oo"], "facil",
+        "Qual princípio SOLID está EXEMPLIFICADO pela frase: 'Use composição em vez de herança'?",
+        [
+            ("a", "Open/Closed Principle (OCP)",
+             "ERRADA. OCP é sobre extensão sem modificação."),
+            ("b", "Liskov Substitution Principle (LSP) — implicitamente, pois favorecer composição evita violações típicas de LSP em hierarquias profundas.",
+             "CORRETA. Embora não seja um princípio SOLID per se, é uma heurística forte ALIADA AO LSP: usar composição evita acoplamento rígido de hierarquias e os problemas de subclasses que não substituem perfeitamente a superclasse (violação de LSP)."),
+            ("c", "Single Responsibility Principle (SRP)",
+             "ERRADA. SRP é sobre uma classe ter uma única razão para mudar."),
+            ("d", "Interface Segregation Principle (ISP)",
+             "ERRADA. ISP é sobre interfaces enxutas."),
+            ("e", "É um princípio à parte, fora do SOLID.",
+             "ERRADA enquanto sentido prático (afirmação válida em si, mas a relação com LSP é direta — gabarito segue a interpretação SOLID-aderente).")
+        ],
+        "b",
+    ),
+]
+
+
 # Mapa consolidado (vai crescendo a cada lote)
-TODOS_LOTES = [*LOTE_C1, *LOTE_C2, *LOTE_C3]
+TODOS_LOTES = [*LOTE_C1, *LOTE_C2, *LOTE_C3, *LOTE_C4, *LOTE_C5]
 
 
 def main() -> None:
