@@ -43,6 +43,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -50,7 +51,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -95,6 +96,7 @@
       "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -102,7 +104,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -147,6 +149,7 @@
       "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -154,7 +157,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -199,6 +202,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -208,7 +212,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -253,6 +257,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -260,7 +265,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -304,6 +309,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -311,7 +317,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -355,6 +361,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -362,7 +369,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -406,6 +413,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -413,7 +421,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -458,6 +466,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -465,7 +474,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -509,6 +518,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -516,7 +526,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -561,6 +571,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -568,7 +579,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -612,6 +623,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -619,7 +631,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -663,6 +675,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": true,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -670,7 +683,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -714,6 +727,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -723,7 +737,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -768,6 +782,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -777,7 +792,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -821,6 +836,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -828,7 +844,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -873,6 +889,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -882,7 +899,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -928,6 +945,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -935,7 +953,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -980,6 +998,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -987,7 +1006,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1032,6 +1051,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1039,7 +1059,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1084,6 +1104,7 @@
       "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1091,7 +1112,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1136,6 +1157,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1143,7 +1165,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1188,6 +1210,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1195,7 +1218,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1240,6 +1263,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1247,7 +1271,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1291,6 +1315,7 @@
       "dificuldade": "dificil",
       "anulada": true,
       "motivo_anulacao": "Anulada pela banca.",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1298,7 +1323,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1342,6 +1367,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1351,7 +1377,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1397,6 +1423,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1404,7 +1431,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1448,6 +1475,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1455,7 +1483,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1501,6 +1529,7 @@
       "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1508,7 +1537,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1553,6 +1582,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1560,7 +1590,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1605,6 +1635,7 @@
       "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1612,7 +1643,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1657,6 +1688,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1664,7 +1696,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1710,6 +1742,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1717,7 +1750,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1762,6 +1795,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1769,7 +1803,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1814,6 +1848,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1821,7 +1856,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1865,6 +1900,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1872,7 +1908,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1918,6 +1954,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1925,7 +1962,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -1970,6 +2007,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -1977,7 +2015,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2023,6 +2061,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2030,7 +2069,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2075,6 +2114,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2082,7 +2122,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2127,6 +2167,7 @@
       "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2134,7 +2175,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2179,6 +2220,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2186,7 +2228,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2231,6 +2273,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2238,7 +2281,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2283,6 +2326,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2290,7 +2334,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2335,6 +2379,7 @@
       "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2342,7 +2387,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2386,6 +2431,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2393,7 +2439,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2439,6 +2485,7 @@
       "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2448,7 +2495,7 @@
           "enunciado_sem_pontuacao_final"
         ],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2493,6 +2540,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2500,7 +2548,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2545,6 +2593,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2552,7 +2601,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2598,6 +2647,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2605,7 +2655,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2651,6 +2701,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2658,7 +2709,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2703,6 +2754,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2710,7 +2762,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2755,6 +2807,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2762,7 +2815,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2806,6 +2859,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2813,7 +2867,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2858,6 +2912,7 @@
       "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2865,7 +2920,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2911,6 +2966,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2918,7 +2974,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -2963,6 +3019,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -2970,7 +3027,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -3015,6 +3072,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3022,7 +3080,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -3067,6 +3125,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": true,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3074,7 +3133,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -3119,6 +3178,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3126,7 +3186,7 @@
         "raciocinio": "Validada manualmente pelo autor; gabarito conferido e explicações redigidas por alternativa.",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:32:38.249722+00:00"
+        "data": "2026-05-27T00:35:00.007784+00:00"
       }
     },
     {
@@ -3171,6 +3231,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3223,6 +3284,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3274,6 +3336,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3326,6 +3389,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3378,6 +3442,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3430,6 +3495,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3482,6 +3548,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3533,6 +3600,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3584,6 +3652,7 @@
       "dificuldade": "dificil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3635,6 +3704,7 @@
       "dificuldade": "facil",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3687,6 +3757,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,
@@ -3739,6 +3810,7 @@
       "dificuldade": "medio",
       "anulada": false,
       "motivo_anulacao": "",
+      "tem_imagem": false,
       "tags": [],
       "validacao": {
         "validado": true,

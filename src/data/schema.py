@@ -61,6 +61,10 @@ class Question(BaseModel):
     dificuldade: Dificuldade = Dificuldade.medio
     anulada: bool = False
     motivo_anulacao: str = ""
+    tem_imagem: bool = Field(
+        default=False,
+        description="True se a questão original tinha figura/diagrama no PDF que não foi extraída.",
+    )
     tags: list[str] = Field(default_factory=list)
     validacao: ValidacaoResult = Field(default_factory=ValidacaoResult)
 

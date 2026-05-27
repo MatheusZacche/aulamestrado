@@ -22,11 +22,12 @@ from .schema import Alternativa, Dificuldade, ValidacaoResult
 NOW = datetime.now(timezone.utc).isoformat()
 
 
-class ExplicacaoQuestao(TypedDict):
-    eixo: str
-    subtopicos: list[str]
-    dificuldade: str
-    explicacoes: dict[str, str]  # "a" -> texto
+class ExplicacaoQuestao(TypedDict, total=False):
+    eixo: str  # obrigatório
+    subtopicos: list[str]  # obrigatório
+    dificuldade: str  # obrigatório
+    explicacoes: dict[str, str]  # obrigatório  "a" -> texto
+    tem_imagem: bool  # opcional, default False
 
 
 # =========================================================================
@@ -253,6 +254,7 @@ EXPL_2026_1: dict[str, ExplicacaoQuestao] = {
         "eixo": "estruturas_dados",
         "subtopicos": ["arvores_bst", "complexidade_assintotica"],
         "dificuldade": "medio",
+        "tem_imagem": True,
         "explicacoes": {
             "a": "ERRADA. I está incorreta (ver d).",
             "b": "CORRETA. II e III corretas. A figura mostra uma BST (árvore binária de busca), não uma árvore B. II: busca/inserção em BST balanceada são O(log n). III: BST degenera para lista (altura n) quando inserções vêm em ordem crescente ou decrescente, perdendo a vantagem logarítmica.",
@@ -675,6 +677,7 @@ EXPL_2025_1: dict[str, ExplicacaoQuestao] = {
         "eixo": "estruturas_dados",
         "subtopicos": ["arvores_bst"],
         "dificuldade": "facil",
+        "tem_imagem": True,
         "explicacoes": {
             "a": "ERRADA. Árvore B é estrutura com múltiplas chaves por nó (usada em sistemas de arquivos); a figura não mostra essa característica.",
             "b": "CORRETA. A figura mostra uma árvore binária de busca padrão: cada nó tem no máximo 2 filhos e respeita a propriedade de ordenação (esquerda < raiz < direita).",
@@ -795,6 +798,7 @@ def _aplicar(q_id: str, dados: ExplicacaoQuestao, bank) -> bool:
             q.eixo = dados["eixo"]  # type: ignore[assignment]
             q.subtopicos = list(dados["subtopicos"])
             q.dificuldade = Dificuldade(dados["dificuldade"])
+            q.tem_imagem = bool(dados.get("tem_imagem", False))
             q.validacao = ValidacaoResult(
                 validado=True,
                 confianca=0.9,

@@ -5,7 +5,12 @@ import streamlit as st
 
 from src.data.load import load_bank
 from src.data.progress import load_progress, toggle_bookmark
-from src.ui.components import render_alternativas_radio, render_feedback, render_metadata_badge
+from src.ui.components import (
+    render_alternativas_radio,
+    render_enunciado,
+    render_feedback,
+    render_metadata_badge,
+)
 
 st.set_page_config(page_title="Salvas — Aulamestrado", page_icon="🔖", layout="wide")
 st.title("🔖 Minhas questões salvas")
@@ -25,7 +30,7 @@ with tab1:
             continue
         with st.expander(f"`{q.id}` — {q.enunciado[:100]}..."):
             render_metadata_badge(q)
-            st.markdown(q.enunciado)
+            render_enunciado(q.enunciado)
             for a in q.alternativas:
                 mark = " ✅" if a.chave == q.gabarito else ""
                 st.markdown(f"**{a.chave.upper()})** {a.texto}{mark}")
@@ -48,5 +53,5 @@ with tab2:
         chosen = progress["answers"][qid]["chosen"]
         with st.expander(f"`{q.id}` — você marcou {chosen.upper()}, gabarito é {q.gabarito.upper()}"):
             render_metadata_badge(q)
-            st.markdown(q.enunciado)
+            render_enunciado(q.enunciado)
             render_feedback(q, chosen)

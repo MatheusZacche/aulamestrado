@@ -16,6 +16,14 @@ import streamlit as st
 from src.data.load import load_bank
 from src.data.progress import record_session
 from src.data.schema import Question
+from src.ui.components import render_enunciado
+
+# Auto-refresh do cronômetro: tenta usar streamlit-autorefresh; se não tiver, segue sem
+try:
+    from streamlit_autorefresh import st_autorefresh
+    _HAS_AUTOREFRESH = True
+except ImportError:
+    _HAS_AUTOREFRESH = False
 
 st.set_page_config(page_title="Simulado — Aulamestrado", page_icon="📝", layout="wide")
 st.title("📝 Modo Simulado")
@@ -132,12 +140,18 @@ if st.session_state.get("sim_finalizado"):
     st.stop()
 
 # ---------- Cronômetro + navegação ----------
+# Auto-refresh a cada 15s pra manter o cronômetro vivo (se a lib estiver disponível)
+if _HAS_AUTOREFRESH:
+    st_autorefresh(interval=15_000, key="sim_timer_refresh")
+
 horas = int(restante // 3600)
 mins = int((restante % 3600) // 60)
 segs = int(restante % 60)
 
 c1, c2, c3 = st.columns([2, 2, 1])
 c1.metric("Tempo restante", f"{horas:02d}:{mins:02d}:{segs:02d}")
+if not _HAS_AUTOREFRESH:
+    c1.caption("⏱️ Cronômetro atualiza ao clicar em algo. Para auto-refresh: `pip install streamlit-autorefresh`")
 c2.metric("Respondidas", f"{len(respostas)} / 20")
 if c3.button("Finalizar agora"):
     st.session_state.sim_finalizado = True
@@ -161,7 +175,9 @@ idx = st.session_state.sim_idx
 q = questoes[idx]
 st.subheader(f"Questão {idx + 1} de 20")
 st.caption(f"`{q.id}` • eixo: {q.eixo}")
-st.markdown(q.enunciado)
+if q.tem_imagem:
+    st.warning("🖼️ Esta questão tinha figura no PDF original.")
+render_enunciado(q.enunciado)
 
 opcoes = [f"{a.chave}) {a.texto}" for a in q.alternativas]
 default = None

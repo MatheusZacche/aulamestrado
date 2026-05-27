@@ -15,7 +15,12 @@ from src.data.progress import (
     save_note,
     toggle_bookmark,
 )
-from src.ui.components import render_alternativas_radio, render_feedback, render_metadata_badge
+from src.ui.components import (
+    render_alternativas_radio,
+    render_enunciado,
+    render_feedback,
+    render_metadata_badge,
+)
 
 st.set_page_config(page_title="Estudar — Aulamestrado", page_icon="📚", layout="wide")
 st.title("📚 Modo Estudo")
@@ -101,7 +106,7 @@ st.divider()
 # ---------- Conteúdo da questão ----------
 render_metadata_badge(q)
 st.markdown("### Enunciado")
-st.markdown(q.enunciado)
+render_enunciado(q.enunciado)
 
 state_key = f"chosen_{q.id}"
 shown_key = f"shown_{q.id}"
