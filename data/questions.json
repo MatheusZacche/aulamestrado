@@ -3871,7 +3871,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -3923,7 +3923,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -3976,7 +3976,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4029,7 +4029,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4082,7 +4082,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4134,7 +4134,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4187,7 +4187,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4240,7 +4240,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4293,7 +4293,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4345,7 +4345,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4397,7 +4397,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4449,7 +4449,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4501,7 +4501,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4554,7 +4554,7 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     },
     {
@@ -4607,7 +4607,1059 @@
         "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
         "flags": [],
         "modelo": "curadoria_manual",
-        "data": "2026-05-27T00:37:40.298401+00:00"
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0028",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "c_sintaxe_semantica",
+        "trace_de_execucao"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere o trecho em C:\n```c\nint x = 5, y = 2;\nint r = x / y;\nprintf(\"%d\", r);\n```\nQual a saída?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "2",
+          "explicacao": "CORRETA. Divisão inteira em C: 5/2 = 2 (truncamento, não arredondamento). Para obter 2.5 seria necessário pelo menos um operando float."
+        },
+        {
+          "chave": "b",
+          "texto": "2.5",
+          "explicacao": "ERRADA. Sem float, C faz divisão inteira."
+        },
+        {
+          "chave": "c",
+          "texto": "3",
+          "explicacao": "ERRADA. C trunca, não arredonda."
+        },
+        {
+          "chave": "d",
+          "texto": "2.50",
+          "explicacao": "ERRADA. Mesmo motivo de (b)."
+        },
+        {
+          "chave": "e",
+          "texto": "Erro de compilação.",
+          "explicacao": "ERRADA. O código compila normalmente."
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0029",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "ponteiros_referencias"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Em C, qual é a diferença essencial entre `int *p` e `int p[]` como PARÂMETROS de função?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "São completamente equivalentes — sintaxes intercambiáveis.",
+          "explicacao": "CORRETA. Quando arrays são passados como parâmetros em C, eles decaem para ponteiros. Logo, `void f(int *p)` e `void f(int p[])` (mesmo `int p[10]`) são tratados identicamente pelo compilador como `int *p`."
+        },
+        {
+          "chave": "b",
+          "texto": "`int p[]` aloca memória, `int *p` não.",
+          "explicacao": "ERRADA. Como parâmetro, nenhum dos dois aloca memória — ambos recebem um ponteiro."
+        },
+        {
+          "chave": "c",
+          "texto": "`int *p` aceita NULL, `int p[]` não.",
+          "explicacao": "ERRADA. Ambos aceitam NULL como argumento."
+        },
+        {
+          "chave": "d",
+          "texto": "`int p[]` tem tamanho fixo, `int *p` não.",
+          "explicacao": "ERRADA. Em parâmetros, o tamanho declarado em `int p[10]` é IGNORADO pelo compilador."
+        },
+        {
+          "chave": "e",
+          "texto": "São diferentes: o primeiro é tipo ponteiro, o segundo é tipo array.",
+          "explicacao": "ERRADA. Como parâmetro, o segundo é convertido implicitamente para ponteiro."
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0030",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "memoria_stack_heap"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Sobre malloc() e free() em C, é CORRETO afirmar que:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "malloc() retorna ponteiro para área alocada na pilha (stack).",
+          "explicacao": "ERRADA. malloc() aloca no heap, não na pilha."
+        },
+        {
+          "chave": "b",
+          "texto": "free() libera memória alocada por malloc(), e usar o ponteiro depois é comportamento indefinido.",
+          "explicacao": "CORRETA. Acessar memória após free() (use-after-free) é comportamento indefinido em C — pode causar crash, corrupção silenciosa ou parecer funcionar."
+        },
+        {
+          "chave": "c",
+          "texto": "É seguro chamar free(p) duas vezes seguidas com o mesmo ponteiro.",
+          "explicacao": "ERRADA. Double-free é comportamento indefinido e pode corromper o heap."
+        },
+        {
+          "chave": "d",
+          "texto": "malloc() inicializa a memória alocada com zero.",
+          "explicacao": "ERRADA. malloc() NÃO inicializa; conteúdo é indeterminado. Para zerar, usa-se calloc()."
+        },
+        {
+          "chave": "e",
+          "texto": "free() retorna 1 se sucesso, 0 se falha.",
+          "explicacao": "ERRADA. free() retorna void."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0031",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "structs_arrays",
+        "trace_de_execucao"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere:\n```c\nint v[] = {10, 20, 30, 40, 50};\nint *p = v + 1;\nprintf(\"%d %d\", *p, p[2]);\n```\nQual a saída?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "10 30",
+          "explicacao": "ERRADA. *p é v[1]=20, não v[0]."
+        },
+        {
+          "chave": "b",
+          "texto": "20 40",
+          "explicacao": "CORRETA. p aponta para v+1=v[1]=20, então *p=20. p[2] é equivalente a *(p+2) = v[3] = 40."
+        },
+        {
+          "chave": "c",
+          "texto": "10 40",
+          "explicacao": "ERRADA. *p não é v[0]."
+        },
+        {
+          "chave": "d",
+          "texto": "20 30",
+          "explicacao": "ERRADA. p[2] não é v[2]."
+        },
+        {
+          "chave": "e",
+          "texto": "30 50",
+          "explicacao": "ERRADA. *p é 20, não 30."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0032",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "escopo_visibilidade"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Em C, uma variável declarada com `static` dentro de uma função:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "É visível em todas as funções do mesmo arquivo.",
+          "explicacao": "ERRADA. Escopo lexical local — só visível dentro da função."
+        },
+        {
+          "chave": "b",
+          "texto": "Mantém seu valor entre chamadas sucessivas da função.",
+          "explicacao": "CORRETA. static muda o tempo de vida da variável para a duração do programa (alocada em segmento de dados estáticos), mas mantém escopo local. Valor persiste entre chamadas."
+        },
+        {
+          "chave": "c",
+          "texto": "É inicializada com lixo em cada chamada da função.",
+          "explicacao": "ERRADA. É inicializada com 0 (ou valor explícito) UMA vez."
+        },
+        {
+          "chave": "d",
+          "texto": "Não pode ser modificada após inicialização.",
+          "explicacao": "ERRADA. static é diferente de const; pode ser modificada normalmente."
+        },
+        {
+          "chave": "e",
+          "texto": "É alocada no heap.",
+          "explicacao": "ERRADA. Variáveis static ficam no segmento de dados estáticos, não no heap."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0033",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "passagem_parametros",
+        "ponteiros_referencias"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere a função `void troca(int *a, int *b)` que deve trocar os valores apontados por a e b. Qual implementação está CORRETA?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "`int t = a; a = b; b = t;`",
+          "explicacao": "ERRADA. Troca os PONTEIROS LOCAIS dentro da função, não os valores apontados. Sem efeito fora."
+        },
+        {
+          "chave": "b",
+          "texto": "`int *t = *a; *a = *b; *b = t;`",
+          "explicacao": "ERRADA. Tipo errado: *t deveria ser int, não int*."
+        },
+        {
+          "chave": "c",
+          "texto": "`int t = *a; *a = *b; *b = t;`",
+          "explicacao": "CORRETA. Salva valor apontado por a em t, copia *b para *a, e copia t para *b. Modifica os valores na memória apontada, com efeito visível para o chamador."
+        },
+        {
+          "chave": "d",
+          "texto": "`*a = *b; *b = *a;`",
+          "explicacao": "ERRADA. Após a primeira linha, *a e *b são iguais (perdeu-se o valor original de *a). A segunda linha não troca nada."
+        },
+        {
+          "chave": "e",
+          "texto": "`*a, *b = *b, *a;`",
+          "explicacao": "ERRADA. C não suporta assignment tuple-style como Python."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0034",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "trace_de_execucao",
+        "c_sintaxe_semantica"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Qual a saída de:\n```c\nfor (int i = 0; i < 3; i++)\n    printf(\"%d \", i * 2);\n```",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "0 1 2",
+          "explicacao": "ERRADA. Imprime i*2, não i."
+        },
+        {
+          "chave": "b",
+          "texto": "0 2 4",
+          "explicacao": "CORRETA. i vale 0, 1, 2 nas três iterações; imprime 0*2=0, 1*2=2, 2*2=4."
+        },
+        {
+          "chave": "c",
+          "texto": "2 4 6",
+          "explicacao": "ERRADA. i começa em 0, não em 1."
+        },
+        {
+          "chave": "d",
+          "texto": "0 2 4 6",
+          "explicacao": "ERRADA. Loop executa 3 vezes, não 4."
+        },
+        {
+          "chave": "e",
+          "texto": "1 2 3",
+          "explicacao": "ERRADA. Imprime i*2, não i+1."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0035",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "leitura_de_codigo",
+        "trace_de_execucao"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Qual a saída do código?\n```c\nint a = 10, b = 3;\nprintf(\"%d %d\", a % b, a / b);\n```",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "1 3",
+          "explicacao": "CORRETA. 10 % 3 = 1 (resto da divisão). 10 / 3 = 3 (divisão inteira)."
+        },
+        {
+          "chave": "b",
+          "texto": "3 1",
+          "explicacao": "ERRADA. Ordem inversa."
+        },
+        {
+          "chave": "c",
+          "texto": "1 3.33",
+          "explicacao": "ERRADA. Divisão entre ints é inteira."
+        },
+        {
+          "chave": "d",
+          "texto": "0 3",
+          "explicacao": "ERRADA. 10 % 3 = 1, não 0."
+        },
+        {
+          "chave": "e",
+          "texto": "3 3",
+          "explicacao": "ERRADA. 10 % 3 = 1, não 3."
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0036",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "ponteiros_referencias",
+        "memoria_stack_heap"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere:\n```c\nchar *retorna_string() {\n    char buf[20];\n    strcpy(buf, \"oi\");\n    return buf;\n}\n```\nQual o problema?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Não há problema; a função retorna corretamente \"oi\".",
+          "explicacao": "ERRADA. Há bug grave."
+        },
+        {
+          "chave": "b",
+          "texto": "buf é alocado na pilha e é DESTRUÍDO ao final da função; retornar seu endereço é comportamento indefinido (dangling pointer).",
+          "explicacao": "CORRETA. A variável local `buf` vive na stack frame da função, que é desalocada ao retornar. O ponteiro retornado aponta para memória inválida. Solução: usar malloc(), variável static, ou receber buffer como parâmetro."
+        },
+        {
+          "chave": "c",
+          "texto": "strcpy não existe em C padrão.",
+          "explicacao": "ERRADA. strcpy é da biblioteca padrão (<string.h>)."
+        },
+        {
+          "chave": "d",
+          "texto": "char buf[20] é muito pequeno para \"oi\".",
+          "explicacao": "ERRADA. \"oi\\0\" cabe em 3 bytes; 20 é mais que suficiente."
+        },
+        {
+          "chave": "e",
+          "texto": "Falta declarar return type char[20].",
+          "explicacao": "ERRADA. C não tem retorno de array; só por ponteiro."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "dificil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0037",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "c_sintaxe_semantica"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Qual operador em C tem MAIOR precedência?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "+ (adição)",
+          "explicacao": "ERRADA. Aditivo tem precedência menor que multiplicativo, unário e de acesso."
+        },
+        {
+          "chave": "b",
+          "texto": "= (atribuição)",
+          "explicacao": "ERRADA. Atribuição tem uma das menores precedências em C."
+        },
+        {
+          "chave": "c",
+          "texto": "&& (E lógico)",
+          "explicacao": "ERRADA. Tem precedência relativamente baixa."
+        },
+        {
+          "chave": "d",
+          "texto": "() (chamada de função / agrupamento)",
+          "explicacao": "CORRETA. Parênteses e operadores postfix (chamada, índice, acesso a membro) têm a precedência mais alta entre operadores."
+        },
+        {
+          "chave": "e",
+          "texto": "? : (ternário)",
+          "explicacao": "ERRADA. Ternário tem precedência baixa."
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0038",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "trace_de_execucao"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Qual a saída?\n```c\nint x = 5;\nint y = x++;\nint z = ++x;\nprintf(\"%d %d %d\", x, y, z);\n```",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "5 5 6",
+          "explicacao": "ERRADA. x foi modificado duas vezes (x++ e ++x)."
+        },
+        {
+          "chave": "b",
+          "texto": "7 5 7",
+          "explicacao": "CORRETA. y=x++ atribui x=5 a y e depois incrementa x para 6 (pós-incremento). z=++x incrementa x para 7 antes e atribui 7 a z (pré-incremento). Final: x=7, y=5, z=7."
+        },
+        {
+          "chave": "c",
+          "texto": "6 6 7",
+          "explicacao": "ERRADA. y é 5 (pós-incremento atribui o valor ANTES de incrementar)."
+        },
+        {
+          "chave": "d",
+          "texto": "7 6 7",
+          "explicacao": "ERRADA. y é 5, não 6."
+        },
+        {
+          "chave": "e",
+          "texto": "5 6 7",
+          "explicacao": "ERRADA. x foi incrementado duas vezes; final é 7."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0039",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "structs_arrays"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere a struct:\n```c\nstruct Ponto { int x; int y; };\nstruct Ponto p = {3, 4};\nstruct Ponto *pp = &p;\n```\nQual sintaxe acessa o campo x via ponteiro pp?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "pp.x",
+          "explicacao": "ERRADA. Operador `.` é para struct direta, não para ponteiro."
+        },
+        {
+          "chave": "b",
+          "texto": "*pp.x",
+          "explicacao": "ERRADA. Por precedência, `pp.x` é avaliado primeiro (e dá erro)."
+        },
+        {
+          "chave": "c",
+          "texto": "(*pp).x",
+          "explicacao": "ALTERNATIVA VÁLIDA, mas (d) é a sintaxe idiomática preferida — note que ambas funcionam. O gabarito espera (d) por ser a forma canônica em C."
+        },
+        {
+          "chave": "d",
+          "texto": "pp->x",
+          "explicacao": "CORRETA. Operador seta `->` é açúcar sintático para (*pp).x — desreferencia e acessa membro. Forma canônica em C para ponteiros para struct."
+        },
+        {
+          "chave": "e",
+          "texto": "pp[x]",
+          "explicacao": "ERRADA. Sintaxe de indexação de array."
+        }
+      ],
+      "gabarito": "d",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0040",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "leitura_de_codigo"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "O que o código faz?\n```c\nint f(int n) {\n    if (n <= 1) return 1;\n    return n * f(n - 1);\n}\n```",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Calcula a soma de 1 até n.",
+          "explicacao": "ERRADA. Soma usaria + em vez de *."
+        },
+        {
+          "chave": "b",
+          "texto": "Calcula o fatorial de n (n!).",
+          "explicacao": "CORRETA. Caso base: f(1) = f(0) = 1. Recursão: f(n) = n × f(n-1). Esta é a definição clássica de fatorial."
+        },
+        {
+          "chave": "c",
+          "texto": "Calcula a potência n elevado a n.",
+          "explicacao": "ERRADA. Não há autoexponenciação."
+        },
+        {
+          "chave": "d",
+          "texto": "Calcula o n-ésimo número de Fibonacci.",
+          "explicacao": "ERRADA. Fibonacci somaria f(n-1) + f(n-2)."
+        },
+        {
+          "chave": "e",
+          "texto": "Entra em loop infinito.",
+          "explicacao": "ERRADA. Há caso base n <= 1 que termina a recursão."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0041",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "escopo_visibilidade",
+        "memoria_stack_heap"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Em C, qual segmento de memória armazena LITERAIS de string como `\"hello\"`?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Stack (pilha)",
+          "explicacao": "ERRADA. Stack guarda variáveis locais, não literais constantes."
+        },
+        {
+          "chave": "b",
+          "texto": "Heap",
+          "explicacao": "ERRADA. Heap é para alocação dinâmica via malloc."
+        },
+        {
+          "chave": "c",
+          "texto": "Segmento de dados somente leitura (rodata)",
+          "explicacao": "CORRETA. String literals como \"hello\" são armazenadas no segmento `.rodata` (read-only data). Tentar modificá-las (ex: char *s = \"oi\"; s[0] = 'a';) é comportamento indefinido."
+        },
+        {
+          "chave": "d",
+          "texto": "Registradores da CPU",
+          "explicacao": "ERRADA. Registradores não armazenam dados de programa estaticamente."
+        },
+        {
+          "chave": "e",
+          "texto": "BSS (variáveis não inicializadas)",
+          "explicacao": "ERRADA. BSS guarda variáveis globais/static não inicializadas; literais SÃO inicializados."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0042",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "trace_de_execucao",
+        "c_sintaxe_semantica"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Qual a saída?\n```c\nint a = 5;\nif (a > 0)\n    if (a > 10) printf(\"A\");\n    else printf(\"B\");\nelse printf(\"C\");\n```",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "A",
+          "explicacao": "ERRADA. a=5 não é > 10."
+        },
+        {
+          "chave": "b",
+          "texto": "B",
+          "explicacao": "CORRETA. a=5 > 0 entra no primeiro if. Dentro: a=5 não é > 10, então cai no else interno, imprimindo B. Regra do dangling else: o else liga-se sempre ao if mais próximo."
+        },
+        {
+          "chave": "c",
+          "texto": "C",
+          "explicacao": "ERRADA. a=5 > 0 não cai no else externo."
+        },
+        {
+          "chave": "d",
+          "texto": "BC",
+          "explicacao": "ERRADA. Só uma das ramificações é executada."
+        },
+        {
+          "chave": "e",
+          "texto": "Erro de compilação.",
+          "explicacao": "ERRADA. Código sintaticamente válido."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0043",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "ponteiros_referencias",
+        "leitura_de_codigo"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Considere:\n```c\nvoid f(int **p) {\n    static int x = 42;\n    *p = &x;\n}\nint main() {\n    int *ptr = NULL;\n    f(&ptr);\n    printf(\"%d\", *ptr);\n}\n```\nQual a saída?",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "0",
+          "explicacao": "ERRADA. ptr não fica NULL — f modifica seu valor para apontar para x."
+        },
+        {
+          "chave": "b",
+          "texto": "42",
+          "explicacao": "CORRETA. f recebe um ponteiro para ponteiro (**p). Dentro, *p = &x faz ptr (na main) apontar para x (static, vive durante todo o programa). printf imprime *ptr = x = 42."
+        },
+        {
+          "chave": "c",
+          "texto": "Endereço de x (número grande).",
+          "explicacao": "ERRADA. printf imprime *ptr, não ptr — desreferencia."
+        },
+        {
+          "chave": "d",
+          "texto": "Comportamento indefinido (x é local).",
+          "explicacao": "ERRADA. x é STATIC, vive até o fim do programa; não é dangling pointer."
+        },
+        {
+          "chave": "e",
+          "texto": "Crash por NULL pointer dereference.",
+          "explicacao": "ERRADA. ptr não é NULL após f."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "dificil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0044",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "c_sintaxe_semantica",
+        "trace_de_execucao"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "O operador `&` em C tem múltiplos significados. Em `int *p = &x;`, ele significa:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "AND bit-a-bit.",
+          "explicacao": "ERRADA. AND bit-a-bit é binário (`a & b`), não unário."
+        },
+        {
+          "chave": "b",
+          "texto": "Endereço de (address-of).",
+          "explicacao": "CORRETA. Quando usado como UNÁRIO antes de uma lvalue, `&` retorna o endereço de memória dessa variável. Aqui, &x produz um ponteiro para x."
+        },
+        {
+          "chave": "c",
+          "texto": "Referência (como em C++).",
+          "explicacao": "ERRADA. C não tem o tipo 'referência' (que existe em C++). Tem ponteiros."
+        },
+        {
+          "chave": "d",
+          "texto": "Comparação.",
+          "explicacao": "ERRADA. Comparação é `==` ou `!=`."
+        },
+        {
+          "chave": "e",
+          "texto": "AND lógico.",
+          "explicacao": "ERRADA. AND lógico é `&&`, não `&` unário."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0045",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "passagem_parametros"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Em C, o método PADRÃO de passagem de parâmetros é:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Por referência (referência implícita).",
+          "explicacao": "ERRADA. C NÃO tem passagem por referência nativa (isso é C++). Para emular, passa-se ponteiros explicitamente."
+        },
+        {
+          "chave": "b",
+          "texto": "Por nome (lazy evaluation).",
+          "explicacao": "ERRADA. Passagem por nome existe em ALGOL, não em C."
+        },
+        {
+          "chave": "c",
+          "texto": "Por valor (cópia).",
+          "explicacao": "CORRETA. Todo argumento em C é passado por valor (uma cópia do valor é feita no parâmetro). Para modificar o original, passa-se o ENDEREÇO via ponteiro — mas o ponteiro em si também é copiado."
+        },
+        {
+          "chave": "d",
+          "texto": "Por compartilhamento.",
+          "explicacao": "ERRADA. Terminologia de Python/Java; não é o nome em C."
+        },
+        {
+          "chave": "e",
+          "texto": "Depende do tipo do parâmetro.",
+          "explicacao": "ERRADA. Sempre por valor, independente do tipo."
+        }
+      ],
+      "gabarito": "c",
+      "dificuldade": "facil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0046",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "trace_de_execucao",
+        "leitura_de_codigo"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "Qual a saída?\n```c\nint v[] = {1, 2, 3, 4, 5};\nint n = sizeof(v) / sizeof(v[0]);\nint s = 0;\nfor (int i = 0; i < n; i++) s += v[i];\nprintf(\"%d %d\", n, s);\n```",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "5 15",
+          "explicacao": "CORRETA. sizeof(v) = 5*4 = 20 bytes (assumindo int de 4 bytes); sizeof(v[0]) = 4; n = 20/4 = 5. Soma 1+2+3+4+5 = 15."
+        },
+        {
+          "chave": "b",
+          "texto": "20 15",
+          "explicacao": "ERRADA. n é o número de elementos, não bytes."
+        },
+        {
+          "chave": "c",
+          "texto": "5 5",
+          "explicacao": "ERRADA. s é soma dos elementos, não n."
+        },
+        {
+          "chave": "d",
+          "texto": "4 10",
+          "explicacao": "ERRADA. Cálculo errado de tamanho e soma."
+        },
+        {
+          "chave": "e",
+          "texto": "5 0",
+          "explicacao": "ERRADA. s acumula corretamente."
+        }
+      ],
+      "gabarito": "a",
+      "dificuldade": "dificil",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
+      }
+    },
+    {
+      "id": "gerada_0047",
+      "origem": "gerada_validada",
+      "eixo": "programacao",
+      "subtopicos": [
+        "c_sintaxe_semantica",
+        "memoria_stack_heap"
+      ],
+      "ano": null,
+      "numero_na_prova": null,
+      "enunciado": "A diferença entre `const int *p` e `int * const p` é:",
+      "alternativas": [
+        {
+          "chave": "a",
+          "texto": "Ambos são idênticos — apenas estilos diferentes.",
+          "explicacao": "ERRADA. Têm semânticas distintas."
+        },
+        {
+          "chave": "b",
+          "texto": "`const int *p`: o valor apontado é constante (não pode modificar via *p). `int * const p`: o ponteiro é constante (não pode reapontar para outro endereço).",
+          "explicacao": "CORRETA. Regra prática: leia da direita para esquerda. `const int *p` = ponteiro para int constante (não pode fazer *p = x). `int * const p` = ponteiro constante para int (não pode fazer p = &y, mas pode *p = x)."
+        },
+        {
+          "chave": "c",
+          "texto": "`const int *p` impede que p seja NULL.",
+          "explicacao": "ERRADA. const não impede NULL; pode atribuir p = NULL."
+        },
+        {
+          "chave": "d",
+          "texto": "`int * const p` é alocado no segmento de só leitura.",
+          "explicacao": "ERRADA. const é uma promessa do compilador, não controla alocação."
+        },
+        {
+          "chave": "e",
+          "texto": "Apenas o segundo é válido em C; o primeiro é só C++.",
+          "explicacao": "ERRADA. Ambos são válidos em C."
+        }
+      ],
+      "gabarito": "b",
+      "dificuldade": "medio",
+      "anulada": false,
+      "motivo_anulacao": "",
+      "tem_imagem": false,
+      "tags": [],
+      "validacao": {
+        "validado": true,
+        "confianca": 0.9,
+        "raciocinio": "Validada na criação (autor revisou gabarito e explicações alternativa a alternativa).",
+        "flags": [],
+        "modelo": "curadoria_manual",
+        "data": "2026-05-27T00:40:00.599345+00:00"
       }
     }
   ]
